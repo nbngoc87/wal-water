@@ -1,0 +1,2065 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Namur_VrSSem_Ferne</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>724</value>
+							</Data>
+												<Data name='nq'>
+								<value>325</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4700</value>
+							</Data>
+												<Data name='pc'>
+								<value>5550</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Eupen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VRESSE-SUR-SEMOIS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>Commune</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Aachener Strasse, 50</value>
+							</Data>
+									</ExtendedData>
+								<address>Aachener Strasse, 50 VRESSE-SUR-SEMOIS Namur 4700</address>
+				<Point>
+					<coordinates>6.9350438,50.9366391,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2712</value>
+							</Data>
+												<Data name='nq'>
+								<value>28656</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Beaumont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand Place, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand Place, 14 YVOIR Namur 6500</address>
+				<Point>
+					<coordinates>4.8774701,50.3260487,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>843</value>
+							</Data>
+												<Data name='nq'>
+								<value>10970</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Godinne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Bouvreuils, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Bouvreuils, 5 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.8639987,50.349013,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1703</value>
+							</Data>
+												<Data name='nq'>
+								<value>22753</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Godinne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Renissart, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Renissart, 9 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.9028156,50.3541239,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2295</value>
+							</Data>
+												<Data name='nq'>
+								<value>18700</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Godinne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sous-le-Bois, 1 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sous-le-Bois, 1 A YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.891556,50.351582,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>244</value>
+							</Data>
+												<Data name='nq'>
+								<value>2660</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sauvegarde, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sauvegarde, 27 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.9134415,50.3211153,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>420</value>
+							</Data>
+												<Data name='nq'>
+								<value>2284</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Gare, 5 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Gare, 5 A YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.8780282,50.320809,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>749</value>
+							</Data>
+												<Data name='nq'>
+								<value>5797</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Gare, 6 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Gare, 6 B YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.87822,50.32082,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>781</value>
+							</Data>
+												<Data name='nq'>
+								<value>12975</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Jauviat, 86</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Jauviat, 86 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.89937,50.321,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1604</value>
+							</Data>
+												<Data name='nq'>
+								<value>27884</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Jauviat, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Jauviat, 24 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.9065645,50.321328,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2239</value>
+							</Data>
+												<Data name='nq'>
+								<value>29570</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5530</value>
+							</Data>
+												<Data name='pc'>
+								<value>5530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Yvoir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>YVOIR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Niersant, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Niersant, 30 YVOIR Namur 5530</address>
+				<Point>
+					<coordinates>4.926284,50.3301194,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>831</value>
+							</Data>
+												<Data name='nq'>
+								<value>6183</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Andenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Quevit, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Quevit, 28 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0878313,50.488143,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1728</value>
+							</Data>
+												<Data name='nq'>
+								<value>20759</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Andenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Bousalle, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Bousalle, 10 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.1440083,50.4847635,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2252</value>
+							</Data>
+												<Data name='nq'>
+								<value>17342</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Andenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sous-Stud, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sous-Stud, 35 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0803131,50.486453,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2385</value>
+							</Data>
+												<Data name='nq'>
+								<value>11851</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Andenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Stud, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Stud, 20 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0832959,50.4857212,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1077</value>
+							</Data>
+												<Data name='nq'>
+								<value>10427</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bonneville</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Rouvroy, 295</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Rouvroy, 295 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0504386,50.4828585,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2417</value>
+							</Data>
+												<Data name='nq'>
+								<value>2966</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bonneville</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Rouvroy, 292</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Rouvroy, 292 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0518757,50.4818425,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>588</value>
+							</Data>
+												<Data name='nq'>
+								<value>8742</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Coutisse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Charmes, 78 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Charmes, 78 A ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.1127798,50.4595431,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1299</value>
+							</Data>
+												<Data name='nq'>
+								<value>20644</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Landenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Salm, 187 C</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Salm, 187 C ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0522035,50.5234619,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>141</value>
+							</Data>
+												<Data name='nq'>
+								<value>8876</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Namêche</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sous Meuse, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sous Meuse, 33 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>4.9961285,50.4693475,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>778</value>
+							</Data>
+												<Data name='nq'>
+								<value>871</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sclayn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Fond des Vaux, 339 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Fond des Vaux, 339 A ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0259434,50.4838077,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>925</value>
+							</Data>
+												<Data name='nq'>
+								<value>989</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sclayn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Villette, 406</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Villette, 406 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0394879,50.494324,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1568</value>
+							</Data>
+												<Data name='nq'>
+								<value>22846</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sclayn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Tienne, 32</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Tienne, 32 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0350109,50.4881609,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1662</value>
+							</Data>
+												<Data name='nq'>
+								<value>28608</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sclayn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Villette, 478</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Villette, 478 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0452252,50.4949574,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2434</value>
+							</Data>
+												<Data name='nq'>
+								<value>1163</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sclayn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Baty, 235</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Baty, 235 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0298768,50.4909426,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1853</value>
+							</Data>
+												<Data name='nq'>
+								<value>25778</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Chateau, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Chateau, 12 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0768647,50.4974445,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2166</value>
+							</Data>
+												<Data name='nq'>
+								<value>24927</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Neuf Moulin, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Neuf Moulin, 16 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0870998,50.5018054,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2284</value>
+							</Data>
+												<Data name='nq'>
+								<value>15969</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Longue Couture, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Longue Couture, 10 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0908795,50.502337,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2439</value>
+							</Data>
+												<Data name='nq'>
+								<value>9167</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Station, 74</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Station, 74 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0951021,50.4955055,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>243</value>
+							</Data>
+												<Data name='nq'>
+								<value>9322</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vezin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Portail, 493</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Portail, 493 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.006415,50.4992696,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1679</value>
+							</Data>
+												<Data name='nq'>
+								<value>18591</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vezin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Montigni, 475 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Montigni, 475 A ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>5.0043447,50.5024768,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2782</value>
+							</Data>
+												<Data name='nq'>
+								<value>25848</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5300</value>
+							</Data>
+												<Data name='pc'>
+								<value>5300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vezin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Pont d&apos;Ougree, 455</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Pont d&apos;Ougree, 455 ANDENNE Namur 5300</address>
+				<Point>
+					<coordinates>4.9998087,50.5034903,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1251</value>
+							</Data>
+												<Data name='nq'>
+								<value>26458</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5330</value>
+							</Data>
+												<Data name='pc'>
+								<value>5330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Assesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Puits Saint Martin, 43</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Puits Saint Martin, 43 ASSESSE Namur 5330</address>
+				<Point>
+					<coordinates>5.0228211,50.3581329,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1573</value>
+							</Data>
+												<Data name='nq'>
+								<value>24717</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5330</value>
+							</Data>
+												<Data name='pc'>
+								<value>5330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Assesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Tilleuls, 7 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Tilleuls, 7 A ASSESSE Namur 5330</address>
+				<Point>
+					<coordinates>5.0154584,50.3556478,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1032</value>
+							</Data>
+												<Data name='nq'>
+								<value>3706</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5336</value>
+							</Data>
+												<Data name='pc'>
+								<value>5336</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Courrière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Centenaire, 10 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Centenaire, 10 A ASSESSE Namur 5336</address>
+				<Point>
+					<coordinates>4.9929081,50.3961984,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>355</value>
+							</Data>
+												<Data name='nq'>
+								<value>63</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7062</value>
+							</Data>
+												<Data name='pc'>
+								<value>5330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Naast</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du Chemin de Fer, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du Chemin de Fer, 29 ASSESSE Namur 7062</address>
+				<Point>
+					<coordinates>5.009731,50.322902,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>892</value>
+							</Data>
+												<Data name='nq'>
+								<value>7467</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5330</value>
+							</Data>
+												<Data name='pc'>
+								<value>5330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sart-Bernard</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Taille d&apos;Harscamps, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Taille d&apos;Harscamps, 29 ASSESSE Namur 5330</address>
+				<Point>
+					<coordinates>4.9548536,50.3983273,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2786</value>
+							</Data>
+												<Data name='nq'>
+								<value>21968</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5330</value>
+							</Data>
+												<Data name='pc'>
+								<value>5330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sart-Bernard</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ASSESSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Pirot, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Pirot, 1 ASSESSE Namur 5330</address>
+				<Point>
+					<coordinates>4.9547792,50.4015621,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2828</value>
+							</Data>
+												<Data name='nq'>
+								<value>16591</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bolinne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route de Ramillies, 98 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Route de Ramillies, 98 B EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9144678,50.6040533,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2560</value>
+							</Data>
+												<Data name='nq'>
+								<value>6810</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Eghezée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bocage, 148</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bocage, 148 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9039204,50.5930133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1693</value>
+							</Data>
+												<Data name='nq'>
+								<value>24674</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hanret</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Fontaine, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Fontaine, 17 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9548649,50.5909272,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1520</value>
+							</Data>
+												<Data name='nq'>
+								<value>25244</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Leuze</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Namur, 255</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Namur, 255 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9074757,50.552646,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1763</value>
+							</Data>
+												<Data name='nq'>
+								<value>28878</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Leuze</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route de Cortil-Wodon, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Route de Cortil-Wodon, 6 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9104397,50.5608819,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1007</value>
+							</Data>
+												<Data name='nq'>
+								<value>2246</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Longchamps</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Marcel Hubert, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Marcel Hubert, 19 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.8991061,50.57612,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>599</value>
+							</Data>
+												<Data name='nq'>
+								<value>12168</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Germain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Libut, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Libut, 8 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.8278624,50.5708658,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2534</value>
+							</Data>
+												<Data name='nq'>
+								<value>10488</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Germain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Libut, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Libut, 40 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.8257538,50.5713071,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2502</value>
+							</Data>
+												<Data name='nq'>
+								<value>5334</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5310</value>
+							</Data>
+												<Data name='pc'>
+								<value>5310</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waret-la-Chaussée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>EGHEZEE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Croisette, 37</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Croisette, 37 EGHEZEE Namur 5310</address>
+				<Point>
+					<coordinates>4.9292239,50.5395296,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>348</value>
+							</Data>
+												<Data name='nq'>
+								<value>205</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5380</value>
+							</Data>
+												<Data name='pc'>
+								<value>5380</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hingeon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FERNELMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Refractaires, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Refractaires, 5 FERNELMONT Namur 5380</address>
+				<Point>
+					<coordinates>5.0028777,50.5197675,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>414</value>
+							</Data>
+												<Data name='nq'>
+								<value>11347</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5380</value>
+							</Data>
+												<Data name='pc'>
+								<value>5380</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hingeon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FERNELMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Refractaires, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Refractaires, 13 FERNELMONT Namur 5380</address>
+				<Point>
+					<coordinates>5.001683,50.5202663,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

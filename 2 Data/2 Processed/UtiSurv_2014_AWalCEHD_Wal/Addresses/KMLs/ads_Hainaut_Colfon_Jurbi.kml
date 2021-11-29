@@ -1,0 +1,1939 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Hainaut_Colfon_Jurbi</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>245</value>
+							</Data>
+												<Data name='nq'>
+								<value>405</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Colfontaine</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Berchon, 77</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Berchon, 77 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.8208427,50.4096803,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>684</value>
+							</Data>
+												<Data name='nq'>
+								<value>7749</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Colfontaine</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Roi Albert, 42</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Roi Albert, 42 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.8375117,50.4076004,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2019</value>
+							</Data>
+												<Data name='nq'>
+								<value>25990</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Paturages</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Alfred Smet, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Alfred Smet, 40 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.8696761,50.4047801,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2036</value>
+							</Data>
+												<Data name='nq'>
+								<value>26099</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Paturages</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Grande, 123</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Grande, 123 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.862435,50.417955,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2279</value>
+							</Data>
+												<Data name='nq'>
+								<value>21319</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Paturages</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Achille Delattre, 253</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Achille Delattre, 253 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.8526087,50.4045219,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>878</value>
+							</Data>
+												<Data name='nq'>
+								<value>14521</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7340</value>
+							</Data>
+												<Data name='pc'>
+								<value>7340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Warquignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>COLFONTAINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Baille Cariotte, 128</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Baille Cariotte, 128 COLFONTAINE Hainaut 7340</address>
+				<Point>
+					<coordinates>3.827568,50.401486,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1684</value>
+							</Data>
+												<Data name='nq'>
+								<value>25308</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Frontiere, 230</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Frontiere, 230 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.8240033,50.3714219,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2283</value>
+							</Data>
+												<Data name='nq'>
+								<value>19193</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Vainqueurs, 76</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Vainqueurs, 76 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.832329,50.374778,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2836</value>
+							</Data>
+												<Data name='nq'>
+								<value>20893</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Ropaix, 251</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Ropaix, 251 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.8342481,50.3786886,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>728</value>
+							</Data>
+												<Data name='nq'>
+								<value>11687</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Henri Pochez, 65</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Henri Pochez, 65 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7880452,50.3979537,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>733</value>
+							</Data>
+												<Data name='nq'>
+								<value>9573</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie de Sars, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Voie de Sars, 31 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.8144982,50.383125,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>855</value>
+							</Data>
+												<Data name='nq'>
+								<value>14715</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Camille Moury, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Camille Moury, 27 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7782785,50.402621,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1296</value>
+							</Data>
+												<Data name='nq'>
+								<value>28407</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Chene Brule, 63</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Chene Brule, 63 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7879082,50.3946274,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2422</value>
+							</Data>
+												<Data name='nq'>
+								<value>11094</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Chene Brule, 78</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Chene Brule, 78 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7882224,50.3963182,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2467</value>
+							</Data>
+												<Data name='nq'>
+								<value>10787</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Gayolle, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Gayolle, 5 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.788529,50.3936724,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2607</value>
+							</Data>
+												<Data name='nq'>
+								<value>4902</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Aimeries, 165</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Aimeries, 165 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7873524,50.4066788,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2807</value>
+							</Data>
+												<Data name='nq'>
+								<value>26366</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dour</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Coron, 140</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Coron, 140 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7887937,50.3989791,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>676</value>
+							</Data>
+												<Data name='nq'>
+								<value>2364</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7370</value>
+							</Data>
+												<Data name='pc'>
+								<value>7370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Wihéries</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DOUR</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Basse, 47</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Basse, 47 DOUR Hainaut 7370</address>
+				<Point>
+					<coordinates>3.7550366,50.3826233,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>268</value>
+							</Data>
+												<Data name='nq'>
+								<value>7407</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Eugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Peuple, 82</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Peuple, 82 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8774141,50.3938227,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>677</value>
+							</Data>
+												<Data name='nq'>
+								<value>3990</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Eugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Progres, 57</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Progres, 57 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8842491,50.3879681,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1603</value>
+							</Data>
+												<Data name='nq'>
+								<value>25715</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Eugies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Egalite, 57</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Egalite, 57 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8892494,50.3943894,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>328</value>
+							</Data>
+												<Data name='nq'>
+								<value>8479</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Frameries</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Le Verger, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Le Verger, 4 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8925531,50.403863,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2033</value>
+							</Data>
+												<Data name='nq'>
+								<value>23460</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Frameries</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Ecluses, 71</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Ecluses, 71 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.9027008,50.4098703,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2539</value>
+							</Data>
+												<Data name='nq'>
+								<value>5492</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Frameries</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Jemappes, 121</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Jemappes, 121 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8935065,50.4192185,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>211</value>
+							</Data>
+												<Data name='nq'>
+								<value>13398</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Israelites, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Israelites, 27 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.872498,50.3990125,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>304</value>
+							</Data>
+												<Data name='nq'>
+								<value>2478</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Leopold, 110</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Leopold, 110 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8807759,50.4047818,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>358</value>
+							</Data>
+												<Data name='nq'>
+								<value>6883</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Leopold, 102</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Leopold, 102 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8805479,50.4048849,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>424</value>
+							</Data>
+												<Data name='nq'>
+								<value>4128</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sainte Caroline, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sainte Caroline, 28 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8737236,50.4091472,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>645</value>
+							</Data>
+												<Data name='nq'>
+								<value>681</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Chalets finlandais, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Chalets finlandais, 9 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8722398,50.4119715,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1024</value>
+							</Data>
+												<Data name='nq'>
+								<value>8886</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Colline, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Colline, 30 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8730796,50.4038273,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2329</value>
+							</Data>
+												<Data name='nq'>
+								<value>20427</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Grand-Trait, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Grand-Trait, 17 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8811816,50.4098418,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2847</value>
+							</Data>
+												<Data name='nq'>
+								<value>5524</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7080</value>
+							</Data>
+												<Data name='pc'>
+								<value>7080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bouverie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FRAMERIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Grand-Trait, 66</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Grand-Trait, 66 FRAMERIES Hainaut 7080</address>
+				<Point>
+					<coordinates>3.8820801,50.4112027,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>474</value>
+							</Data>
+												<Data name='nq'>
+								<value>3098</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hainin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Notre-Dame, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Notre-Dame, 24 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.7744315,50.4304166,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2685</value>
+							</Data>
+												<Data name='nq'>
+								<value>19538</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hensies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Chievres, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Chievres, 38 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.6897114,50.4352283,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2789</value>
+							</Data>
+												<Data name='nq'>
+								<value>27948</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hensies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Crespin, 134</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Crespin, 134 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.6808276,50.4221866,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>87</value>
+							</Data>
+												<Data name='nq'>
+								<value>11464</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thulin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Queniau, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Queniau, 24 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.7472277,50.4252374,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>968</value>
+							</Data>
+												<Data name='nq'>
+								<value>9524</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thulin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Archers, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Archers, 1 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.74043,50.4322395,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1202</value>
+							</Data>
+												<Data name='nq'>
+								<value>19086</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7350</value>
+							</Data>
+												<Data name='pc'>
+								<value>7350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thulin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HENSIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Michel Cavenaile, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Michel Cavenaile, 5 HENSIES Hainaut 7350</address>
+				<Point>
+					<coordinates>3.7344643,50.4269243,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1561</value>
+							</Data>
+												<Data name='nq'>
+								<value>27791</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7387</value>
+							</Data>
+												<Data name='pc'>
+								<value>7387</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Angre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HONNELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Verte Vallee, 68</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Verte Vallee, 68 HONNELLES Hainaut 7387</address>
+				<Point>
+					<coordinates>3.6986303,50.3610892,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1995</value>
+							</Data>
+												<Data name='nq'>
+								<value>18602</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7387</value>
+							</Data>
+												<Data name='pc'>
+								<value>7387</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Angreau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HONNELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Bargette, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Bargette, 9 HONNELLES Hainaut 7387</address>
+				<Point>
+					<coordinates>3.6945677,50.3476604,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2364</value>
+							</Data>
+												<Data name='nq'>
+								<value>7577</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7387</value>
+							</Data>
+												<Data name='pc'>
+								<value>7387</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Roisin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HONNELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Caillou-qui-Bique , 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Caillou-qui-Bique , 23 HONNELLES Hainaut 7387</address>
+				<Point>
+					<coordinates>3.7227887,50.3404059,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2115</value>
+							</Data>
+												<Data name='nq'>
+								<value>16488</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7050</value>
+							</Data>
+												<Data name='pc'>
+								<value>7050</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Erbaut</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JURBISE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Grand Caillou, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Grand Caillou, 13 JURBISE Hainaut 7050</address>
+				<Point>
+					<coordinates>3.8857742,50.5308758,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>482</value>
+							</Data>
+												<Data name='nq'>
+								<value>11839</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7050</value>
+							</Data>
+												<Data name='pc'>
+								<value>7050</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Erbisoeul</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JURBISE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Haute, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Haute, 15 JURBISE Hainaut 7050</address>
+				<Point>
+					<coordinates>3.8922023,50.5156785,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1013</value>
+							</Data>
+												<Data name='nq'>
+								<value>3290</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7050</value>
+							</Data>
+												<Data name='pc'>
+								<value>7050</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Erbisoeul</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JURBISE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de la Ferme, 82</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de la Ferme, 82 JURBISE Hainaut 7050</address>
+				<Point>
+					<coordinates>3.8856692,50.5102985,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>792</value>
+							</Data>
+												<Data name='nq'>
+								<value>2657</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7050</value>
+							</Data>
+												<Data name='pc'>
+								<value>7050</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Herchies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JURBISE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Petite, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Petite, 9 JURBISE Hainaut 7050</address>
+				<Point>
+					<coordinates>3.8558131,50.5195827,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2259</value>
+							</Data>
+												<Data name='nq'>
+								<value>10092</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7050</value>
+							</Data>
+												<Data name='pc'>
+								<value>7050</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Herchies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JURBISE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Mons</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Mons</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Brun Culot, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Brun Culot, 11 JURBISE Hainaut 7050</address>
+				<Point>
+					<coordinates>3.8553782,50.5247181,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

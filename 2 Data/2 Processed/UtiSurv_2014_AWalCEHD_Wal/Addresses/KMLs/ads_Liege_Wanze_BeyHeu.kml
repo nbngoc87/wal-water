@@ -1,0 +1,1561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Liege_Wanze_BeyHeu</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>359</value>
+							</Data>
+												<Data name='nq'>
+								<value>10937</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4520</value>
+							</Data>
+												<Data name='pc'>
+								<value>4520</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Antheit</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WANZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Caine, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Caine, 10 WANZE Liège 4520</address>
+				<Point>
+					<coordinates>5.2535606,50.5437887,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1560</value>
+							</Data>
+												<Data name='nq'>
+								<value>26696</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4400</value>
+							</Data>
+												<Data name='pc'>
+								<value>4520</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>FLEMALLE HAUTE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WANZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>CHaussee DE CHOKIER, 114</value>
+							</Data>
+									</ExtendedData>
+								<address>CHaussee DE CHOKIER, 114 WANZE Liège 4400</address>
+				<Point>
+					<coordinates>5.4399741,50.5898527,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>449</value>
+							</Data>
+												<Data name='nq'>
+								<value>1251</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4520</value>
+							</Data>
+												<Data name='pc'>
+								<value>4520</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vinalmont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WANZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Wanzoul, 95</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Wanzoul, 95 WANZE Liège 4520</address>
+				<Point>
+					<coordinates>5.2037355,50.5610797,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>173</value>
+							</Data>
+												<Data name='nq'>
+								<value>13778</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4520</value>
+							</Data>
+												<Data name='pc'>
+								<value>4520</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Wanze</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WANZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Leumont, 66</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Leumont, 66 WANZE Liège 4520</address>
+				<Point>
+					<coordinates>5.2265067,50.5361419,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>686</value>
+							</Data>
+												<Data name='nq'>
+								<value>4943</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4219</value>
+							</Data>
+												<Data name='pc'>
+								<value>4219</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Meeffe</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WASSEIGES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Rone, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Rone, 27 WASSEIGES Liège 4219</address>
+				<Point>
+					<coordinates>5.0136212,50.6014512,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>650</value>
+							</Data>
+												<Data name='nq'>
+								<value>1118</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4219</value>
+							</Data>
+												<Data name='pc'>
+								<value>4219</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Wasseiges</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WASSEIGES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Huy</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Baron d&apos;Obin, 175</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Baron d&apos;Obin, 175 WASSEIGES Liège 4219</address>
+				<Point>
+					<coordinates>4.9966123,50.6259055,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>73</value>
+							</Data>
+												<Data name='nq'>
+								<value>3898</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES AMERICAINS, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES AMERICAINS, 33 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5106211,50.6723584,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>167</value>
+							</Data>
+												<Data name='nq'>
+								<value>9370</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue GENERAL LEMAN, 78</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue GENERAL LEMAN, 78 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5167074,50.6648924,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>535</value>
+							</Data>
+												<Data name='nq'>
+								<value>12654</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RouTe MILITAIRE, 220</value>
+							</Data>
+									</ExtendedData>
+								<address>RouTe MILITAIRE, 220 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5052761,50.6774586,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>573</value>
+							</Data>
+												<Data name='nq'>
+								<value>5571</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE L&apos;ENCLOS, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE L&apos;ENCLOS, 38 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5114927,50.6727375,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>753</value>
+							</Data>
+												<Data name='nq'>
+								<value>13981</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU FORT, 101</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU FORT, 101 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5066299,50.6720659,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>949</value>
+							</Data>
+												<Data name='nq'>
+								<value>12063</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue LOUIS BIELEN, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue LOUIS BIELEN, 13 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5237318,50.6818249,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1216</value>
+							</Data>
+												<Data name='nq'>
+								<value>18774</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU MOULIN, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU MOULIN, 34 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5114316,50.6656435,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1907</value>
+							</Data>
+												<Data name='nq'>
+								<value>20704</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4432</value>
+							</Data>
+												<Data name='pc'>
+								<value>4432</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ALLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA RESISTANCE, 127</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA RESISTANCE, 127 ANS Liège 4432</address>
+				<Point>
+					<coordinates>5.5102114,50.6785228,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>58</value>
+							</Data>
+												<Data name='nq'>
+								<value>5641</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4430</value>
+							</Data>
+												<Data name='pc'>
+								<value>4430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>PLace NICOLAI, 48 / 12</value>
+							</Data>
+									</ExtendedData>
+								<address>PLace NICOLAI, 48  12 ANS Liège 4430</address>
+				<Point>
+					<coordinates>5.5406237,50.6531478,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>217</value>
+							</Data>
+												<Data name='nq'>
+								<value>2099</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4430</value>
+							</Data>
+												<Data name='pc'>
+								<value>4430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue ANDRE RENARD, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue ANDRE RENARD, 20 ANS Liège 4430</address>
+				<Point>
+					<coordinates>5.524811,50.6598444,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1070</value>
+							</Data>
+												<Data name='nq'>
+								<value>13950</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4430</value>
+							</Data>
+												<Data name='pc'>
+								<value>4430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE L&apos;YSER, 183</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE L&apos;YSER, 183 ANS Liège 4430</address>
+				<Point>
+					<coordinates>5.5234188,50.6590632,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1323</value>
+							</Data>
+												<Data name='nq'>
+								<value>29588</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4430</value>
+							</Data>
+												<Data name='pc'>
+								<value>4430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES PONTS, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES PONTS, 26 ANS Liège 4430</address>
+				<Point>
+					<coordinates>5.5175819,50.6605716,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2598</value>
+							</Data>
+												<Data name='nq'>
+								<value>5471</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4431</value>
+							</Data>
+												<Data name='pc'>
+								<value>4431</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LONCIN</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES HEROS, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES HEROS, 19 ANS Liège 4431</address>
+				<Point>
+					<coordinates>5.494215,50.6741177,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1911</value>
+							</Data>
+												<Data name='nq'>
+								<value>17798</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4340</value>
+							</Data>
+												<Data name='pc'>
+								<value>4340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue JOSEPH WAUTERS, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue JOSEPH WAUTERS, 29 AWANS Liège 4340</address>
+				<Point>
+					<coordinates>5.4699356,50.6683219,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>581</value>
+							</Data>
+												<Data name='nq'>
+								<value>3666</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4340</value>
+							</Data>
+												<Data name='pc'>
+								<value>4340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>FOOZ</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE VOROUX, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE VOROUX, 12 AWANS Liège 4340</address>
+				<Point>
+					<coordinates>5.4354947,50.6735823,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1067</value>
+							</Data>
+												<Data name='nq'>
+								<value>13691</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4342</value>
+							</Data>
+												<Data name='pc'>
+								<value>4342</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>HOGNOUL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue LOUIS GERMEAUX, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue LOUIS GERMEAUX, 28 AWANS Liège 4342</address>
+				<Point>
+					<coordinates>5.4571511,50.6809958,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1655</value>
+							</Data>
+												<Data name='nq'>
+								<value>25991</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4000</value>
+							</Data>
+												<Data name='pc'>
+								<value>4340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIEGE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue HENRI BARON, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue HENRI BARON, 14 AWANS Liège 4000</address>
+				<Point>
+					<coordinates>5.5532252,50.6471824,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>970</value>
+							</Data>
+												<Data name='nq'>
+								<value>7938</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4340</value>
+							</Data>
+												<Data name='pc'>
+								<value>4340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VILLERS L&apos;EVEQUE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AWANS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue PETIT ROUA, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue PETIT ROUA, 33 AWANS Liège 4340</address>
+				<Point>
+					<coordinates>5.4412543,50.7013692,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>964</value>
+							</Data>
+												<Data name='nq'>
+								<value>224</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4690</value>
+							</Data>
+												<Data name='pc'>
+								<value>4690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bassenge</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASSENGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Neuve, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Neuve, 4 BASSENGE Liège 4690</address>
+				<Point>
+					<coordinates>5.6113688,50.7569387,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2610</value>
+							</Data>
+												<Data name='nq'>
+								<value>5435</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4690</value>
+							</Data>
+												<Data name='pc'>
+								<value>4690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Boirs</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASSENGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Croupet, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Croupet, 26 BASSENGE Liège 4690</address>
+				<Point>
+					<coordinates>5.5746966,50.7542489,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2750</value>
+							</Data>
+												<Data name='nq'>
+								<value>21203</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4690</value>
+							</Data>
+												<Data name='pc'>
+								<value>4690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Boirs</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASSENGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Eglise, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Eglise, 3 BASSENGE Liège 4690</address>
+				<Point>
+					<coordinates>5.5786746,50.7508771,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>507</value>
+							</Data>
+												<Data name='nq'>
+								<value>159</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4690</value>
+							</Data>
+												<Data name='pc'>
+								<value>4690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Glons</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASSENGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Station, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Station, 7 BASSENGE Liège 4690</address>
+				<Point>
+					<coordinates>5.5361929,50.7505263,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1432</value>
+							</Data>
+												<Data name='nq'>
+								<value>25599</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BELLAIRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue CUJENNE, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue CUJENNE, 45 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6624147,50.641151,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>104</value>
+							</Data>
+												<Data name='nq'>
+								<value>3634</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE JUPILLE, 133</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE JUPILLE, 133 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6523847,50.6271562,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>210</value>
+							</Data>
+												<Data name='nq'>
+								<value>14980</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES Quatre cents BONNIERS, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES Quatre cents BONNIERS, 10 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6687005,50.6268493,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>559</value>
+							</Data>
+												<Data name='nq'>
+								<value>2381</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue JOSEPH LECLERCQ, 58</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue JOSEPH LECLERCQ, 58 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6645071,50.6216059,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>851</value>
+							</Data>
+												<Data name='nq'>
+								<value>534</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue GRAND ROUTE, 414</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue GRAND ROUTE, 414 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.661097,50.6194324,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1135</value>
+							</Data>
+												<Data name='nq'>
+								<value>16795</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE JUPILLE, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE JUPILLE, 27 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6522912,50.6238145,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2073</value>
+							</Data>
+												<Data name='nq'>
+								<value>15340</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BEYNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES MOULINS, 102</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES MOULINS, 102 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6675793,50.6311614,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1611</value>
+							</Data>
+												<Data name='nq'>
+								<value>16604</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>QUEUE DU BOIS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE CLECY, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE CLECY, 35 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6736851,50.634964,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2776</value>
+							</Data>
+												<Data name='nq'>
+								<value>15181</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4610</value>
+							</Data>
+												<Data name='pc'>
+								<value>4610</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>QUEUE DU BOIS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEYNE-HEUSAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue VOIE DE LA HAYETTE, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue VOIE DE LA HAYETTE, 31 BEYNE-HEUSAY Liège 4610</address>
+				<Point>
+					<coordinates>5.6802939,50.63891,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

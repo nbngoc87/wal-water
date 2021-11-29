@@ -1,0 +1,228 @@
+---
+title: "Baseline model"
+author: "NBN"
+date: "5/9/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F)
+```
+
+## R Markdown
+
+```{r}
+# # 0. load package ------------
+# # this file need to be cleaned and commented: 1. create function for cross validation, the results are not so different, model 16 still very good and easy to explain
+
+if (!suppressWarnings(require(robustbase))) list(install.packages("robustbase"), library(robustbase))
+if (!suppressWarnings(require(car))) list(install.packages("car"), library(car))
+if (!suppressWarnings(require(MASS))) list(install.packages("MASS"), library(MASS))
+
+
+# # Create this function ínstead of using cv.lm cause I want to use weight
+# # this function is good for now, but still don't know how to make weight column as argument in the function
+cvlm <- function(formula, data, seed = 1, fold =10) {
+  set.seed(seed)
+  v <- sample(1:fold, nrow(data), replace=T)
+  RMSPE <- rep(NA, fold)
+  for(i in 1:fold) {
+    train <- data[v != i,]
+    vald <- data[v == i,]
+    fit <- lm(formula, data = train, weights = weight, na.action = 'na.exclude')
+    predict <- predict(fit, newdata = vald, weights = weight)
+    RMSPE [i] <- sqrt(mean((predict - vald$csmptv)^2, na.rm = T))
+    mean <- mean(RMSPE)
+  }
+  return(list(RMSPE, mean))
+}
+
+# # clipboard -----------
+# # , "id", "nq.x", "mvinyr", "prfuse", "pvwlbn", "pvwlid", "pvwlod", "prvwel", "rwtank", "rwtkrp", "rwusbn", "rwusid", "rwusod", "rwtuse", "otsrid", "otsrod", "otsodc", "weight", "csmptv", "csptdo", "cspppd", "cspdwo", "cspeqa", "cspeqo", "nbpsnr", "nbwkpp", "nbchdr", "nbadlt", "nttper", "eqadlt", "npnspo", "nwprpo", "nchdpo", "nadtpo", "nttppo", "eqatpo", "rprage", "rprgen", "rprjob", "rped6c", "rped4c", "income", "inceqa", "iceqac", "fseaid", "dfpay", "TEH", "dwowsh", "dwltyp", "dwcsy9", "dwcsy6", "dwcsy5", "livara", "lareqa", "nbktch", "nblvrm", "nbbdrm", "nbbtrm", "nbtoil", "pldisw", "pmnpol", "pmnprp", "tmppol", "tmpprp", "garden", "dshwas", "dshwrp", "wasmch", "wasmrp", "bath", "bathrp", "shower", "shwrrp", "bthshw", "btshrp", "efshhd", "efshrp", "eftoil", "eftlrp", "eftech", "efterp", "drtoil", "drtlrp", "hlpwtk", "cfdiwq", "ppusvl", "bdgmtr", "lmtmtr","provin", "dstrct", "munici", "dtbter",  "xcoord", "ycoord", "nq.y", "sscode", "statst", "smuncd", "munigb", "dstrgb", "prvngb", "municd", "dstrcd", "prvncd", "npspos", "nwppos", "nchpos", "iceqas", "livars", "livars10", "laeqas", "laeqas10"
+
+# # + id + nq.x + mvinyr + prfuse + pvwlbn + pvwlid + pvwlod + prvwel + rwtank + rwtkrp + rwusbn + rwusid + rwusod + rwtuse + otsrid + otsrod + otsodc + weight + csmptv + csptdo + cspppd + cspdwo + cspeqa + cspeqo + nbpsnr + nbwkpp + nbchdr + nbadlt + nttper + eqadlt + npnspo + nwprpo + nchdpo + nadtpo + nttppo + eqatpo + rprage + rprgen + rprjob + rped6c + rped4c + income + inceqa + iceqac + fseaid + dfpay + TEH + dwowsh + dwltyp + dwcsy9 + dwcsy6 + dwcsy5 + livara + lareqa + nbktch + nblvrm + nbbdrm + nbbtrm + nbtoil + pldisw + pmnpol + pmnprp + tmppol + tmpprp + garden + dshwas + dshwrp + wasmch + wasmrp + bath + bathrp + shower + shwrrp + bthshw + btshrp + efshhd + efshrp + eftoil + eftlrp + eftech + efterp + drtoil + drtlrp + hlpwtk + cfdiwq + ppusvl + bdgmtr + lmtmtr + provin + dstrct + munici + dtbter + xcoord + ycoord + nq.y + sscode + statst + smuncd + munigb + dstrgb + prvngb + municd + dstrcd + prvncd + npspos + nwppos + nchpos + iceqas + livars + livars10 + laeqas + laeqas10
+
+```
+``` {r load Survey2014_obs_AquaWal_prd, include = F}
+# # 1. load data ------------
+
+load('Survey2014_obs_AquaWal_prd.Rdata')
+
+```
+```{r}
+
+# # 2. reformat data ------------------
+
+fitdata <- processed
+
+# # number of kitchens ----------
+
+fitdata$nbktch <- recode(fitdata$nbktch, "c('2', '3 or more') = '2 or more'")
+
+# # household size ------------
+
+# mean(fitdata$npnspo, na.rm = T) # 0.480563
+fitdata$npspos <- scale(fitdata$npnspo, center = T, scale = T)
+
+# mean(fitdata$nwprpo, na.rm = T) # 1.509517
+fitdata$nwppos <- scale(fitdata$nwprpo, center = T, scale = T)
+fitdata$nwppo1 <- fitdata$nwprpo -1
+
+# mean(fitdata$nchdpo, na.rm = T) # 0.32126
+fitdata$nchpos <- scale(fitdata$nchdpo, center = T, scale = T)
+
+# # number of adults
+fitdata$nadtpo1 <- fitdata$nadtpo - 1
+
+# # total number of people
+
+fitdata$nttppos <- scale(fitdata$nttppo)
+
+# average household size = 0.480563 + 1.509517 + 0.32126 = 2.31134
+
+# # income -----------
+
+# mean(fitdata$inceqa, na.rm = T) # 19521.3 eur/year/equivalent adults
+fitdata$iceqas <- scale(fitdata$inceqa, center = T, scale = T)
+
+fitdata$iceqac2 <- relevel(fitdata$iceqac2, ref = 'average')
+
+# # difficult paying -------------
+
+fitdata$dfpay <- relevel(fitdata$dfpay, ref = 'no') 
+
+# # living area -----------------
+
+# mean(fitdata$livara, na.rm = T) # 138.3233 m2
+# sd(fitdata$livara, na.rm=T) # 58.95894
+# hist(log(fitdata$livara), breaks = 10, prob = T)
+# curve(dnorm(x, mean = 138.3233, sd = 58.9589), add = T)
+
+fitdata$livars <- (fitdata$livara- 140)/60
+
+# mean(fitdata$livars, na.rm = T)
+# sd(fitdata$livars, na.rm = T)
+
+# mean(fitdata$lareqa, na.rm = T) # 90.44672 m2
+# sd(fitdata$lareqa, na.rm=T) # 42.9927
+
+fitdata$laeqas <- scale(fitdata$lareqa, center = T, scale = T)
+
+
+# # 3. outliers --------------
+
+# #  single case diagnostics -------------
+
+model1 <- lm(csmptv ~ nadtpo1 + nchdpo + iceqac2 + prvwel + rwtuse  + livars  + garden +  pmnpol  + bath, fitdata, weights = weight, na.action = 'na.exclude')
+
+plot(model1)
+summary(model1)
+anova(model1)
+
+p <- length(model1$coefficients) - 1
+n <- length(model1$residuals)
+
+# # standardized residual
+
+LS.stdres <- stdres(model1)
+
+plot(LS.stdres, ylim=c(-3,3), ylab="Standardized residuals")
+abline(h=c(-2.5,2.5), col="red")
+
+# # Studentized residuals
+
+LS.studres <- studres(model1)
+
+plot(LS.studres, ylim=c(-3,4), ylab="Studentized residuals")
+abline(h=c(-2.5,2.5), col="red")
+
+# # Diagonal elements of hat matrix
+LS.influence <- influence(model1)
+
+plot(LS.influence$hat, ylab="Diagonal elements of hat matrix")
+abline(h=2*p/n, col="red")
+
+# # DFFITS
+
+LS.dffits <- dffits(model1)
+
+plot(LS.dffits, ylab="DFFITS")
+abline(h=c(-2*sqrt(p/n), 2*sqrt(p/n)), col="red")
+
+# # Cook's distance
+
+LS.Cd <- cooks.distance(model1)
+
+plot(LS.Cd, ylab="Cook's distance", ylim=c(-0.2,1.2))
+abline(h=1, col="red")
+
+# # DFBETAS
+
+LS.dfbetas <- dfbetas(model1)
+
+plot(LS.dfbetas[,1])
+abline(h=c(-2/sqrt(n), 2/sqrt(n)), col="red")
+
+# # merge and save
+
+otldf <- cbind.data.frame(fitdata$id, LS.dfbetas, LS.influence$hat, LS.dffits, LS.Cd)
+
+colnames(otldf)[1] <- 'id'
+
+# write.csv(otldf, '2 Data/3 Processed/UtilitySurvey2014_AquaWal_CEHD/Survey2014_outlier.csv', row.names = F)
+
+# # select non-outliers
+
+otldf$dfbt <- apply(otldf[,2:17], 1,function(x) sum(abs(x) > 2/sqrt(n)))
+otldf$dfbt[otldf$dfbt > 1] <-1
+otldf$hat <- as.numeric(abs(otldf$`LS.influence$hat`) > 2*p/n)
+otldf$dffi <- as.numeric(abs(otldf$LS.dffits) > 2*sqrt(p/n))
+sum <- apply(otldf[,21:23], 1, sum)
+
+otlsgc <- as.integer(rownames(otldf)[sum > 2 & !is.na(sum)])
+dfsgcs <- fitdata[-otlsgc,]
+
+# # lts fit ------------
+# # with number of person income liviing area (cannot work with categorical variables)
+
+ltsfit <- ltsReg(csmptv ~ nttppos + iceqas + livars, fitdata, alpha = 0.75, weights = weight, na.action = 'na.exclude')
+
+summary(ltsfit)
+
+plot(ltsfit, which = 'rdiag')
+
+p <- length(ltsfit$coefficients) - 1
+x <- ltsfit$RD
+y <- ltsfit$residuals/ltsfit$scale
+quant <- max(c(sqrt(qchisq(0.975, p)), 2.5))
+
+# plot(x, y)
+# abline(v = quant, h =c(-2.5,2.5))
+
+otllts <- as.integer(names(y)[y < -2.5 | y > 2.5])
+dflts <- fitdata[-otllts,]
+
+# # lmrob fit ------------
+# # (MM estimator for linear regression)
+# # don't really understand it, but it allows categorical variable anyway.
+# # cannot plot Standardized LTS vs Robust Mahalanobis distance caused Mahalanobis distance cannot be calculated for categorical data.
+
+lmr <- lmrob(csmptv ~ nadtpo1 + nchdpo + iceqac2 + prvwel + rwtuse  + livars  + garden +  pmnpol  + bath, fitdata, weights = weight, na.action = 'na.exclude')
+
+summary(lmr)
+
+y <- lmr$residuals/lmr$scale
+
+plot(y)
+abline(h=c(-2.5,2.5), col="red")
+
+otllmr <- as.integer(names(y)[y < -2.5 | y > 2.5])
+dflmr <- fitdata[-otllmr,]
+
+# # using quantile -------------
+
+quan95 <- quantile(processed$csmptv, c(0.005, 0.995), na.rm = T) # 3.2673, 248.1253
+dfquan <- fitdata[fitdata$csmptv < quan95[2] & fitdata$csmptv > quan95[1],]
+
+```
+

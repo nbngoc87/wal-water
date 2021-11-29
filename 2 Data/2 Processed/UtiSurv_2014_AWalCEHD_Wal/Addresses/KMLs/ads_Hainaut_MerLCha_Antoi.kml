@@ -1,0 +1,1183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Hainaut_MerLCha_Antoi</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2358</value>
+							</Data>
+												<Data name='nq'>
+								<value>8329</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6567</value>
+							</Data>
+												<Data name='pc'>
+								<value>6567</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Fontaine-Valmont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MERBES-LE-CHATEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Oiseaux, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Oiseaux, 24 MERBES-LE-CHATEAU Hainaut 6567</address>
+				<Point>
+					<coordinates>4.2177153,50.3155636,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>79</value>
+							</Data>
+												<Data name='nq'>
+								<value>12384</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6567</value>
+							</Data>
+												<Data name='pc'>
+								<value>6567</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Merbes-le-Château</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MERBES-LE-CHATEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Place, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Place, 21 MERBES-LE-CHATEAU Hainaut 6567</address>
+				<Point>
+					<coordinates>4.1660777,50.3236351,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2260</value>
+							</Data>
+												<Data name='nq'>
+								<value>26086</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6590</value>
+							</Data>
+												<Data name='pc'>
+								<value>6590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Momignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MOMIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Thierache, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Thierache, 8 MOMIGNIES Hainaut 6590</address>
+				<Point>
+					<coordinates>4.1840359,50.0126461,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1244</value>
+							</Data>
+												<Data name='nq'>
+								<value>16217</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6596</value>
+							</Data>
+												<Data name='pc'>
+								<value>6596</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seloignes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MOMIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Saboterie, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Saboterie, 21 MOMIGNIES Hainaut 6596</address>
+				<Point>
+					<coordinates>4.2604957,50.0088025,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2810</value>
+							</Data>
+												<Data name='nq'>
+								<value>23825</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6596</value>
+							</Data>
+												<Data name='pc'>
+								<value>6596</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Seloignes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MOMIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Les Taillettes, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Les Taillettes, 18 MOMIGNIES Hainaut 6596</address>
+				<Point>
+					<coordinates>4.2506798,49.9971043,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>136</value>
+							</Data>
+												<Data name='nq'>
+								<value>11979</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand-Rue , 82</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand-Rue , 82 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2463441,50.4561537,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>802</value>
+							</Data>
+												<Data name='nq'>
+								<value>5211</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee Brunehault , 490 A/B</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee Brunehault , 490 AB MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2662126,50.45826,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1172</value>
+							</Data>
+												<Data name='nq'>
+								<value>22171</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Polichene, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Polichene, 6 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2435064,50.454285,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1704</value>
+							</Data>
+												<Data name='nq'>
+								<value>27534</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Winston Churchill, 53</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Winston Churchill, 53 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2299417,50.4574972,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1716</value>
+							</Data>
+												<Data name='nq'>
+								<value>29413</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Pierre, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Pierre, 29 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2339519,50.4619107,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2474</value>
+							</Data>
+												<Data name='nq'>
+								<value>4801</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue General de Gaulle , 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue General de Gaulle , 45 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2370148,50.4539462,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2647</value>
+							</Data>
+												<Data name='nq'>
+								<value>991</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7140</value>
+							</Data>
+												<Data name='pc'>
+								<value>7140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Morlanwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MORLANWELZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Montoyer , 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Montoyer , 8 MORLANWELZ Hainaut 7140</address>
+				<Point>
+					<coordinates>4.2459175,50.4531133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2147</value>
+							</Data>
+												<Data name='nq'>
+								<value>3369</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6470</value>
+							</Data>
+												<Data name='pc'>
+								<value>6470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sautin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SIVRY-RANCE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de France, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de France, 9 SIVRY-RANCE Hainaut 6470</address>
+				<Point>
+					<coordinates>4.2155525,50.1523719,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1314</value>
+							</Data>
+												<Data name='nq'>
+								<value>29247</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6533</value>
+							</Data>
+												<Data name='pc'>
+								<value>6533</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Biercée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Vieux Biercee, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Vieux Biercee, 4 THUIN Hainaut 6533</address>
+				<Point>
+					<coordinates>4.266848,50.3168816,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2684</value>
+							</Data>
+												<Data name='nq'>
+								<value>23489</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5020</value>
+							</Data>
+												<Data name='pc'>
+								<value>6534</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Flawinne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Dandoy, 39</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Dandoy, 39 THUIN Hainaut 5020</address>
+				<Point>
+					<coordinates>4.8191277,50.4579416,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>624</value>
+							</Data>
+												<Data name='nq'>
+								<value>2266</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6534</value>
+							</Data>
+												<Data name='pc'>
+								<value>6534</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gozée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Auguste Farcy, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Auguste Farcy, 4 THUIN Hainaut 6534</address>
+				<Point>
+					<coordinates>4.3567676,50.3456544,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>826</value>
+							</Data>
+												<Data name='nq'>
+								<value>11609</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6534</value>
+							</Data>
+												<Data name='pc'>
+								<value>6534</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gozée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Chardonnerets, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Chardonnerets, 12 THUIN Hainaut 6534</address>
+				<Point>
+					<coordinates>4.3704289,50.3570773,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>294</value>
+							</Data>
+												<Data name='nq'>
+								<value>5616</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6536</value>
+							</Data>
+												<Data name='pc'>
+								<value>6536</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thuillies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Battegnee, 1 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Battegnee, 1 A THUIN Hainaut 6536</address>
+				<Point>
+					<coordinates>4.3298151,50.2911827,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>960</value>
+							</Data>
+												<Data name='nq'>
+								<value>7522</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6536</value>
+							</Data>
+												<Data name='pc'>
+								<value>6536</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thuillies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Baulet, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Baulet, 3 THUIN Hainaut 6536</address>
+				<Point>
+					<coordinates>4.3373296,50.2934992,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>957</value>
+							</Data>
+												<Data name='nq'>
+								<value>10353</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6530</value>
+							</Data>
+												<Data name='pc'>
+								<value>6530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Jean Doye, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Jean Doye, 20 THUIN Hainaut 6530</address>
+				<Point>
+					<coordinates>4.2873352,50.3543749,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1424</value>
+							</Data>
+												<Data name='nq'>
+								<value>21433</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6530</value>
+							</Data>
+												<Data name='pc'>
+								<value>6530</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>THUIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Residence Kennedy, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Residence Kennedy, 27 THUIN Hainaut 6530</address>
+				<Point>
+					<coordinates>4.2954332,50.3505803,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>568</value>
+							</Data>
+												<Data name='nq'>
+								<value>11685</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7640</value>
+							</Data>
+												<Data name='pc'>
+								<value>7640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Antoing</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand&apos;rue, 9 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand&apos;rue, 9 A ANTOING Hainaut 7640</address>
+				<Point>
+					<coordinates>3.4462458,50.5672536,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2808</value>
+							</Data>
+												<Data name='nq'>
+								<value>25501</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7640</value>
+							</Data>
+												<Data name='pc'>
+								<value>7640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Antoing</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Crepy, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Crepy, 15 ANTOING Hainaut 7640</address>
+				<Point>
+					<coordinates>3.4571075,50.5651102,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1875</value>
+							</Data>
+												<Data name='nq'>
+								<value>26670</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7641</value>
+							</Data>
+												<Data name='pc'>
+								<value>7641</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bruyelle</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Tournai, 41</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Tournai, 41 ANTOING Hainaut 7641</address>
+				<Point>
+					<coordinates>3.4276224,50.5570174,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2047</value>
+							</Data>
+												<Data name='nq'>
+								<value>24703</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7641</value>
+							</Data>
+												<Data name='pc'>
+								<value>7641</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bruyelle</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Wauters, 22</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Wauters, 22 ANTOING Hainaut 7641</address>
+				<Point>
+					<coordinates>3.4258042,50.5560263,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>777</value>
+							</Data>
+												<Data name='nq'>
+								<value>6797</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7640</value>
+							</Data>
+												<Data name='pc'>
+								<value>7640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Maubray</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de l&apos;Attre, 2 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de l&apos;Attre, 2 A ANTOING Hainaut 7640</address>
+				<Point>
+					<coordinates>3.4957304,50.5509191,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2731</value>
+							</Data>
+												<Data name='nq'>
+								<value>25624</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7640</value>
+							</Data>
+												<Data name='pc'>
+								<value>7640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Maubray</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand Route, 75</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand Route, 75 ANTOING Hainaut 7640</address>
+				<Point>
+					<coordinates>3.4960332,50.5461942,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>409</value>
+							</Data>
+												<Data name='nq'>
+								<value>3106</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7640</value>
+							</Data>
+												<Data name='pc'>
+								<value>7640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Péronnes-lez-Antoing</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANTOING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Tournai</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Place, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Place, 11 ANTOING Hainaut 7640</address>
+				<Point>
+					<coordinates>3.4545674,50.5517838,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

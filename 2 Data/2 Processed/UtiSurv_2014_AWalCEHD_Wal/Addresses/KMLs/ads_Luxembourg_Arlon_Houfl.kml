@@ -1,0 +1,2191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Luxembourg_Arlon_Houfl</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>75</value>
+							</Data>
+												<Data name='nq'>
+								<value>4843</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Sapiniere, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Sapiniere, 5 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8024969,49.6895145,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>154</value>
+							</Data>
+												<Data name='nq'>
+								<value>12266</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue Saint-Denis, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>rue Saint-Denis, 3 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.7790206,49.65234,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>215</value>
+							</Data>
+												<Data name='nq'>
+								<value>9079</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Leon-Castilhon, 74</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Leon-Castilhon, 74 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.806191,49.6821962,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>301</value>
+							</Data>
+												<Data name='nq'>
+								<value>9344</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Leon-Castilhon, 65</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Leon-Castilhon, 65 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8059854,49.6821824,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>315</value>
+							</Data>
+												<Data name='nq'>
+								<value>7165</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue du Centre, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>rue du Centre, 14 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8262045,49.6994661,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>316</value>
+							</Data>
+												<Data name='nq'>
+								<value>10096</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Thermes-Romains, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Thermes-Romains, 14 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8126749,49.6799311,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>356</value>
+							</Data>
+												<Data name='nq'>
+								<value>5008</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue des Tilleuls, 51</value>
+							</Data>
+									</ExtendedData>
+								<address>rue des Tilleuls, 51 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.77318,49.6898995,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>502</value>
+							</Data>
+												<Data name='nq'>
+								<value>7702</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de Longwy, 143</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de Longwy, 143 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8239911,49.6829948,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>541</value>
+							</Data>
+												<Data name='nq'>
+								<value>3871</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue du General-Jourdan, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>rue du General-Jourdan, 10 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8196561,49.6583756,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>597</value>
+							</Data>
+												<Data name='nq'>
+								<value>12248</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>route de Bouillon, 170-172</value>
+							</Data>
+									</ExtendedData>
+								<address>route de Bouillon, 170-172 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.7677493,49.6864558,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>838</value>
+							</Data>
+												<Data name='nq'>
+								<value>752</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du 10eme de Ligne, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du 10eme de Ligne, 19 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8195793,49.6856005,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>912</value>
+							</Data>
+												<Data name='nq'>
+								<value>815</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos Roland Ensch, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Clos Roland Ensch, 5 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8046879,49.6840243,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1278</value>
+							</Data>
+												<Data name='nq'>
+								<value>18392</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Vingt-cinq Aout, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Vingt-cinq Aout, 6 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8118421,49.6838736,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1311</value>
+							</Data>
+												<Data name='nq'>
+								<value>15740</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Numa-Ensch-Tesch, 22</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Numa-Ensch-Tesch, 22 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8009679,49.6874502,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1374</value>
+							</Data>
+												<Data name='nq'>
+								<value>21034</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Numa-Ensch-Tesch, 60</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Numa-Ensch-Tesch, 60 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8019653,49.689233,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1544</value>
+							</Data>
+												<Data name='nq'>
+								<value>22818</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue du Centre, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>rue du Centre, 12 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8262025,49.6995447,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1726</value>
+							</Data>
+												<Data name='nq'>
+								<value>17223</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Glycines, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Glycines, 11 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8071537,49.690663,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1860</value>
+							</Data>
+												<Data name='nq'>
+								<value>23791</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Dreve des Espagnols, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Dreve des Espagnols, 9 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8183987,49.6953215,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2148</value>
+							</Data>
+												<Data name='nq'>
+								<value>19894</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue du Castel, 70</value>
+							</Data>
+									</ExtendedData>
+								<address>rue du Castel, 70 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.827031,49.6935319,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2291</value>
+							</Data>
+												<Data name='nq'>
+								<value>26867</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue du Lingenthal, 47</value>
+							</Data>
+									</ExtendedData>
+								<address>rue du Lingenthal, 47 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8450862,49.6773501,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2609</value>
+							</Data>
+												<Data name='nq'>
+								<value>6503</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Viville, 62</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Viville, 62 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8038696,49.691445,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2713</value>
+							</Data>
+												<Data name='nq'>
+								<value>23976</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Violettes, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Violettes, 19 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.7991738,49.6770261,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2901</value>
+							</Data>
+												<Data name='nq'>
+								<value>15889</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6700</value>
+							</Data>
+												<Data name='pc'>
+								<value>6700</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ARLON</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Floreal, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Floreal, 13 ARLON Luxembourg 6700</address>
+				<Point>
+					<coordinates>5.8221579,49.683223,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1252</value>
+							</Data>
+												<Data name='nq'>
+								<value>15346</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GUERLANGE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Le Passage de Loup, 54</value>
+							</Data>
+									</ExtendedData>
+								<address>Le Passage de Loup, 54 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.8483205,49.577486,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1309</value>
+							</Data>
+												<Data name='nq'>
+								<value>22199</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Athus</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos; Aurore, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos; Aurore, 7 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.8474647,49.5734562,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1605</value>
+							</Data>
+												<Data name='nq'>
+								<value>21160</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Athus</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Impasse du Chateau d&apos; Eau, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Impasse du Chateau d&apos; Eau, 2 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.8329024,49.5683938,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1623</value>
+							</Data>
+												<Data name='nq'>
+								<value>16305</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Athus</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Longeau, 160</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Longeau, 160 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.8338126,49.5720391,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1681</value>
+							</Data>
+												<Data name='nq'>
+								<value>17443</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Athus</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Chants d&apos;Oiseaux, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Chants d&apos;Oiseaux, 2 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.844373,49.5704314,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2479</value>
+							</Data>
+												<Data name='nq'>
+								<value>12866</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6791</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Athus</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Cerisiers, 59</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Cerisiers, 59 AUBANGE Luxembourg 6791</address>
+				<Point>
+					<coordinates>5.8256897,49.5702546,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>497</value>
+							</Data>
+												<Data name='nq'>
+								<value>1940</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6790</value>
+							</Data>
+												<Data name='pc'>
+								<value>6790</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aubange</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Longwy, 28 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Longwy, 28 B AUBANGE Luxembourg 6790</address>
+				<Point>
+					<coordinates>5.7962463,49.5622059,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>540</value>
+							</Data>
+												<Data name='nq'>
+								<value>12398</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6790</value>
+							</Data>
+												<Data name='pc'>
+								<value>6790</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aubange</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Oiseaux, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Oiseaux, 2 AUBANGE Luxembourg 6790</address>
+				<Point>
+					<coordinates>5.7980753,49.5576108,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>910</value>
+							</Data>
+												<Data name='nq'>
+								<value>14572</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Battincourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Monument, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Monument, 4 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7612514,49.5814422,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1593</value>
+							</Data>
+												<Data name='nq'>
+								<value>17203</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6790</value>
+							</Data>
+												<Data name='pc'>
+								<value>6790</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aubange</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Hirondelles, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Hirondelles, 18 AUBANGE Luxembourg 6790</address>
+				<Point>
+					<coordinates>5.8169854,49.5669953,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1748</value>
+							</Data>
+												<Data name='nq'>
+								<value>29985</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aix-sur-Cloie</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Chene, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Chene, 18 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7790959,49.5704165,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>447</value>
+							</Data>
+												<Data name='nq'>
+								<value>1493</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Halanzy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Resistance, 52</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Resistance, 52 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7370115,49.563207,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>471</value>
+							</Data>
+												<Data name='nq'>
+								<value>725</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Halanzy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Ermitage, 52</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Ermitage, 52 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7558754,49.5561935,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>530</value>
+							</Data>
+												<Data name='nq'>
+								<value>9556</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Halanzy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Resistance, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Resistance, 27 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7391672,49.561759,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>852</value>
+							</Data>
+												<Data name='nq'>
+								<value>12186</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Halanzy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Moulin, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Moulin, 8 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7456747,49.5625939,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1802</value>
+							</Data>
+												<Data name='nq'>
+								<value>2600</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4000</value>
+							</Data>
+												<Data name='pc'>
+								<value>6791</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIEGE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA HAYE, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA HAYE, 13 AUBANGE Luxembourg 4000</address>
+				<Point>
+					<coordinates>5.8039986,49.5692623,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>542</value>
+							</Data>
+												<Data name='nq'>
+								<value>14835</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6792</value>
+							</Data>
+												<Data name='pc'>
+								<value>6792</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rachecourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>AUBANGE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Haut, 164</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Haut, 164 AUBANGE Luxembourg 6792</address>
+				<Point>
+					<coordinates>5.7242362,49.5937896,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>969</value>
+							</Data>
+												<Data name='nq'>
+								<value>3358</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6782</value>
+							</Data>
+												<Data name='pc'>
+								<value>6782</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Habergy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MESSANCY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Panorama, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Panorama, 38 MESSANCY Luxembourg 6782</address>
+				<Point>
+					<coordinates>5.7856348,49.6117309,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1001</value>
+							</Data>
+												<Data name='nq'>
+								<value>11767</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6780</value>
+							</Data>
+												<Data name='pc'>
+								<value>6780</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Messancy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MESSANCY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Aubange, 77</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Aubange, 77 MESSANCY Luxembourg 6780</address>
+				<Point>
+					<coordinates>5.8131921,49.5841193,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1925</value>
+							</Data>
+												<Data name='nq'>
+								<value>27356</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6780</value>
+							</Data>
+												<Data name='pc'>
+								<value>6780</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Messancy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MESSANCY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Armagh, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Armagh, 33 MESSANCY Luxembourg 6780</address>
+				<Point>
+					<coordinates>5.8229378,49.5939669,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1131</value>
+							</Data>
+												<Data name='nq'>
+								<value>29892</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6780</value>
+							</Data>
+												<Data name='pc'>
+								<value>6780</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Wolkrange</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MESSANCY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Arlon</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Centenaire, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Centenaire, 8 MESSANCY Luxembourg 6780</address>
+				<Point>
+					<coordinates>5.7996628,49.6345126,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>406</value>
+							</Data>
+												<Data name='nq'>
+								<value>8009</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6600</value>
+							</Data>
+												<Data name='pc'>
+								<value>6600</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Gare, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Gare, 6 BASTOGNE Luxembourg 6600</address>
+				<Point>
+					<coordinates>5.710818,49.999357,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1129</value>
+							</Data>
+												<Data name='nq'>
+								<value>25985</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6600</value>
+							</Data>
+												<Data name='pc'>
+								<value>6600</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Bourcy, 862</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Bourcy, 862 BASTOGNE Luxembourg 6600</address>
+				<Point>
+					<coordinates>5.8071216,50.0572068,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1194</value>
+							</Data>
+												<Data name='nq'>
+								<value>18056</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6600</value>
+							</Data>
+												<Data name='pc'>
+								<value>6600</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Arbaletriers, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Arbaletriers, 9 BASTOGNE Luxembourg 6600</address>
+				<Point>
+					<coordinates>5.7850851,50.0186929,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2604</value>
+							</Data>
+												<Data name='nq'>
+								<value>9120</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6600</value>
+							</Data>
+												<Data name='pc'>
+								<value>6600</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Léopold-III, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Léopold-III, 4 BASTOGNE Luxembourg 6600</address>
+				<Point>
+					<coordinates>5.7086856,50.0003362,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1363</value>
+							</Data>
+												<Data name='nq'>
+								<value>21417</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6600</value>
+							</Data>
+												<Data name='pc'>
+								<value>6600</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Villers-la-Bonne-Eau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BASTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Villers-la-Bonne-Eau, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Villers-la-Bonne-Eau, 3 BASTOGNE Luxembourg 6600</address>
+				<Point>
+					<coordinates>5.7497758,49.9344718,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>845</value>
+							</Data>
+												<Data name='nq'>
+								<value>9035</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6686</value>
+							</Data>
+												<Data name='pc'>
+								<value>6686</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Flamierge</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERTOGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Salle, 1029</value>
+							</Data>
+									</ExtendedData>
+								<address>Salle, 1029 BERTOGNE Luxembourg 6686</address>
+				<Point>
+					<coordinates>5.5945876,50.0533478,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1621</value>
+							</Data>
+												<Data name='nq'>
+								<value>25950</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6660</value>
+							</Data>
+												<Data name='pc'>
+								<value>6660</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Houffalize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HOUFFALIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Voie-de-Messe, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Voie-de-Messe, 4 HOUFFALIZE Luxembourg 6660</address>
+				<Point>
+					<coordinates>5.7896806,50.1325811,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>334</value>
+							</Data>
+												<Data name='nq'>
+								<value>1539</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6661</value>
+							</Data>
+												<Data name='pc'>
+								<value>6661</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HOUFFALIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Sommerain, 22 C</value>
+							</Data>
+									</ExtendedData>
+								<address>Sommerain, 22 C HOUFFALIZE Luxembourg 6661</address>
+				<Point>
+					<coordinates>5.8132671,50.1600874,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

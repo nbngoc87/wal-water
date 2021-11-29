@@ -1,0 +1,1897 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Hainaut_LRoeu_Anderl</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1039</value>
+							</Data>
+												<Data name='nq'>
+								<value>3235</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7070</value>
+							</Data>
+												<Data name='pc'>
+								<value>7070</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Le Roeulx</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LE ROEULX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Hotel de Ville, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Hotel de Ville, 20 LE ROEULX Hainaut 7070</address>
+				<Point>
+					<coordinates>4.1091328,50.5008259,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1904</value>
+							</Data>
+												<Data name='nq'>
+								<value>15624</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7070</value>
+							</Data>
+												<Data name='pc'>
+								<value>7072</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mignault</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LE ROEULX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Camille Bouyere, 75</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Camille Bouyere, 75 LE ROEULX Hainaut 7070</address>
+				<Point>
+					<coordinates>4.1407202,50.5467326,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>309</value>
+							</Data>
+												<Data name='nq'>
+								<value>10180</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7070</value>
+							</Data>
+												<Data name='pc'>
+								<value>7070</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ville-sur-Haine</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LE ROEULX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Fours à Chaux , 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Fours à Chaux , 33 LE ROEULX Hainaut 7070</address>
+				<Point>
+					<coordinates>4.0728042,50.4745277,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1063</value>
+							</Data>
+												<Data name='nq'>
+								<value>4665</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7864</value>
+							</Data>
+												<Data name='pc'>
+								<value>7864</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Deux-Acren</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Station d&apos;Acren, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Station d&apos;Acren, 27 LESSINES Hainaut 7864</address>
+				<Point>
+					<coordinates>3.8498082,50.7322701,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1138</value>
+							</Data>
+												<Data name='nq'>
+								<value>28512</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7864</value>
+							</Data>
+												<Data name='pc'>
+								<value>7864</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Deux-Acren</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chapelle Saint-Pierre, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Chapelle Saint-Pierre, 38 LESSINES Hainaut 7864</address>
+				<Point>
+					<coordinates>3.887798,50.7381985,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1647</value>
+							</Data>
+												<Data name='nq'>
+								<value>23867</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7864</value>
+							</Data>
+												<Data name='pc'>
+								<value>7864</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Deux-Acren</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Virgile Beerens, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Virgile Beerens, 17 LESSINES Hainaut 7864</address>
+				<Point>
+					<coordinates>3.8461174,50.7277372,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1666</value>
+							</Data>
+												<Data name='nq'>
+								<value>25233</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7864</value>
+							</Data>
+												<Data name='pc'>
+								<value>7864</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Deux-Acren</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chevauchoire de Viane, 180</value>
+							</Data>
+									</ExtendedData>
+								<address>Chevauchoire de Viane, 180 LESSINES Hainaut 7864</address>
+				<Point>
+					<coordinates>3.8566579,50.7234405,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>342</value>
+							</Data>
+												<Data name='nq'>
+								<value>5910</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7860</value>
+							</Data>
+												<Data name='pc'>
+								<value>7860</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lessines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Patriotes, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Patriotes, 28 LESSINES Hainaut 7860</address>
+				<Point>
+					<coordinates>3.8400314,50.7085083,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>582</value>
+							</Data>
+												<Data name='nq'>
+								<value>11353</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7860</value>
+							</Data>
+												<Data name='pc'>
+								<value>7860</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lessines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Mons a Gand, 132</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Mons a Gand, 132 LESSINES Hainaut 7860</address>
+				<Point>
+					<coordinates>3.8512718,50.7169101,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>886</value>
+							</Data>
+												<Data name='nq'>
+								<value>8486</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7860</value>
+							</Data>
+												<Data name='pc'>
+								<value>7860</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lessines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Albert Ier, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Albert Ier, 2 LESSINES Hainaut 7860</address>
+				<Point>
+					<coordinates>3.8335445,50.70406,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1906</value>
+							</Data>
+												<Data name='nq'>
+								<value>23674</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7860</value>
+							</Data>
+												<Data name='pc'>
+								<value>7860</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lessines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Rene Magritte, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Rene Magritte, 9 LESSINES Hainaut 7860</address>
+				<Point>
+					<coordinates>3.835734,50.7122047,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2603</value>
+							</Data>
+												<Data name='nq'>
+								<value>12368</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7860</value>
+							</Data>
+												<Data name='pc'>
+								<value>7860</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lessines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Renaix, 43</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Renaix, 43 LESSINES Hainaut 7860</address>
+				<Point>
+					<coordinates>3.8228785,50.7127475,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>590</value>
+							</Data>
+												<Data name='nq'>
+								<value>766</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7862</value>
+							</Data>
+												<Data name='pc'>
+								<value>7862</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ogy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Pont Madeleine, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Pont Madeleine, 14 LESSINES Hainaut 7862</address>
+				<Point>
+					<coordinates>3.7836199,50.7222416,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>775</value>
+							</Data>
+												<Data name='nq'>
+								<value>14669</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7866</value>
+							</Data>
+												<Data name='pc'>
+								<value>7866</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ollignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants, 150</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants, 150 LESSINES Hainaut 7866</address>
+				<Point>
+					<coordinates>3.8704985,50.6904738,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2638</value>
+							</Data>
+												<Data name='nq'>
+								<value>20266</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7866</value>
+							</Data>
+												<Data name='pc'>
+								<value>7866</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ollignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LESSINES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants, 34 LESSINES Hainaut 7866</address>
+				<Point>
+					<coordinates>3.8615328,50.6883743,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1104</value>
+							</Data>
+												<Data name='nq'>
+								<value>19648</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bassilly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Place de Bassilly, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Place de Bassilly, 11 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9367969,50.6720783,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1418</value>
+							</Data>
+												<Data name='nq'>
+								<value>26188</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bassilly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Ecoles, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Ecoles, 33 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9380696,50.6694429,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1197</value>
+							</Data>
+												<Data name='nq'>
+								<value>21197</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Graty</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Thoricourt, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Thoricourt, 13 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9315548,50.6186979,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1981</value>
+							</Data>
+												<Data name='nq'>
+								<value>28104</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Graty</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Thoricourt, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Thoricourt, 20 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9956886,50.6300274,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2437</value>
+							</Data>
+												<Data name='nq'>
+								<value>27139</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hoves</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee Brunehault, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee Brunehault, 11 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>4.0393787,50.6649041,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>679</value>
+							</Data>
+												<Data name='nq'>
+								<value>7579</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Silly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Wastinelle, 79</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Wastinelle, 79 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9182714,50.6534804,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>991</value>
+							</Data>
+												<Data name='nq'>
+								<value>7770</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Silly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Brunfaut, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Brunfaut, 31 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9495211,50.6467497,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1594</value>
+							</Data>
+												<Data name='nq'>
+								<value>26797</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Silly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Dr. Hubert Dubois, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Dr Hubert Dubois, 31 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9206869,50.6443801,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2426</value>
+							</Data>
+												<Data name='nq'>
+								<value>9213</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7830</value>
+							</Data>
+												<Data name='pc'>
+								<value>7830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Silly</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SILLY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Station , 67</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Station , 67 SILLY Hainaut 7830</address>
+				<Point>
+					<coordinates>3.9118654,50.6640831,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>82</value>
+							</Data>
+												<Data name='nq'>
+								<value>12752</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7061</value>
+							</Data>
+												<Data name='pc'>
+								<value>7061</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Casteau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Bruyeres, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Bruyeres, 9 SOIGNIES Hainaut 7061</address>
+				<Point>
+					<coordinates>3.9888168,50.5168994,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>271</value>
+							</Data>
+												<Data name='nq'>
+								<value>1548</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7061</value>
+							</Data>
+												<Data name='pc'>
+								<value>7061</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Casteau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Lens, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Lens, 4 SOIGNIES Hainaut 7061</address>
+				<Point>
+					<coordinates>4.0033548,50.5154616,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1492</value>
+							</Data>
+												<Data name='nq'>
+								<value>15888</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7061</value>
+							</Data>
+												<Data name='pc'>
+								<value>7061</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Casteau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Nouvelle, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Nouvelle, 2 SOIGNIES Hainaut 7061</address>
+				<Point>
+					<coordinates>3.9934634,50.5094096,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>563</value>
+							</Data>
+												<Data name='nq'>
+								<value>653</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7063</value>
+							</Data>
+												<Data name='pc'>
+								<value>7063</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Chaussée-Notre-Dame-Louvignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Quintart, 198</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Quintart, 198 SOIGNIES Hainaut 7063</address>
+				<Point>
+					<coordinates>3.9945812,50.584533,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1435</value>
+							</Data>
+												<Data name='nq'>
+								<value>15567</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7062</value>
+							</Data>
+												<Data name='pc'>
+								<value>7062</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Naast</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Mignault, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Mignault, 23 SOIGNIES Hainaut 7062</address>
+				<Point>
+					<coordinates>4.1070687,50.5523084,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>691</value>
+							</Data>
+												<Data name='nq'>
+								<value>9622</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7063</value>
+							</Data>
+												<Data name='pc'>
+								<value>7063</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neufvilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bas Chemin, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Bas Chemin, 2 SOIGNIES Hainaut 7063</address>
+				<Point>
+					<coordinates>4.0023282,50.5644295,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2487</value>
+							</Data>
+												<Data name='nq'>
+								<value>14454</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7063</value>
+							</Data>
+												<Data name='pc'>
+								<value>7063</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neufvilles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route de Montignies, 37</value>
+							</Data>
+									</ExtendedData>
+								<address>Route de Montignies, 37 SOIGNIES Hainaut 7063</address>
+				<Point>
+					<coordinates>3.9819132,50.5653402,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>799</value>
+							</Data>
+												<Data name='nq'>
+								<value>10720</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7601</value>
+							</Data>
+												<Data name='pc'>
+								<value>7061</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Roucourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Jeanne Dubois, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Jeanne Dubois, 9 SOIGNIES Hainaut 7601</address>
+				<Point>
+					<coordinates>3.5867926,50.5289282,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>331</value>
+							</Data>
+												<Data name='nq'>
+								<value>8663</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Martyrs de Soltau, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Martyrs de Soltau, 33 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.0695194,50.5776132,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>898</value>
+							</Data>
+												<Data name='nq'>
+								<value>3868</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Chasseurs, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Chasseurs, 2 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.0580103,50.5830133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1180</value>
+							</Data>
+												<Data name='nq'>
+								<value>16355</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Square de Savoye, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Square de Savoye, 10 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.0785353,50.5736334,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1481</value>
+							</Data>
+												<Data name='nq'>
+								<value>15544</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ruelle Brogniez, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Ruelle Brogniez, 7 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.0763289,50.5773002,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1807</value>
+							</Data>
+												<Data name='nq'>
+								<value>28200</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Tanneurs, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Tanneurs, 33 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.077272,50.5772574,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2701</value>
+							</Data>
+												<Data name='nq'>
+								<value>16465</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7060</value>
+							</Data>
+												<Data name='pc'>
+								<value>7060</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOIGNIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Soignies</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee du Roeulx, 295</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee du Roeulx, 295 SOIGNIES Hainaut 7060</address>
+				<Point>
+					<coordinates>4.0749499,50.5632642,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>55</value>
+							</Data>
+												<Data name='nq'>
+								<value>5478</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Mons, 271</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Mons, 271 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2329064,50.4071885,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>286</value>
+							</Data>
+												<Data name='nq'>
+								<value>9565</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Fief, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Fief, 9 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2835136,50.3955332,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>500</value>
+							</Data>
+												<Data name='nq'>
+								<value>5209</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Mons, 400</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Mons, 400 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2292572,50.4078609,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>780</value>
+							</Data>
+												<Data name='nq'>
+								<value>7892</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>2270</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Chateau, 99</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Chateau, 99 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2715481,50.4000435,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2246</value>
+							</Data>
+												<Data name='nq'>
+								<value>27460</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue Victor Larock, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>rue Victor Larock, 8 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2763112,50.3867409,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2746</value>
+							</Data>
+												<Data name='nq'>
+								<value>27965</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6150</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Anderlues</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Fleurs, 58</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Fleurs, 58 ANDERLUES Hainaut 6150</address>
+				<Point>
+					<coordinates>4.2703115,50.4110884,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>259</value>
+							</Data>
+												<Data name='nq'>
+								<value>103</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7000</value>
+							</Data>
+												<Data name='pc'>
+								<value>6150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mons</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ANDERLUES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Thuin</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Nimy, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Nimy, 19 ANDERLUES Hainaut 7000</address>
+				<Point>
+					<coordinates>3.9534707,50.4554362,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

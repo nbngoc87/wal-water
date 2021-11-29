@@ -1,0 +1,1057 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Namur_BRaing_Rochef</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>911</value>
+							</Data>
+												<Data name='nq'>
+								<value>814</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5570</value>
+							</Data>
+												<Data name='pc'>
+								<value>5570</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>HONNAY</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEAURAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE DU CALVAIRE, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE DU CALVAIRE, 4 BEAURAING Namur 5570</address>
+				<Point>
+					<coordinates>5.0391954,50.0814139,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>913</value>
+							</Data>
+												<Data name='nq'>
+								<value>8624</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5570</value>
+							</Data>
+												<Data name='pc'>
+								<value>5570</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Javingue</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEAURAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>rue de Vencimont, 55</value>
+							</Data>
+									</ExtendedData>
+								<address>rue de Vencimont, 55 BEAURAING Namur 5570</address>
+				<Point>
+					<coordinates>4.9253452,50.089854,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1797</value>
+							</Data>
+												<Data name='nq'>
+								<value>26576</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5574</value>
+							</Data>
+												<Data name='pc'>
+								<value>5574</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>PONDROME</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEAURAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE DE LA TANNERIE, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE DE LA TANNERIE, 14 BEAURAING Namur 5574</address>
+				<Point>
+					<coordinates>5.0138255,50.0963519,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2465</value>
+							</Data>
+												<Data name='nq'>
+								<value>9825</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5570</value>
+							</Data>
+												<Data name='pc'>
+								<value>5570</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VONECHE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BEAURAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE LA CULEE, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE LA CULEE, 18 BEAURAING Namur 5570</address>
+				<Point>
+					<coordinates>4.9769364,50.0607143,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>346</value>
+							</Data>
+												<Data name='nq'>
+								<value>5413</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Commerce, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Commerce, 27 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.0993568,50.2944704,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>687</value>
+							</Data>
+												<Data name='nq'>
+								<value>6476</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Echevinage, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Echevinage, 1 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.1060415,50.290083,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1257</value>
+							</Data>
+												<Data name='nq'>
+								<value>26113</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Piervenne, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Piervenne, 40 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.0956203,50.2941684,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1394</value>
+							</Data>
+												<Data name='nq'>
+								<value>20397</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Rebompre, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Rebompre, 25 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.1057391,50.297902,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1677</value>
+							</Data>
+												<Data name='nq'>
+								<value>29833</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Ormes, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Ormes, 5 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.0986171,50.2888008,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1901</value>
+							</Data>
+												<Data name='nq'>
+								<value>26734</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Etang, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Etang, 20 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.090201,50.2882625,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2699</value>
+							</Data>
+												<Data name='nq'>
+								<value>20510</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5590</value>
+							</Data>
+												<Data name='pc'>
+								<value>5590</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ciney</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CINEY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Schlogel, 94</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Schlogel, 94 CINEY Namur 5590</address>
+				<Point>
+					<coordinates>5.1104534,50.2993756,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>754</value>
+							</Data>
+												<Data name='nq'>
+								<value>4003</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5500</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bouvignes-Sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DINANT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Meuse, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Meuse, 6 DINANT Namur 5500</address>
+				<Point>
+					<coordinates>4.898221,50.2729829,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>267</value>
+							</Data>
+												<Data name='nq'>
+								<value>5087</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5500</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DINANT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Combattants, 158</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Combattants, 158 DINANT Namur 5500</address>
+				<Point>
+					<coordinates>4.9174245,50.24966,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>335</value>
+							</Data>
+												<Data name='nq'>
+								<value>3300</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5500</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DINANT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Rivages, 101</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Rivages, 101 DINANT Namur 5500</address>
+				<Point>
+					<coordinates>4.9206477,50.2481847,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1335</value>
+							</Data>
+												<Data name='nq'>
+								<value>16232</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5500</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DINANT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Drève des Cavaliers, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Drève des Cavaliers, 10 DINANT Namur 5500</address>
+				<Point>
+					<coordinates>4.8965155,50.2627782,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1619</value>
+							</Data>
+												<Data name='nq'>
+								<value>16342</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5500</value>
+							</Data>
+												<Data name='pc'>
+								<value>5500</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DINANT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Wespin, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Wespin, 12 DINANT Namur 5500</address>
+				<Point>
+					<coordinates>4.8981827,50.2600553,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>236</value>
+							</Data>
+												<Data name='nq'>
+								<value>5977</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5360</value>
+							</Data>
+												<Data name='pc'>
+								<value>5360</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hamois</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HAMOIS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos des Princes Eveques, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Clos des Princes Eveques, 18 HAMOIS Namur 5360</address>
+				<Point>
+					<coordinates>5.1556778,50.3447004,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1256</value>
+							</Data>
+												<Data name='nq'>
+								<value>26590</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5540</value>
+							</Data>
+												<Data name='pc'>
+								<value>5540</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>HASTIERE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HASTIERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>INASEP</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>DOMAINE MA CAMPAGNE, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>DOMAINE MA CAMPAGNE, 30 HASTIERE Namur 5540</address>
+				<Point>
+					<coordinates>4.7936642,50.2272288,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2554</value>
+							</Data>
+												<Data name='nq'>
+								<value>16302</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5561</value>
+							</Data>
+												<Data name='pc'>
+								<value>5561</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Celles-lez-Dinant</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HOUYET</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Celles, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Celles, 1 HOUYET Namur 5561</address>
+				<Point>
+					<coordinates>5.00796,50.24553,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1360</value>
+							</Data>
+												<Data name='nq'>
+								<value>15212</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5560</value>
+							</Data>
+												<Data name='pc'>
+								<value>5560</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>HOUYET</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HOUYET</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE DE L&apos;EGLISE, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE DE L&apos;EGLISE, 9 HOUYET Namur 5560</address>
+				<Point>
+					<coordinates>5.0111455,50.1851756,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1378</value>
+							</Data>
+												<Data name='nq'>
+								<value>25652</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5560</value>
+							</Data>
+												<Data name='pc'>
+								<value>5560</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MESNIL-ST-BLAISE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HOUYET</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE DES ECOLES, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE DES ECOLES, 38 HOUYET Namur 5560</address>
+				<Point>
+					<coordinates>4.8910092,50.1654219,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1019</value>
+							</Data>
+												<Data name='nq'>
+								<value>4722</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5580</value>
+							</Data>
+												<Data name='pc'>
+								<value>5580</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rochefort</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ROCHEFORT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Hautmont, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Hautmont, 7 ROCHEFORT Namur 5580</address>
+				<Point>
+					<coordinates>5.1550737,50.1869557,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1847</value>
+							</Data>
+												<Data name='nq'>
+								<value>25486</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5580</value>
+							</Data>
+												<Data name='pc'>
+								<value>5580</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rochefort</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ROCHEFORT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Rovia, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Rovia, 11 ROCHEFORT Namur 5580</address>
+				<Point>
+					<coordinates>5.1057074,50.151414,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2340</value>
+							</Data>
+												<Data name='nq'>
+								<value>3058</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5580</value>
+							</Data>
+												<Data name='pc'>
+								<value>5580</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rochefort</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ROCHEFORT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bonnier, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bonnier, 13 ROCHEFORT Namur 5580</address>
+				<Point>
+					<coordinates>5.1697311,50.2197874,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2650</value>
+							</Data>
+												<Data name='nq'>
+								<value>8594</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5580</value>
+							</Data>
+												<Data name='pc'>
+								<value>5580</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rochefort</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ROCHEFORT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Dinant</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Dinant/Philippeville</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Haid, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Haid, 31 ROCHEFORT Namur 5580</address>
+				<Point>
+					<coordinates>5.1864496,50.2184315,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

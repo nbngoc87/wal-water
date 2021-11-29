@@ -1,0 +1,1771 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Hainaut_Ath_Flobe</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>54</value>
+							</Data>
+												<Data name='nq'>
+								<value>10602</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7811</value>
+							</Data>
+												<Data name='pc'>
+								<value>7811</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Arbre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Soignies , 255</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Soignies , 255 ATH Hainaut 7811</address>
+				<Point>
+					<coordinates>3.8099196,50.6151866,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>263</value>
+							</Data>
+												<Data name='nq'>
+								<value>11111</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Paul Pastur, 122 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Paul Pastur, 122 A ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7708652,50.6192946,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>446</value>
+							</Data>
+												<Data name='nq'>
+								<value>632</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Valenciennes, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Valenciennes, 31 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7696773,50.624942,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>660</value>
+							</Data>
+												<Data name='nq'>
+								<value>7963</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Rivage, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Rivage, 9 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7745238,50.636137,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>669</value>
+							</Data>
+												<Data name='nq'>
+								<value>4745</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Tournai, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Tournai, 26 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7709602,50.634316,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1557</value>
+							</Data>
+												<Data name='nq'>
+								<value>27227</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du Bois du Roy, 47</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du Bois du Roy, 47 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7794893,50.6172876,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2765</value>
+							</Data>
+												<Data name='nq'>
+								<value>24940</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ath</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Valenciennes, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Valenciennes, 45 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.7693083,50.6245854,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1485</value>
+							</Data>
+												<Data name='nq'>
+								<value>15469</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7801</value>
+							</Data>
+												<Data name='pc'>
+								<value>7801</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Irchonwelz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Haute Forière, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Haute Forière, 28 ATH Hainaut 7801</address>
+				<Point>
+					<coordinates>3.7674272,50.6188161,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>199</value>
+							</Data>
+												<Data name='nq'>
+								<value>3748</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lanquesaint</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Sentier du Point d&apos;Arrêt, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Sentier du Point d&apos;Arrêt, 2 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.8025738,50.6531185,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1710</value>
+							</Data>
+												<Data name='nq'>
+								<value>16867</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7800</value>
+							</Data>
+												<Data name='pc'>
+								<value>7800</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lanquesaint</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Saint Sacrement, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Saint Sacrement, 16 ATH Hainaut 7800</address>
+				<Point>
+					<coordinates>3.8028839,50.6538679,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2116</value>
+							</Data>
+												<Data name='nq'>
+								<value>18390</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7822</value>
+							</Data>
+												<Data name='pc'>
+								<value>7822</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Meslin-l&apos;Evêque</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Pont del Vau, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Pont del Vau, 1 ATH Hainaut 7822</address>
+				<Point>
+					<coordinates>3.8440778,50.650118,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1366</value>
+							</Data>
+												<Data name='nq'>
+								<value>25211</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7804</value>
+							</Data>
+												<Data name='pc'>
+								<value>7804</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rebaix</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Robier, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Robier, 29 ATH Hainaut 7804</address>
+				<Point>
+					<coordinates>3.789996,50.6650612,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1706</value>
+							</Data>
+												<Data name='nq'>
+								<value>28387</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7804</value>
+							</Data>
+												<Data name='pc'>
+								<value>7804</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rebaix</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Croisette, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Croisette, 12 ATH Hainaut 7804</address>
+				<Point>
+					<coordinates>3.789199,50.6625513,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1176</value>
+							</Data>
+												<Data name='nq'>
+								<value>22648</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7812</value>
+							</Data>
+												<Data name='pc'>
+								<value>7812</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Villers-Saint-Amand</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route de Frasnes, 152</value>
+							</Data>
+									</ExtendedData>
+								<address>Route de Frasnes, 152 ATH Hainaut 7812</address>
+				<Point>
+					<coordinates>3.7249057,50.6456732,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1340</value>
+							</Data>
+												<Data name='nq'>
+								<value>22905</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7812</value>
+							</Data>
+												<Data name='pc'>
+								<value>7812</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Villers-Saint-Amand</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ATH</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Foucaumont, 58</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Foucaumont, 58 ATH Hainaut 7812</address>
+				<Point>
+					<coordinates>3.712641,50.6318981,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>896</value>
+							</Data>
+												<Data name='nq'>
+								<value>4267</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7972</value>
+							</Data>
+												<Data name='pc'>
+								<value>7972</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aubechies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BELOEIL</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Ellignies, 70</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Ellignies, 70 BELOEIL Hainaut 7972</address>
+				<Point>
+					<coordinates>3.6804239,50.56999,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2359</value>
+							</Data>
+												<Data name='nq'>
+								<value>21786</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7972</value>
+							</Data>
+												<Data name='pc'>
+								<value>7972</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellignies-Sainte-Anne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BELOEIL</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée Brunehaut, 344</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée Brunehaut, 344 BELOEIL Hainaut 7972</address>
+				<Point>
+					<coordinates>3.6907646,50.5507828,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2639</value>
+							</Data>
+												<Data name='nq'>
+								<value>22523</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7971</value>
+							</Data>
+												<Data name='pc'>
+								<value>7971</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thumaide</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BELOEIL</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Place de Thumaide, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Place de Thumaide, 16 BELOEIL Hainaut 7971</address>
+				<Point>
+					<coordinates>3.6289035,50.5426562,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>415</value>
+							</Data>
+												<Data name='nq'>
+								<value>805</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaton</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Quartier Borremans et Michelet , 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Quartier Borremans et Michelet , 5 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6781438,50.4894329,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1405</value>
+							</Data>
+												<Data name='nq'>
+								<value>21556</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaton</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Ellezelles, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Ellezelles, 23 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6572992,50.5005892,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2543</value>
+							</Data>
+												<Data name='nq'>
+								<value>10524</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaton</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Emile Carlier, 191</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Emile Carlier, 191 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6824523,50.4896536,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2851</value>
+							</Data>
+												<Data name='nq'>
+								<value>24063</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Blaton</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Emile Carlier, 173</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Emile Carlier, 173 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6800874,50.4923495,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>423</value>
+							</Data>
+												<Data name='nq'>
+								<value>9941</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Harchies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée Brunehault, 60</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée Brunehault, 60 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6973791,50.4762086,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1171</value>
+							</Data>
+												<Data name='nq'>
+								<value>29984</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7321</value>
+							</Data>
+												<Data name='pc'>
+								<value>7321</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Harchies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Cité Jardin, 42</value>
+							</Data>
+									</ExtendedData>
+								<address>Cité Jardin, 42 BERNISSART Hainaut 7321</address>
+				<Point>
+					<coordinates>3.6965997,50.4707802,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1090</value>
+							</Data>
+												<Data name='nq'>
+								<value>7053</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7322</value>
+							</Data>
+												<Data name='pc'>
+								<value>7322</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ville-Pommeroeul</value>
+							</Data>
+												<Data name='municipality'>
+								<value>BERNISSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Mouligneaux, 2 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Mouligneaux, 2 B BERNISSART Hainaut 7322</address>
+				<Point>
+					<coordinates>3.7315673,50.4692178,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>57</value>
+							</Data>
+												<Data name='nq'>
+								<value>9368</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Chièvres</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand&apos;Rue, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand&apos;Rue, 9 CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.8113705,50.5864951,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2792</value>
+							</Data>
+												<Data name='nq'>
+								<value>16427</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Chièvres</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Quièvremont, 84 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Quièvremont, 84 B CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7944155,50.5486771,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2391</value>
+							</Data>
+												<Data name='nq'>
+								<value>466</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grosage</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Christophe, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Christophe, 7 CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7557038,50.546761,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>114</value>
+							</Data>
+												<Data name='nq'>
+								<value>7431</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Huissignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Quemogne, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Quemogne, 14 CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7508679,50.5608319,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2244</value>
+							</Data>
+												<Data name='nq'>
+								<value>26023</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Huissignies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Pluvinage, 55</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Pluvinage, 55 CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7405495,50.5627768,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1243</value>
+							</Data>
+												<Data name='nq'>
+								<value>20136</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ladeuze</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grande Drève, 18 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Grande Drève, 18 B CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7758357,50.5683741,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2098</value>
+							</Data>
+												<Data name='nq'>
+								<value>24739</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7950</value>
+							</Data>
+												<Data name='pc'>
+								<value>7950</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ladeuze</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Warpotte, 47 E</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Warpotte, 47 E CHIEVRES Hainaut 7950</address>
+				<Point>
+					<coordinates>3.7586256,50.5570891,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>232</value>
+							</Data>
+												<Data name='nq'>
+								<value>13001</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7951</value>
+							</Data>
+												<Data name='pc'>
+								<value>7951</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tongre-Notre-Dame</value>
+							</Data>
+												<Data name='municipality'>
+								<value>CHIEVRES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Jardin, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Jardin, 12 CHIEVRES Hainaut 7951</address>
+				<Point>
+					<coordinates>3.7761245,50.5953573,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>887</value>
+							</Data>
+												<Data name='nq'>
+								<value>2586</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Arbre St Pierre, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Arbre St Pierre, 45 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6840885,50.7179941,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1034</value>
+							</Data>
+												<Data name='nq'>
+								<value>4212</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Gauquier, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Gauquier, 5 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6677824,50.7136189,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1259</value>
+							</Data>
+												<Data name='nq'>
+								<value>24896</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Mortier, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Mortier, 31 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6754575,50.73044,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1912</value>
+							</Data>
+												<Data name='nq'>
+								<value>16149</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Gauquier, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Gauquier, 12 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6648403,50.7110466,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2589</value>
+							</Data>
+												<Data name='nq'>
+								<value>2383</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Crimont, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Crimont, 34 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6513941,50.7346011,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2739</value>
+							</Data>
+												<Data name='nq'>
+								<value>23111</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Renaix, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Renaix, 26 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6768479,50.7335569,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>222</value>
+							</Data>
+												<Data name='nq'>
+								<value>10108</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lahamaide</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Frimbuis, 4 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Frimbuis, 4 A ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.7021137,50.7034133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1837</value>
+							</Data>
+												<Data name='nq'>
+								<value>28007</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>7890</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Wodecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ELLEZELLES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Lanterne, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Lanterne, 4 ELLEZELLES Hainaut 7890</address>
+				<Point>
+					<coordinates>3.6983505,50.7241102,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1720</value>
+							</Data>
+												<Data name='nq'>
+								<value>25752</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7880</value>
+							</Data>
+												<Data name='pc'>
+								<value>7880</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vloesberg</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FLOBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Ath</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Ath/Mouscron/Tournai</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Hainaut</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Commune, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Commune, 6 FLOBECQ Hainaut 7880</address>
+				<Point>
+					<coordinates>3.761555,50.7579464,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

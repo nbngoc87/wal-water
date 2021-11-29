@@ -1,0 +1,1771 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_BrabantWallon_Genap_Jodoig</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>489</value>
+							</Data>
+												<Data name='nq'>
+								<value>11398</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BAISY-THY</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Falise, 9          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Falise, 9 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.4904515,50.6002798,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1237</value>
+							</Data>
+												<Data name='nq'>
+								<value>23232</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BAISY-THY</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Croix Hustin, 20          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Croix Hustin, 20 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.4561334,50.602141,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>182</value>
+							</Data>
+												<Data name='nq'>
+								<value>12570</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BOUSVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Drève Nantaise, 16          </value>
+							</Data>
+									</ExtendedData>
+								<address>Drève Nantaise, 16 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.5365574,50.6410923,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>655</value>
+							</Data>
+												<Data name='nq'>
+								<value>12128</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BOUSVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Grand Arbre, 19          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Grand Arbre, 19 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.5134414,50.612269,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2317</value>
+							</Data>
+												<Data name='nq'>
+								<value>16290</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BOUSVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Château, 30          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Château, 30 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.5078163,50.6126562,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2709</value>
+							</Data>
+												<Data name='nq'>
+								<value>14389</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BOUSVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Château, 14 A        </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Château, 14 A GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.5055822,50.6125063,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>524</value>
+							</Data>
+												<Data name='nq'>
+								<value>3563</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Berger, 24          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Berger, 24 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.4489028,50.6105267,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>668</value>
+							</Data>
+												<Data name='nq'>
+								<value>5494</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Bruxelles, 4          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Bruxelles, 4 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.4508316,50.6112295,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1431</value>
+							</Data>
+												<Data name='nq'>
+								<value>28991</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1470</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Nicolas Lebrun, 20          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Nicolas Lebrun, 20 GENAPPE Brabant Wallon 1470</address>
+				<Point>
+					<coordinates>4.4466683,50.6078518,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2039</value>
+							</Data>
+												<Data name='nq'>
+								<value>19439</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1473</value>
+							</Data>
+												<Data name='pc'>
+								<value>1473</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GLABAIS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de la Bruyère, 27          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de la Bruyère, 27 GENAPPE Brabant Wallon 1473</address>
+				<Point>
+					<coordinates>4.4648611,50.6306117,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1003</value>
+							</Data>
+												<Data name='nq'>
+								<value>4062</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1471</value>
+							</Data>
+												<Data name='pc'>
+								<value>1471</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LOUPOIGNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Fontaine l&apos;Evêque, 22          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Fontaine l&apos;Evêque, 22 GENAPPE Brabant Wallon 1471</address>
+				<Point>
+					<coordinates>4.43954,50.5919992,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1879</value>
+							</Data>
+												<Data name='nq'>
+								<value>21619</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1471</value>
+							</Data>
+												<Data name='pc'>
+								<value>1471</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LOUPOIGNE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Place du Chenoy, 21          </value>
+							</Data>
+									</ExtendedData>
+								<address>Place du Chenoy, 21 GENAPPE Brabant Wallon 1471</address>
+				<Point>
+					<coordinates>4.4401653,50.5909898,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1654</value>
+							</Data>
+												<Data name='nq'>
+								<value>20399</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1472</value>
+							</Data>
+												<Data name='pc'>
+								<value>1470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VIEUX-GENAPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Nivelles, 195          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Nivelles, 195 GENAPPE Brabant Wallon 1472</address>
+				<Point>
+					<coordinates>4.4243172,50.6054061,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2576</value>
+							</Data>
+												<Data name='nq'>
+								<value>9341</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1472</value>
+							</Data>
+												<Data name='pc'>
+								<value>1472</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VIEUX-GENAPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GENAPPE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de la Cense Brûlée, 63          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de la Cense Brûlée, 63 GENAPPE Brabant Wallon 1472</address>
+				<Point>
+					<coordinates>4.4083283,50.6116936,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2355</value>
+							</Data>
+												<Data name='nq'>
+								<value>25442</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bossut-Gottechain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Philippe Collette, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Philippe Collette, 25 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6983765,50.7591851,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>430</value>
+							</Data>
+												<Data name='nq'>
+								<value>4165</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grez-Doiceau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Les Gottes, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Les Gottes, 25 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6770348,50.7161976,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1075</value>
+							</Data>
+												<Data name='nq'>
+								<value>13721</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grez-Doiceau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Wavre, 337</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Wavre, 337 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6571207,50.7366159,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2673</value>
+							</Data>
+												<Data name='nq'>
+								<value>6639</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grez-Doiceau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Allée Ferme du Bercuit, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Allée Ferme du Bercuit, 13 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6822369,50.7322358,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2723</value>
+							</Data>
+												<Data name='nq'>
+								<value>18820</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grez-Doiceau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Comte Gérard d&apos;Ursel, 84</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Comte Gérard d&apos;Ursel, 84 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6622015,50.7237374,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1518</value>
+							</Data>
+												<Data name='nq'>
+								<value>22986</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nethen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Hamme-Mille, 133</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Hamme-Mille, 133 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6861539,50.7826485,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2183</value>
+							</Data>
+												<Data name='nq'>
+								<value>23778</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nethen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Hamme-Mille, 72</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Hamme-Mille, 72 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6807918,50.7843522,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2625</value>
+							</Data>
+												<Data name='nq'>
+								<value>28015</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1390</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nethen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GREZ-DOICEAU</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Cortaie, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Cortaie, 9 GREZ-DOICEAU Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6795545,50.780917,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2488</value>
+							</Data>
+												<Data name='nq'>
+								<value>11825</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1357</value>
+							</Data>
+												<Data name='pc'>
+								<value>1357</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neerheylissem</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HELECINE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Job, 50</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Job, 50 HELECINE Brabant Wallon 1357</address>
+				<Point>
+					<coordinates>4.992761,50.7659404,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>893</value>
+							</Data>
+												<Data name='nq'>
+								<value>969</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1315</value>
+							</Data>
+												<Data name='pc'>
+								<value>1315</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Glimes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>INCOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Huppaye, 74</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Huppaye, 74 INCOURT Brabant Wallon 1315</address>
+				<Point>
+					<coordinates>4.8456333,50.6776697,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1339</value>
+							</Data>
+												<Data name='nq'>
+								<value>24291</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1315</value>
+							</Data>
+												<Data name='pc'>
+								<value>1315</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Incourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>INCOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Pachy, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Pachy, 7 INCOURT Brabant Wallon 1315</address>
+				<Point>
+					<coordinates>4.7984719,50.6891718,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1383</value>
+							</Data>
+												<Data name='nq'>
+								<value>27735</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1315</value>
+							</Data>
+												<Data name='pc'>
+								<value>1315</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Incourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>INCOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Dongelberg, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Dongelberg, 25 INCOURT Brabant Wallon 1315</address>
+				<Point>
+					<coordinates>4.8139739,50.6953986,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1306</value>
+							</Data>
+												<Data name='nq'>
+								<value>29493</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1315</value>
+							</Data>
+												<Data name='pc'>
+								<value>1315</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Piètrebais</value>
+							</Data>
+												<Data name='municipality'>
+								<value>INCOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Procession, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Procession, 4 INCOURT Brabant Wallon 1315</address>
+				<Point>
+					<coordinates>4.743586,50.7318506,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>944</value>
+							</Data>
+												<Data name='nq'>
+								<value>5971</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1315</value>
+							</Data>
+												<Data name='pc'>
+								<value>1315</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Roux-Miroir</value>
+							</Data>
+												<Data name='municipality'>
+								<value>INCOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Patruange, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Patruange, 17 INCOURT Brabant Wallon 1315</address>
+				<Point>
+					<coordinates>4.7864467,50.7070398,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>498</value>
+							</Data>
+												<Data name='nq'>
+								<value>1284</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ittre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Centenaire, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Centenaire, 2 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2667529,50.6492523,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2450</value>
+							</Data>
+												<Data name='nq'>
+								<value>13695</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ittre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Rabots, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Rabots, 25 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2410316,50.6353159,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2579</value>
+							</Data>
+												<Data name='nq'>
+								<value>3553</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ittre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Sart, 15 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Sart, 15 A ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.239644,50.6591672,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2772</value>
+							</Data>
+												<Data name='nq'>
+								<value>19230</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ittre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Clabecq, 36</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Clabecq, 36 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2361105,50.6639746,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>666</value>
+							</Data>
+												<Data name='nq'>
+								<value>12259</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Virginal-Samme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Charles Catala, 74</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Charles Catala, 74 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2271788,50.6436867,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1127</value>
+							</Data>
+												<Data name='nq'>
+								<value>25152</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Virginal-Samme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Roeulx, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Roeulx, 17 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2041708,50.6468939,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2070</value>
+							</Data>
+												<Data name='nq'>
+								<value>22472</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1460</value>
+							</Data>
+												<Data name='pc'>
+								<value>1460</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Virginal-Samme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>ITTRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Centre, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Centre, 2 ITTRE Brabant Wallon 1460</address>
+				<Point>
+					<coordinates>4.2112407,50.6416445,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1628</value>
+							</Data>
+												<Data name='nq'>
+								<value>28134</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jauchelette</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Haute, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Haute, 11 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8471975,50.6869315,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1288</value>
+							</Data>
+												<Data name='nq'>
+								<value>15086</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jodoigne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Gotteaux, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Gotteaux, 3 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8707238,50.722198,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1639</value>
+							</Data>
+												<Data name='nq'>
+								<value>19093</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jodoigne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Tirlemont, 84</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Tirlemont, 84 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8754222,50.7276769,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1612</value>
+							</Data>
+												<Data name='nq'>
+								<value>23095</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lathuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Village, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Village, 19 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8254274,50.7250547,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1838</value>
+							</Data>
+												<Data name='nq'>
+								<value>15875</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lathuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Banqueau, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Banqueau, 1 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8247707,50.7317482,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2570</value>
+							</Data>
+												<Data name='nq'>
+								<value>8538</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1360</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malèves-Sainte-Marie-Wastines</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos; Enfer, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos; Enfer, 5 JODOIGNE Brabant Wallon 1360</address>
+				<Point>
+					<coordinates>4.8393169,50.6804454,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1385</value>
+							</Data>
+												<Data name='nq'>
+								<value>29380</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1370</value>
+							</Data>
+												<Data name='pc'>
+								<value>1370</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mélin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JODOIGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Maison du Bois, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Maison du Bois, 29 JODOIGNE Brabant Wallon 1370</address>
+				<Point>
+					<coordinates>4.8251268,50.7431195,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

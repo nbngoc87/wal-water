@@ -1,0 +1,1519 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Luxembourg_SOde_Rende</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>674</value>
+							</Data>
+												<Data name='nq'>
+								<value>5621</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6680</value>
+							</Data>
+												<Data name='pc'>
+								<value>6680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Amberloup</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINTE-ODE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Sprimont, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Sprimont, 7 SAINTE-ODE Luxembourg 6680</address>
+				<Point>
+					<coordinates>5.5490583,50.0388326,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>401</value>
+							</Data>
+												<Data name='nq'>
+								<value>11692</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6640</value>
+							</Data>
+												<Data name='pc'>
+								<value>6640</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vaux-sur-Sûre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VAUX-SUR-SURE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Neufchateau, 82</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Neufchateau, 82 VAUX-SUR-SURE Luxembourg 6640</address>
+				<Point>
+					<coordinates>5.5553198,49.9078362,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2827</value>
+							</Data>
+												<Data name='nq'>
+								<value>21073</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bihain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ottre, 73 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Ottre, 73 A VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.842743,50.2491539,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1198</value>
+							</Data>
+												<Data name='nq'>
+								<value>24481</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6698</value>
+							</Data>
+												<Data name='pc'>
+								<value>6698</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grand-Halleux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Hourt, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Hourt, 18 VIELSALM Luxembourg 6698</address>
+				<Point>
+					<coordinates>5.9114719,50.3133155,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>562</value>
+							</Data>
+												<Data name='nq'>
+								<value>6352</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6692</value>
+							</Data>
+												<Data name='pc'>
+								<value>6692</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Petit-Thier</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Grand Halleux, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Grand Halleux, 29 VIELSALM Luxembourg 6692</address>
+				<Point>
+					<coordinates>5.95971,50.30811,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2794</value>
+							</Data>
+												<Data name='nq'>
+								<value>28799</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6692</value>
+							</Data>
+												<Data name='pc'>
+								<value>6692</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Petit-Thier</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Blanchefontaine, 120</value>
+							</Data>
+									</ExtendedData>
+								<address>Blanchefontaine, 120 VIELSALM Luxembourg 6692</address>
+				<Point>
+					<coordinates>5.9803544,50.3067542,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>436</value>
+							</Data>
+												<Data name='nq'>
+								<value>10730</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vielsalm</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ville-du-Bois, 22</value>
+							</Data>
+									</ExtendedData>
+								<address>Ville-du-Bois, 22 VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.9366319,50.2909398,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>520</value>
+							</Data>
+												<Data name='nq'>
+								<value>7269</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vielsalm</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Neuville, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Neuville, 26 VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.9308643,50.2798451,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>653</value>
+							</Data>
+												<Data name='nq'>
+								<value>10321</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vielsalm</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Cite de l&apos;Aumonier, 29</value>
+							</Data>
+									</ExtendedData>
+								<address>Cite de l&apos;Aumonier, 29 VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.9040806,50.2898995,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2256</value>
+							</Data>
+												<Data name='nq'>
+								<value>26059</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vielsalm</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Beche, 52</value>
+							</Data>
+									</ExtendedData>
+								<address>Beche, 52 VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.9202026,50.2641598,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2834</value>
+							</Data>
+												<Data name='nq'>
+								<value>23779</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6690</value>
+							</Data>
+												<Data name='pc'>
+								<value>6690</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vielsalm</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VIELSALM</value>
+							</Data>
+												<Data name='arr'>
+								<value>Bastogne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ville-du-Bois, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Ville-du-Bois, 33 VIELSALM Luxembourg 6690</address>
+				<Point>
+					<coordinates>5.9366856,50.2908892,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2350</value>
+							</Data>
+												<Data name='nq'>
+								<value>28620</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6941</value>
+							</Data>
+												<Data name='pc'>
+								<value>6941</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bomal-sur-Ourthe</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Ardennes, 200</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Ardennes, 200 DURBUY Luxembourg 6941</address>
+				<Point>
+					<coordinates>5.5359345,50.3685283,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>187</value>
+							</Data>
+												<Data name='nq'>
+								<value>14716</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Foret , 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Foret , 31 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4348137,50.3661866,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>367</value>
+							</Data>
+												<Data name='nq'>
+								<value>1268</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Vieux Chemin de Petithan, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Vieux Chemin de Petithan, 33 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4850802,50.3482515,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>640</value>
+							</Data>
+												<Data name='nq'>
+								<value>11411</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Fisenne, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Fisenne, 1 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.5177219,50.3127728,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>883</value>
+							</Data>
+												<Data name='nq'>
+								<value>12988</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Wenin , 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Wenin , 34 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.5184036,50.315741,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>931</value>
+							</Data>
+												<Data name='nq'>
+								<value>2971</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chainrue, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Chainrue, 45 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4920224,50.347803,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2109</value>
+							</Data>
+												<Data name='nq'>
+								<value>17716</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6941</value>
+							</Data>
+												<Data name='pc'>
+								<value>6941</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Warre, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Warre, 40 DURBUY Luxembourg 6941</address>
+				<Point>
+					<coordinates>5.4651917,50.3634105,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2478</value>
+							</Data>
+												<Data name='nq'>
+								<value>13244</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Somme , 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Somme , 1 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4298,50.34168,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2495</value>
+							</Data>
+												<Data name='nq'>
+								<value>6485</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Merou , 49</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Merou , 49 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4329283,50.3624262,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2595</value>
+							</Data>
+												<Data name='nq'>
+								<value>5802</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin des Hulottes, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin des Hulottes, 6 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4935114,50.3255677,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2636</value>
+							</Data>
+												<Data name='nq'>
+								<value>1814</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6940</value>
+							</Data>
+												<Data name='pc'>
+								<value>6940</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Durbuy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Plateau du Soleil , 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Plateau du Soleil , 31 DURBUY Luxembourg 6940</address>
+				<Point>
+					<coordinates>5.4100512,50.3531257,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>403</value>
+							</Data>
+												<Data name='nq'>
+								<value>1534</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6941</value>
+							</Data>
+												<Data name='pc'>
+								<value>6941</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Heyd</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rowe de Bati, 57</value>
+							</Data>
+									</ExtendedData>
+								<address>Rowe de Bati, 57 DURBUY Luxembourg 6941</address>
+				<Point>
+					<coordinates>5.5634124,50.3454856,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>86</value>
+							</Data>
+												<Data name='nq'>
+								<value>5540</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6941</value>
+							</Data>
+												<Data name='pc'>
+								<value>6941</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tohogne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>DURBUY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Fontaine, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Fontaine, 7 DURBUY Luxembourg 6941</address>
+				<Point>
+					<coordinates>5.4964063,50.3942787,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2413</value>
+							</Data>
+												<Data name='nq'>
+								<value>21328</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6980</value>
+							</Data>
+												<Data name='pc'>
+								<value>6980</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Beausaint</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA ROCHE-EN-ARDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Mierchamps, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Mierchamps, 14 LA ROCHE-EN-ARDENNE Luxembourg 6980</address>
+				<Point>
+					<coordinates>5.5414466,50.1348385,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>387</value>
+							</Data>
+												<Data name='nq'>
+								<value>7220</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6983</value>
+							</Data>
+												<Data name='pc'>
+								<value>6983</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ortho</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA ROCHE-EN-ARDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Warempage, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Warempage, 7 LA ROCHE-EN-ARDENNE Luxembourg 6983</address>
+				<Point>
+					<coordinates>5.6365228,50.1223666,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1387</value>
+							</Data>
+												<Data name='nq'>
+								<value>27434</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6983</value>
+							</Data>
+												<Data name='pc'>
+								<value>6983</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ortho</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA ROCHE-EN-ARDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ortho, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Ortho, 7 LA ROCHE-EN-ARDENNE Luxembourg 6983</address>
+				<Point>
+					<coordinates>5.6148056,50.1251254,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1937</value>
+							</Data>
+												<Data name='nq'>
+								<value>19773</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6983</value>
+							</Data>
+												<Data name='pc'>
+								<value>6983</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ortho</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA ROCHE-EN-ARDENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ferme-au-Pont, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Ferme-au-Pont, 1 LA ROCHE-EN-ARDENNE Luxembourg 6983</address>
+				<Point>
+					<coordinates>5.6451394,50.1057866,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1313</value>
+							</Data>
+												<Data name='nq'>
+								<value>29005</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Aye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Vivier, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Vivier, 3 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.3282686,50.2291508,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>201</value>
+							</Data>
+												<Data name='nq'>
+								<value>8920</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Foret, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Foret, 13 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.3765722,50.2183159,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2324</value>
+							</Data>
+												<Data name='nq'>
+								<value>17282</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Fauvettes, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Fauvettes, 38 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.3795296,50.2344928,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>266</value>
+							</Data>
+												<Data name='nq'>
+								<value>172</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>On</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Allee des Moineaux, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Allee des Moineaux, 16 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.2874156,50.1685133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1732</value>
+							</Data>
+												<Data name='nq'>
+								<value>27552</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waha</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Champs, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Champs, 8 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.3352516,50.2123314,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2184</value>
+							</Data>
+												<Data name='nq'>
+								<value>18601</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6900</value>
+							</Data>
+												<Data name='pc'>
+								<value>6900</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waha</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MARCHE-EN-FAMENNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Aux Quatre Vents, 75</value>
+							</Data>
+									</ExtendedData>
+								<address>Aux Quatre Vents, 75 MARCHE-EN-FAMENNE Luxembourg 6900</address>
+				<Point>
+					<coordinates>5.346502,50.2051614,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>321</value>
+							</Data>
+												<Data name='nq'>
+								<value>3948</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6987</value>
+							</Data>
+												<Data name='pc'>
+								<value>6987</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rendeux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RENDEUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bois-du-Ry, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Bois-du-Ry, 7 RENDEUX Luxembourg 6987</address>
+				<Point>
+					<coordinates>5.5388195,50.1946002,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>914</value>
+							</Data>
+												<Data name='nq'>
+								<value>13589</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>6987</value>
+							</Data>
+												<Data name='pc'>
+								<value>6987</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rendeux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RENDEUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Marche-en-Famenne</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Province du Luxembourg</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Luxembourg</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Douaire, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Douaire, 3 RENDEUX Luxembourg 6987</address>
+				<Point>
+					<coordinates>5.5360579,50.213314,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

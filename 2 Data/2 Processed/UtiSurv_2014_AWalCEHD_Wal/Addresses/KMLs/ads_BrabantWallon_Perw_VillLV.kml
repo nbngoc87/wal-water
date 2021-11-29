@@ -1,0 +1,2485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_BrabantWallon_Perw_VillLV</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1425</value>
+							</Data>
+												<Data name='nq'>
+								<value>17765</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1360</value>
+							</Data>
+												<Data name='pc'>
+								<value>1360</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Orbais</value>
+							</Data>
+												<Data name='municipality'>
+								<value>PERWEZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Tasnière, 5 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Tasnière, 5 A PERWEZ Brabant Wallon 1360</address>
+				<Point>
+					<coordinates>4.7642679,50.6405412,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2857</value>
+							</Data>
+												<Data name='nq'>
+								<value>26432</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1360</value>
+							</Data>
+												<Data name='pc'>
+								<value>1360</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Thorembais-Saint-Trond</value>
+							</Data>
+												<Data name='municipality'>
+								<value>PERWEZ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Ponceau, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Ponceau, 21 PERWEZ Brabant Wallon 1360</address>
+				<Point>
+					<coordinates>4.7830287,50.6275458,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>657</value>
+							</Data>
+												<Data name='nq'>
+								<value>860</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gérompont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Déportés, 57</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Déportés, 57 RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.8801766,50.6480952,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1132</value>
+							</Data>
+												<Data name='nq'>
+								<value>16204</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gérompont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Déportés, 89 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Déportés, 89 B RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.8937692,50.654375,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2071</value>
+							</Data>
+												<Data name='nq'>
+								<value>17367</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gérompont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Déportés, 78</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Déportés, 78 RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.8816931,50.6484774,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1690</value>
+							</Data>
+												<Data name='nq'>
+								<value>29559</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grand-Rosière-Hottomont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Albroux, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Albroux, 35 RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.871087,50.6268625,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1729</value>
+							</Data>
+												<Data name='nq'>
+								<value>21622</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Huppaye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Jodoigne, 22 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Jodoigne, 22 A RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.8971922,50.696912,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1842</value>
+							</Data>
+												<Data name='nq'>
+								<value>17759</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ramillies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Village, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Village, 19 RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.9147435,50.6363718,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1897</value>
+							</Data>
+												<Data name='nq'>
+								<value>19806</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1367</value>
+							</Data>
+												<Data name='pc'>
+								<value>1367</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ramillies</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RAMILLIES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue René Sacré, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue René Sacré, 12 RAMILLIES Brabant Wallon 1367</address>
+				<Point>
+					<coordinates>4.9158157,50.6382745,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>614</value>
+							</Data>
+												<Data name='nq'>
+								<value>10054</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bierghes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Drève du Bois des Moines, 1 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Drève du Bois des Moines, 1 A REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.108714,50.7121309,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>575</value>
+							</Data>
+												<Data name='nq'>
+								<value>13477</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Quenast</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Chenois, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Chenois, 15 REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.159885,50.6739701,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1234</value>
+							</Data>
+												<Data name='nq'>
+								<value>22185</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Quenast</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Mons, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Mons, 24 REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.1636722,50.6546133,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2235</value>
+							</Data>
+												<Data name='nq'>
+								<value>24581</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rebecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin Ardoisière, 41</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin Ardoisière, 41 REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.1173546,50.6701357,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2637</value>
+							</Data>
+												<Data name='nq'>
+								<value>25284</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rebecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Cendres, 53</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Cendres, 53 REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.1193325,50.671152,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2868</value>
+							</Data>
+												<Data name='nq'>
+								<value>25453</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1430</value>
+							</Data>
+												<Data name='pc'>
+								<value>1430</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rebecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REBECQ</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Chapelle, 36</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Chapelle, 36 REBECQ Brabant Wallon 1430</address>
+				<Point>
+					<coordinates>4.1322386,50.6674427,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>493</value>
+							</Data>
+												<Data name='nq'>
+								<value>2356</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>7890</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ellezelles</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Grand Monchaut, 37</value>
+							</Data>
+									</ExtendedData>
+								<address>Grand Monchaut, 37 RIXENSART Brabant Wallon 7890</address>
+				<Point>
+					<coordinates>3.6785164,50.7047194,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>412</value>
+							</Data>
+												<Data name='nq'>
+								<value>611</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Champ l&apos;Abbé, 40          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Champ l&apos;Abbé, 40 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.5068366,50.725488,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>941</value>
+							</Data>
+												<Data name='nq'>
+								<value>9605</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Combattants, 1          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Combattants, 1 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.5000943,50.7164491,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1015</value>
+							</Data>
+												<Data name='nq'>
+								<value>11992</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Volontaires, 37          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Volontaires, 37 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.495238,50.718951,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1016</value>
+							</Data>
+												<Data name='nq'>
+								<value>12141</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Faisanderie, 10          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Faisanderie, 10 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.5002688,50.7295507,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1324</value>
+							</Data>
+												<Data name='nq'>
+								<value>16439</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Hector Steyaert, 4          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Hector Steyaert, 4 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.492442,50.7252396,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1509</value>
+							</Data>
+												<Data name='nq'>
+								<value>23681</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue d&apos;Elsenborn,  1A                </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue d&apos;Elsenborn,  1A RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.4930742,50.7131195,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2305</value>
+							</Data>
+												<Data name='nq'>
+								<value>20149</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1332</value>
+							</Data>
+												<Data name='pc'>
+								<value>1332</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>GENVAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du Centre, 2          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du Centre, 2 RIXENSART Brabant Wallon 1332</address>
+				<Point>
+					<coordinates>4.4941849,50.7163224,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>166</value>
+							</Data>
+												<Data name='nq'>
+								<value>8317</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Aubépines, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Aubépines, 12 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.54386,50.7048081,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>438</value>
+							</Data>
+												<Data name='nq'>
+								<value>14508</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du Touquet, 12</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du Touquet, 12 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5322938,50.7056612,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>567</value>
+							</Data>
+												<Data name='nq'>
+								<value>6788</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Acacias, 21 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Acacias, 21 B RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5223108,50.7090519,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>589</value>
+							</Data>
+												<Data name='nq'>
+								<value>10683</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Moulin, 35 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Moulin, 35 B RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5085284,50.7135429,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>659</value>
+							</Data>
+												<Data name='nq'>
+								<value>8775</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Lasne, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Lasne, 28 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5084102,50.7065487,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>743</value>
+							</Data>
+												<Data name='nq'>
+								<value>8634</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Thérèse, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Thérèse, 45 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5237638,50.7003857,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>822</value>
+							</Data>
+												<Data name='nq'>
+								<value>1023</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de l&apos;Europe, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de l&apos;Europe, 28 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5329818,50.7030567,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1472</value>
+							</Data>
+												<Data name='nq'>
+								<value>26665</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de Winterberg, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de Winterberg, 4 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5339355,50.7054483,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1812</value>
+							</Data>
+												<Data name='nq'>
+								<value>19560</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Ferme, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Ferme, 4 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5349793,50.7083193,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2323</value>
+							</Data>
+												<Data name='nq'>
+								<value>20103</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1330</value>
+							</Data>
+												<Data name='pc'>
+								<value>1330</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rixensart</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Meunier, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Meunier, 1 RIXENSART Brabant Wallon 1330</address>
+				<Point>
+					<coordinates>4.5360788,50.7054148,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1454</value>
+							</Data>
+												<Data name='nq'>
+								<value>17638</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1331</value>
+							</Data>
+												<Data name='pc'>
+								<value>1331</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rosières</value>
+							</Data>
+												<Data name='municipality'>
+								<value>RIXENSART</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Van Beethoven, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Van Beethoven, 20 RIXENSART Brabant Wallon 1331</address>
+				<Point>
+					<coordinates>4.5502148,50.7356675,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>252</value>
+							</Data>
+												<Data name='nq'>
+								<value>13256</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Clabecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants, 24 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2349267,50.6803546,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>963</value>
+							</Data>
+												<Data name='nq'>
+								<value>13253</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Clabecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route Provinciale, 40 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Route Provinciale, 40 B TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2276245,50.6829421,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1163</value>
+							</Data>
+												<Data name='nq'>
+								<value>19717</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Clabecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Platanes, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Platanes, 40 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2305872,50.6885509,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1772</value>
+							</Data>
+												<Data name='nq'>
+								<value>23769</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Clabecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Jean, 108</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Jean, 108 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2301171,50.6906768,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2362</value>
+							</Data>
+												<Data name='nq'>
+								<value>5634</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Clabecq</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Jules Bary, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Jules Bary, 1 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2328181,50.6896748,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>801</value>
+							</Data>
+												<Data name='nq'>
+								<value>5160</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saintes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée d&apos;Enghien, 313</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée d&apos;Enghien, 313 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.15504,50.7052006,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1048</value>
+							</Data>
+												<Data name='nq'>
+								<value>10915</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saintes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée d&apos;Enghien, 144</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée d&apos;Enghien, 144 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.1669171,50.7091666,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2132</value>
+							</Data>
+												<Data name='nq'>
+								<value>29304</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saintes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Try-Bas, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Try-Bas, 18 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.1669745,50.6918416,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>633</value>
+							</Data>
+												<Data name='nq'>
+								<value>7608</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Champ de la Haie, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Champ de la Haie, 16 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2170251,50.6643799,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>786</value>
+							</Data>
+												<Data name='nq'>
+								<value>2606</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Brison, 128</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Brison, 128 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2054021,50.6744258,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1574</value>
+							</Data>
+												<Data name='nq'>
+								<value>16155</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Six Censes, 53</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Six Censes, 53 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.1859493,50.6751089,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1668</value>
+							</Data>
+												<Data name='nq'>
+								<value>29431</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Ponts, 115</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Ponts, 115 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.202075,50.6867926,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2301</value>
+							</Data>
+												<Data name='nq'>
+								<value>18417</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Mons, 177</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Mons, 177 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.1996755,50.6882207,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2466</value>
+							</Data>
+												<Data name='nq'>
+								<value>133</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Reine Elisabeth, 81</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Reine Elisabeth, 81 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.2105424,50.6880571,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2492</value>
+							</Data>
+												<Data name='nq'>
+								<value>2445</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Soie, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Soie, 9 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.205338,50.694534,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2732</value>
+							</Data>
+												<Data name='nq'>
+								<value>23617</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Balland, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Balland, 18 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.211483,50.6828628,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2832</value>
+							</Data>
+												<Data name='nq'>
+								<value>29689</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1480</value>
+							</Data>
+												<Data name='pc'>
+								<value>1480</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Tubize</value>
+							</Data>
+												<Data name='municipality'>
+								<value>TUBIZE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Plaine, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Plaine, 23 TUBIZE Brabant Wallon 1480</address>
+				<Point>
+					<coordinates>4.1873552,50.6955878,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1403</value>
+							</Data>
+												<Data name='nq'>
+								<value>15252</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MARBAIS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Priesmont, 148          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Priesmont, 148 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5436628,50.5507622,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2133</value>
+							</Data>
+												<Data name='nq'>
+								<value>28318</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MARBAIS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Parc Prés Saint Pierre, 17          </value>
+							</Data>
+									</ExtendedData>
+								<address>Parc Prés Saint Pierre, 17 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5375805,50.5460567,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1310</value>
+							</Data>
+												<Data name='nq'>
+								<value>19848</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SART-DAMES-AVELINES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Escavée, 1          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Escavée, 1 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5017331,50.5674318,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2341</value>
+							</Data>
+												<Data name='nq'>
+								<value>9753</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SART-DAMES-AVELINES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Thyle, 34          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Thyle, 34 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.4975895,50.5599231,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2572</value>
+							</Data>
+												<Data name='nq'>
+								<value>9741</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SART-DAMES-AVELINES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Houlette, 35          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Houlette, 35 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5038543,50.5778617,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>504</value>
+							</Data>
+												<Data name='nq'>
+								<value>6949</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>TILLY</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bosquet, 66          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bosquet, 66 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.555274,50.5560165,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1093</value>
+							</Data>
+												<Data name='nq'>
+								<value>22982</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>TILLY</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Hêtres, 19 C2       </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Hêtres, 19 C2 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5429279,50.571852,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2630</value>
+							</Data>
+												<Data name='nq'>
+								<value>22055</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1495</value>
+							</Data>
+												<Data name='pc'>
+								<value>1495</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>VILLERS-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Sart, 90</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Sart, 90 VILLERS-LA-VILLE Brabant Wallon 1495</address>
+				<Point>
+					<coordinates>4.5232788,50.5745498,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

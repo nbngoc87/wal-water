@@ -1,0 +1,1981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Namur_Flore_LBruye</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2596</value>
+							</Data>
+												<Data name='nq'>
+								<value>2931</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5150</value>
+							</Data>
+												<Data name='pc'>
+								<value>5150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Floriffoux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FLOREFFE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Fregimont, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Fregimont, 16 FLOREFFE Namur 5150</address>
+				<Point>
+					<coordinates>4.7734834,50.4569369,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>392</value>
+							</Data>
+												<Data name='nq'>
+								<value>14496</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5150</value>
+							</Data>
+												<Data name='pc'>
+								<value>5150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Franière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FLOREFFE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Calvaire, 18</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Calvaire, 18 FLOREFFE Namur 5150</address>
+				<Point>
+					<coordinates>4.75922,50.43405,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>841</value>
+							</Data>
+												<Data name='nq'>
+								<value>733</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5150</value>
+							</Data>
+												<Data name='pc'>
+								<value>5150</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Franière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FLOREFFE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants, 23 FLOREFFE Namur 5150</address>
+				<Point>
+					<coordinates>4.7297731,50.4361621,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1883</value>
+							</Data>
+												<Data name='nq'>
+								<value>15046</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5070</value>
+							</Data>
+												<Data name='pc'>
+								<value>5070</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>FOSSES-LA-VILLE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FOSSES-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>INASEP</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>ROUTE DE TAMINES, 77A</value>
+							</Data>
+									</ExtendedData>
+								<address>ROUTE DE TAMINES, 77A FOSSES-LA-VILLE Namur 5070</address>
+				<Point>
+					<coordinates>4.6790928,50.4095606,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>879</value>
+							</Data>
+												<Data name='nq'>
+								<value>3315</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5070</value>
+							</Data>
+												<Data name='pc'>
+								<value>5070</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SART-ST-LAURENT</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FOSSES-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>INASEP</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE Victor DEWEZ, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE Victor DEWEZ, 3 FOSSES-LA-VILLE Namur 5070</address>
+				<Point>
+					<coordinates>4.7427853,50.402511,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2274</value>
+							</Data>
+												<Data name='nq'>
+								<value>29204</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5070</value>
+							</Data>
+												<Data name='pc'>
+								<value>5070</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SART-ST-LAURENT</value>
+							</Data>
+												<Data name='municipality'>
+								<value>FOSSES-LA-VILLE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>INASEP</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>RUE MARCEL WARNIER, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>RUE MARCEL WARNIER, 10 FOSSES-LA-VILLE Namur 5070</address>
+				<Point>
+					<coordinates>4.7464646,50.4015872,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>195</value>
+							</Data>
+												<Data name='nq'>
+								<value>9367</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Beuzet</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Blaise, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Blaise, 3 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7473473,50.5321543,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1835</value>
+							</Data>
+												<Data name='nq'>
+								<value>15703</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5032</value>
+							</Data>
+												<Data name='pc'>
+								<value>5032</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bossière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Haute-Bise, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Haute-Bise, 21 GEMBLOUX Namur 5032</address>
+				<Point>
+					<coordinates>4.6932077,50.5344244,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2577</value>
+							</Data>
+												<Data name='nq'>
+								<value>7429</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5032</value>
+							</Data>
+												<Data name='pc'>
+								<value>5032</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bothey</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Saint-Pierre, 32</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Saint-Pierre, 32 GEMBLOUX Namur 5032</address>
+				<Point>
+					<coordinates>4.6500824,50.5183148,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2375</value>
+							</Data>
+												<Data name='nq'>
+								<value>11421</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5032</value>
+							</Data>
+												<Data name='pc'>
+								<value>5032</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Corroy-le-Château</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Grenadier, 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Grenadier, 28 GEMBLOUX Namur 5032</address>
+				<Point>
+					<coordinates>4.6469255,50.5368727,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2288</value>
+							</Data>
+												<Data name='nq'>
+								<value>22946</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ernage</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Louis-Denamur, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Louis-Denamur, 10 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.6807183,50.5920143,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2833</value>
+							</Data>
+												<Data name='nq'>
+								<value>20614</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ernage</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Camille-Cals, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Camille-Cals, 23 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.6713807,50.5928431,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>159</value>
+							</Data>
+												<Data name='nq'>
+								<value>11802</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Pierquin, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Pierquin, 6 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.6927718,50.5595388,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2525</value>
+							</Data>
+												<Data name='nq'>
+								<value>26150</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Escaille, 1 bte11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Escaille, 1 bte11 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7043293,50.5693161,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2575</value>
+							</Data>
+												<Data name='nq'>
+								<value>9485</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Hambursin, 41</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Hambursin, 41 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.6896569,50.563318,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2593</value>
+							</Data>
+												<Data name='nq'>
+								<value>3402</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos; Agasse, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos; Agasse, 14 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.6870678,50.5676302,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2770</value>
+							</Data>
+												<Data name='nq'>
+								<value>23243</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Namur, 122</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Namur, 122 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7064159,50.5538324,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2783</value>
+							</Data>
+												<Data name='nq'>
+								<value>25238</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gembloux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Entree-Jacques, 56</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Entree-Jacques, 56 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.685441,50.5605903,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>405</value>
+							</Data>
+												<Data name='nq'>
+								<value>3478</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5031</value>
+							</Data>
+												<Data name='pc'>
+								<value>5031</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grand-Leez</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue del&apos;vaux, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue del&apos;vaux, 17 GEMBLOUX Namur 5031</address>
+				<Point>
+					<coordinates>4.770687,50.582388,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2587</value>
+							</Data>
+												<Data name='nq'>
+								<value>13427</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lonzée</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Maladree, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Maladree, 26 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7235842,50.5484663,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2451</value>
+							</Data>
+												<Data name='nq'>
+								<value>28581</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sauvenière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Grand-Leez, 5 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Grand-Leez, 5 A GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7152044,50.5683581,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2509</value>
+							</Data>
+												<Data name='nq'>
+								<value>24943</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5030</value>
+							</Data>
+												<Data name='pc'>
+								<value>5030</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sauvenière</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GEMBLOUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Aumone, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Aumone, 2 GEMBLOUX Namur 5030</address>
+				<Point>
+					<coordinates>4.7162676,50.5753855,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2460</value>
+							</Data>
+												<Data name='nq'>
+								<value>3518</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5340</value>
+							</Data>
+												<Data name='pc'>
+								<value>5340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Faulx-les-Tombes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GESVES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Gesves, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Gesves, 20 GESVES Namur 5340</address>
+				<Point>
+					<coordinates>5.0304883,50.4235744,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>515</value>
+							</Data>
+												<Data name='nq'>
+								<value>1420</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5340</value>
+							</Data>
+												<Data name='pc'>
+								<value>5340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gesves</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GESVES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Les Fonds, 104</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Les Fonds, 104 GESVES Namur 5340</address>
+				<Point>
+					<coordinates>5.0694488,50.4120556,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1445</value>
+							</Data>
+												<Data name='nq'>
+								<value>25389</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5340</value>
+							</Data>
+												<Data name='pc'>
+								<value>5340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gesves</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GESVES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussee de Gramptinne, 113</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussee de Gramptinne, 113 GESVES Namur 5340</address>
+				<Point>
+					<coordinates>5.0378106,50.3990635,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>238</value>
+							</Data>
+												<Data name='nq'>
+								<value>9240</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5340</value>
+							</Data>
+												<Data name='pc'>
+								<value>5340</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mozet</value>
+							</Data>
+												<Data name='municipality'>
+								<value>GESVES</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Loyers, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Loyers, 2 GESVES Namur 5340</address>
+				<Point>
+					<coordinates>4.9860738,50.4395841,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2876</value>
+							</Data>
+												<Data name='nq'>
+								<value>23134</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ham-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Culot, 44</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Culot, 44 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6696131,50.4439814,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>732</value>
+							</Data>
+												<Data name='nq'>
+								<value>14632</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jemeppe-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Alouettes, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Alouettes, 15 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6508506,50.4510774,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1688</value>
+							</Data>
+												<Data name='nq'>
+								<value>18386</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jemeppe-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin de Velaine, 96</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin de Velaine, 96 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6497652,50.4652461,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1974</value>
+							</Data>
+												<Data name='nq'>
+								<value>15173</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jemeppe-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Saiwet, 8 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Saiwet, 8 A JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6498614,50.4750001,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2585</value>
+							</Data>
+												<Data name='nq'>
+								<value>5945</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jemeppe-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Alnoir, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Alnoir, 35 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.659992,50.470695,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>612</value>
+							</Data>
+												<Data name='nq'>
+								<value>702</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Mornimont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Rabot, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Rabot, 10 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6990615,50.4446615,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1149</value>
+							</Data>
+												<Data name='nq'>
+								<value>1142</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Moustier-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Europe, 4</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Europe, 4 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6870729,50.4553622,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2514</value>
+							</Data>
+												<Data name='nq'>
+								<value>15325</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Moustier-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bois, 58 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bois, 58 A JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6848062,50.4553325,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2884</value>
+							</Data>
+												<Data name='nq'>
+								<value>20971</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Moustier-sur-Sambre</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Bouchers, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Bouchers, 14 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6954813,50.4670323,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2769</value>
+							</Data>
+												<Data name='nq'>
+								<value>29767</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Onoz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Fleurus, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Fleurus, 13 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6680934,50.4927935,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>441</value>
+							</Data>
+												<Data name='nq'>
+								<value>8251</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Goyet, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Goyet, 45 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6935094,50.4785104,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>897</value>
+							</Data>
+												<Data name='nq'>
+								<value>14931</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Temploux, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Temploux, 6 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.7101511,50.4820528,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1280</value>
+							</Data>
+												<Data name='nq'>
+								<value>24094</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Basse, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Basse, 7 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.7100051,50.480708,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2059</value>
+							</Data>
+												<Data name='nq'>
+								<value>26741</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Moustier, 56</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Moustier, 56 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.7002443,50.4754322,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2155</value>
+							</Data>
+												<Data name='nq'>
+								<value>8951</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Sauveniere, 62</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Sauveniere, 62 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.7129339,50.4713272,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2253</value>
+							</Data>
+												<Data name='nq'>
+								<value>21922</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5190</value>
+							</Data>
+												<Data name='pc'>
+								<value>5190</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Spy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JEMEPPE-SUR-SAMBRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Goyet, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Goyet, 45 JEMEPPE-SUR-SAMBRE Namur 5190</address>
+				<Point>
+					<coordinates>4.6935094,50.4785104,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1632</value>
+							</Data>
+												<Data name='nq'>
+								<value>16193</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5081</value>
+							</Data>
+												<Data name='pc'>
+								<value>5081</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Bovesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA BRUYERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Moulin, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Moulin, 45 LA BRUYERE Namur 5081</address>
+				<Point>
+					<coordinates>4.7810371,50.5209448,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>448</value>
+							</Data>
+												<Data name='nq'>
+								<value>13028</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5081</value>
+							</Data>
+												<Data name='pc'>
+								<value>5081</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>La Bruyere</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA BRUYERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Stordoir, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Stordoir, 2 LA BRUYERE Namur 5081</address>
+				<Point>
+					<coordinates>4.7837215,50.536555,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2281</value>
+							</Data>
+												<Data name='nq'>
+								<value>28844</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5081</value>
+							</Data>
+												<Data name='pc'>
+								<value>5081</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Meux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA BRUYERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Sclef, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Sclef, 7 LA BRUYERE Namur 5081</address>
+				<Point>
+					<coordinates>4.8126916,50.5515336,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1868</value>
+							</Data>
+												<Data name='nq'>
+								<value>27056</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5080</value>
+							</Data>
+												<Data name='pc'>
+								<value>5080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Rhisnes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA BRUYERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Eau-Bleue, 64</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Eau-Bleue, 64 LA BRUYERE Namur 5080</address>
+				<Point>
+					<coordinates>4.7981185,50.5096743,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1021</value>
+							</Data>
+												<Data name='nq'>
+								<value>10375</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>5080</value>
+							</Data>
+												<Data name='pc'>
+								<value>5080</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Warisoulx</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LA BRUYERE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Namur</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Namur</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Namur</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bailli, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bailli, 11 LA BRUYERE Namur 5080</address>
+				<Point>
+					<coordinates>4.8620214,50.5315253,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

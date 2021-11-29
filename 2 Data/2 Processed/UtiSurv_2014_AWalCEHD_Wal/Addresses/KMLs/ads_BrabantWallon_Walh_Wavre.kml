@@ -1,0 +1,2359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_BrabantWallon_Walh_Wavre</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>261</value>
+							</Data>
+												<Data name='nq'>
+								<value>10412</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1457</value>
+							</Data>
+												<Data name='pc'>
+								<value>1457</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nil-Saint-Vincent-Saint-Martin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WALHAIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Warichet, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Warichet, 6 WALHAIN Brabant Wallon 1457</address>
+				<Point>
+					<coordinates>4.6642519,50.636845,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1305</value>
+							</Data>
+												<Data name='nq'>
+								<value>16675</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1457</value>
+							</Data>
+												<Data name='pc'>
+								<value>1457</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nil-Saint-Vincent-Saint-Martin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WALHAIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Le Géronsart, 49</value>
+							</Data>
+									</ExtendedData>
+								<address>Le Géronsart, 49 WALHAIN Brabant Wallon 1457</address>
+				<Point>
+					<coordinates>4.645512,50.6274493,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1941</value>
+							</Data>
+												<Data name='nq'>
+								<value>15100</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1457</value>
+							</Data>
+												<Data name='pc'>
+								<value>1457</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nil-Saint-Vincent-Saint-Martin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WALHAIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Trichon, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Trichon, 34 WALHAIN Brabant Wallon 1457</address>
+				<Point>
+					<coordinates>4.6773116,50.6388239,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2152</value>
+							</Data>
+												<Data name='nq'>
+								<value>2932</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1457</value>
+							</Data>
+												<Data name='pc'>
+								<value>1457</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Nil-Saint-Vincent-Saint-Martin</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WALHAIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Spêche, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Spêche, 6 WALHAIN Brabant Wallon 1457</address>
+				<Point>
+					<coordinates>4.6875696,50.6441176,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2223</value>
+							</Data>
+												<Data name='nq'>
+								<value>20428</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1457</value>
+							</Data>
+												<Data name='pc'>
+								<value>1457</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Walhain-Saint-Paul</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WALHAIN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Bois de Buis, 141</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Bois de Buis, 141 WALHAIN Brabant Wallon 1457</address>
+				<Point>
+					<coordinates>4.7239208,50.6119669,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>80</value>
+							</Data>
+												<Data name='nq'>
+								<value>4580</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Merles, 15          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Merles, 15 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4068339,50.7218977,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>218</value>
+							</Data>
+												<Data name='nq'>
+								<value>14132</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Prince Albert, 81          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Prince Albert, 81 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3929998,50.7030441,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>363</value>
+							</Data>
+												<Data name='nq'>
+								<value>9679</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Drève des Dix Mètres, 85          </value>
+							</Data>
+									</ExtendedData>
+								<address>Drève des Dix Mètres, 85 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3925144,50.7207771,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>472</value>
+							</Data>
+												<Data name='nq'>
+								<value>12354</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Drève de la Meute, 23          </value>
+							</Data>
+									</ExtendedData>
+								<address>Drève de la Meute, 23 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4049515,50.728061,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>619</value>
+							</Data>
+												<Data name='nq'>
+								<value>12846</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Ménil, 26          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Ménil, 26 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4000237,50.6957127,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>752</value>
+							</Data>
+												<Data name='nq'>
+								<value>9018</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos de la Commanderie, 11          </value>
+							</Data>
+									</ExtendedData>
+								<address>Clos de la Commanderie, 11 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3943145,50.6951831,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>770</value>
+							</Data>
+												<Data name='nq'>
+								<value>3791</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos de la Caranda, 24          </value>
+							</Data>
+									</ExtendedData>
+								<address>Clos de la Caranda, 24 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3656175,50.7090783,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>787</value>
+							</Data>
+												<Data name='nq'>
+								<value>12147</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Station, 63          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Station, 63 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.388367,50.7155363,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>788</value>
+							</Data>
+												<Data name='nq'>
+								<value>11942</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Eglise, 59          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Eglise, 59 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3726382,50.7083088,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>989</value>
+							</Data>
+												<Data name='nq'>
+								<value>10201</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de l&apos;Avocat, 2          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de l&apos;Avocat, 2 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3878734,50.7107013,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1028</value>
+							</Data>
+												<Data name='nq'>
+								<value>12423</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Léopold III, 14          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Léopold III, 14 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3961927,50.7229182,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1046</value>
+							</Data>
+												<Data name='nq'>
+								<value>5813</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Hospitaliers de Saint-Jean, 24          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Hospitaliers de Saint-Jean, 24 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3949565,50.69632,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1089</value>
+							</Data>
+												<Data name='nq'>
+								<value>2780</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos des Palombes, 8          </value>
+							</Data>
+									</ExtendedData>
+								<address>Clos des Palombes, 8 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.424718,50.7064787,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1097</value>
+							</Data>
+												<Data name='nq'>
+								<value>6012</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Sainte-Anne, 3          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Sainte-Anne, 3 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4030136,50.6986439,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1189</value>
+							</Data>
+												<Data name='nq'>
+								<value>15913</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Sansonnets, 96          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Sansonnets, 96 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4110838,50.7215914,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1580</value>
+							</Data>
+												<Data name='nq'>
+								<value>18776</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Gouttier, 28          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Gouttier, 28 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3803766,50.7131617,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1648</value>
+							</Data>
+												<Data name='nq'>
+								<value>20263</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Auguste Jassogne, 30          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Auguste Jassogne, 30 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3797348,50.710322,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1750</value>
+							</Data>
+												<Data name='nq'>
+								<value>18483</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Champ Rodange, 129          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Champ Rodange, 129 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3708731,50.7138847,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2146</value>
+							</Data>
+												<Data name='nq'>
+								<value>2827</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Frères Fleischman, 42          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Frères Fleischman, 42 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3950093,50.6903362,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2173</value>
+							</Data>
+												<Data name='nq'>
+								<value>25981</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin des Roussettes, 54          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin des Roussettes, 54 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3929569,50.6907027,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2211</value>
+							</Data>
+												<Data name='nq'>
+								<value>18351</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos de l&apos;Eolienne, 6          </value>
+							</Data>
+									</ExtendedData>
+								<address>Clos de l&apos;Eolienne, 6 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4212834,50.7051024,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2319</value>
+							</Data>
+												<Data name='nq'>
+								<value>16523</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de l&apos;Eté, 70          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de l&apos;Eté, 70 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3910709,50.7080464,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2357</value>
+							</Data>
+												<Data name='nq'>
+								<value>11899</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Galaxie, 41          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Galaxie, 41 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4223072,50.6994256,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2612</value>
+							</Data>
+												<Data name='nq'>
+								<value>14642</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Marie-Louise, 17          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Marie-Louise, 17 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4002371,50.7217624,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2653</value>
+							</Data>
+												<Data name='nq'>
+								<value>6471</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Sansonnets, 27          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Sansonnets, 27 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4059304,50.7209305,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2655</value>
+							</Data>
+												<Data name='nq'>
+								<value>8801</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Infante, 151          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Infante, 151 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3841979,50.7081718,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2780</value>
+							</Data>
+												<Data name='nq'>
+								<value>20692</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Allée du Petit Paris, 57          </value>
+							</Data>
+									</ExtendedData>
+								<address>Allée du Petit Paris, 57 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4091155,50.7142481,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2800</value>
+							</Data>
+												<Data name='nq'>
+								<value>23002</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue François Libert, 37          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue François Libert, 37 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3969233,50.7147221,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2865</value>
+							</Data>
+												<Data name='nq'>
+								<value>25659</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Lord Uxbridge, 32          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Lord Uxbridge, 32 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.4061664,50.7142313,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2879</value>
+							</Data>
+												<Data name='nq'>
+								<value>23821</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1410</value>
+							</Data>
+												<Data name='pc'>
+								<value>1410</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WATERLOO</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos de la Maloue, 18          </value>
+							</Data>
+									</ExtendedData>
+								<address>Clos de la Maloue, 18 WATERLOO Brabant Wallon 1410</address>
+				<Point>
+					<coordinates>4.3950435,50.6940621,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>784</value>
+							</Data>
+												<Data name='nq'>
+								<value>9900</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1390</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Archennes</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée de Wavre, 159</value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée de Wavre, 159 WAVRE Brabant Wallon 1390</address>
+				<Point>
+					<coordinates>4.6877681,50.7464842,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>840</value>
+							</Data>
+												<Data name='nq'>
+								<value>5976</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1301</value>
+							</Data>
+												<Data name='pc'>
+								<value>1301</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BIERGES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Venelle des Marronniers, 14          </value>
+							</Data>
+									</ExtendedData>
+								<address>Venelle des Marronniers, 14 WAVRE Brabant Wallon 1301</address>
+				<Point>
+					<coordinates>4.6172347,50.7004325,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1499</value>
+							</Data>
+												<Data name='nq'>
+								<value>21475</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1301</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BIERGES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants, 12          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants, 12 WAVRE Brabant Wallon 1301</address>
+				<Point>
+					<coordinates>4.5793469,50.7160231,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2489</value>
+							</Data>
+												<Data name='nq'>
+								<value>11446</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1301</value>
+							</Data>
+												<Data name='pc'>
+								<value>1301</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BIERGES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Combattants,  84A               </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Combattants,  84A WAVRE Brabant Wallon 1301</address>
+				<Point>
+					<coordinates>4.5828402,50.7115982,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>237</value>
+							</Data>
+												<Data name='nq'>
+								<value>6131</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Violettes, 1          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Violettes, 1 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5484514,50.7049605,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>458</value>
+							</Data>
+												<Data name='nq'>
+								<value>13785</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joséphine Rauscent, 62          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joséphine Rauscent, 62 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5702902,50.6938614,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>518</value>
+							</Data>
+												<Data name='nq'>
+								<value>4855</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Champ du Haut, 27          </value>
+							</Data>
+									</ExtendedData>
+								<address>Champ du Haut, 27 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5852246,50.6891536,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>771</value>
+							</Data>
+												<Data name='nq'>
+								<value>8779</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Try, 37          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Try, 37 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5859217,50.6853017,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>816</value>
+							</Data>
+												<Data name='nq'>
+								<value>12873</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Sneessens, 13          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Sneessens, 13 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5481287,50.7027547,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>862</value>
+							</Data>
+												<Data name='nq'>
+								<value>11195</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Joseph Dechamps, 43          </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Joseph Dechamps, 43 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.590991,50.6963891,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1843</value>
+							</Data>
+												<Data name='nq'>
+								<value>23349</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>LIMAL</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Calèche, 32          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Calèche, 32 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.5622115,50.6974994,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>200</value>
+							</Data>
+												<Data name='nq'>
+								<value>5295</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Quai du Trompette, 69          </value>
+							</Data>
+									</ExtendedData>
+								<address>Quai du Trompette, 69 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6144792,50.7171434,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>224</value>
+							</Data>
+												<Data name='nq'>
+								<value>956</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue du Parc, 4 A        </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue du Parc, 4 A WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6184679,50.7110817,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>487</value>
+							</Data>
+												<Data name='nq'>
+								<value>8925</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Venelle des Buissons, 2/11</value>
+							</Data>
+									</ExtendedData>
+								<address>Venelle des Buissons, 211 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6148889,50.7051281,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>882</value>
+							</Data>
+												<Data name='nq'>
+								<value>13168</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie des Cuirassiers, 15          </value>
+							</Data>
+									</ExtendedData>
+								<address>Voie des Cuirassiers, 15 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6188526,50.6882672,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>923</value>
+							</Data>
+												<Data name='nq'>
+								<value>7600</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chaussée du Culot, 22          </value>
+							</Data>
+									</ExtendedData>
+								<address>Chaussée du Culot, 22 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6289518,50.7289611,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1043</value>
+							</Data>
+												<Data name='nq'>
+								<value>6855</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Allée de l&apos;Aulnaie, 4          </value>
+							</Data>
+									</ExtendedData>
+								<address>Allée de l&apos;Aulnaie, 4 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6394491,50.6998535,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2227</value>
+							</Data>
+												<Data name='nq'>
+								<value>19535</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Duc Henri de Brabant, 34          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Duc Henri de Brabant, 34 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6286559,50.7143314,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2335</value>
+							</Data>
+												<Data name='nq'>
+								<value>27874</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Corderie, 242</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Corderie, 242 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6123216,50.7100701,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2440</value>
+							</Data>
+												<Data name='nq'>
+								<value>14065</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Marivaux, 22          </value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Marivaux, 22 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6309687,50.7092271,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2601</value>
+							</Data>
+												<Data name='nq'>
+								<value>10930</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>1300</value>
+							</Data>
+												<Data name='pc'>
+								<value>1300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAVRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Nivelles</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Brabant Wallon</value>
+							</Data>
+												<Data name='distributer'>
+								<value>IECBW</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Chevalier Jehan, 96</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Chevalier Jehan, 96 WAVRE Brabant Wallon 1300</address>
+				<Point>
+					<coordinates>4.6304904,50.7128965,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Liege_Oreye_Warem</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1525</value>
+							</Data>
+												<Data name='nq'>
+								<value>28639</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4360</value>
+							</Data>
+												<Data name='pc'>
+								<value>4360</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oreye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OREYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Ramkin, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Ramkin, 10 OREYE Liège 4360</address>
+				<Point>
+					<coordinates>5.3445382,50.7297245,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2711</value>
+							</Data>
+												<Data name='nq'>
+								<value>19428</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4360</value>
+							</Data>
+												<Data name='pc'>
+								<value>4360</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oreye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OREYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Louis Marechal, 92</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Louis Marechal, 92 OREYE Liège 4360</address>
+				<Point>
+					<coordinates>5.3405564,50.7218955,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1880</value>
+							</Data>
+												<Data name='nq'>
+								<value>15930</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4350</value>
+							</Data>
+												<Data name='pc'>
+								<value>4350</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Remicourt</value>
+							</Data>
+												<Data name='municipality'>
+								<value>REMICOURT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Pousset, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Pousset, 30 REMICOURT Liège 4350</address>
+				<Point>
+					<coordinates>5.3209512,50.6845401,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>937</value>
+							</Data>
+												<Data name='nq'>
+								<value>3109</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Warfusee, 94</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Warfusee, 94 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3685292,50.5876231,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1293</value>
+							</Data>
+												<Data name='nq'>
+								<value>29806</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Loneux, 55</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Loneux, 55 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3810806,50.6081757,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1302</value>
+							</Data>
+												<Data name='nq'>
+								<value>21931</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Bouleaux, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Bouleaux, 8 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.362999,50.5743564,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1513</value>
+							</Data>
+												<Data name='nq'>
+								<value>21302</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Pouhon, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Pouhon, 16 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3613719,50.621761,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2304</value>
+							</Data>
+												<Data name='nq'>
+								<value>29592</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Outrechamps, 1A</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Outrechamps, 1A SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3638105,50.6017239,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2431</value>
+							</Data>
+												<Data name='nq'>
+								<value>27109</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Loneux, 68</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Loneux, 68 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.383091,50.6066254,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2531</value>
+							</Data>
+												<Data name='nq'>
+								<value>25462</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Tincelle, 82</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Tincelle, 82 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3876635,50.5953072,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2642</value>
+							</Data>
+												<Data name='nq'>
+								<value>14720</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4470</value>
+							</Data>
+												<Data name='pc'>
+								<value>4470</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Saint-Georges-sur-Meuse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-GEORGES-SUR-MEUSE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Centre, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Centre, 34 SAINT-GEORGES-SUR-MEUSE Liège 4470</address>
+				<Point>
+					<coordinates>5.3596391,50.601783,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>362</value>
+							</Data>
+												<Data name='nq'>
+								<value>2350</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oleye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Cité Henri Coune, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Cité Henri Coune, 17 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2730072,50.7113737,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1076</value>
+							</Data>
+												<Data name='nq'>
+								<value>803</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oleye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Nationale, 26 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Nationale, 26 B WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2785287,50.7101608,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>551</value>
+							</Data>
+												<Data name='nq'>
+								<value>4895</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Tumulus, </value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Tumulus, WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2567986,50.689946,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>690</value>
+							</Data>
+												<Data name='nq'>
+								<value>1510</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Emile Vandervelde, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Emile Vandervelde, 30 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2591819,50.695398,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>836</value>
+							</Data>
+												<Data name='nq'>
+								<value>9034</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Edmond de Selys-Longchamps, 76</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Edmond de Selys-Longchamps, 76 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2439078,50.6920534,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2205</value>
+							</Data>
+												<Data name='nq'>
+								<value>21787</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Tannerie, 26</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Tannerie, 26 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2482297,50.6963368,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2602</value>
+							</Data>
+												<Data name='nq'>
+								<value>26365</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Costale, 45</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Costale, 45 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2545052,50.7049978,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2730</value>
+							</Data>
+												<Data name='nq'>
+								<value>18006</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4300</value>
+							</Data>
+												<Data name='pc'>
+								<value>4300</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='municipality'>
+								<value>WAREMME</value>
+							</Data>
+												<Data name='arr'>
+								<value>Waremme</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Huy/Waremme</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Fabriques, 20</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Fabriques, 20 WAREMME Liège 4300</address>
+				<Point>
+					<coordinates>5.2496329,50.6925742,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

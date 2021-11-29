@@ -1,0 +1,4249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Liege_Neupr_Sprimo</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>126</value>
+							</Data>
+												<Data name='nq'>
+								<value>6628</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4121</value>
+							</Data>
+												<Data name='pc'>
+								<value>4121</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neuville-en-Condroz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Grandes Claires, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Grandes Claires, 16 NEUPRE Liège 4121</address>
+				<Point>
+					<coordinates>5.4757145,50.5418237,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>529</value>
+							</Data>
+												<Data name='nq'>
+								<value>5234</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4121</value>
+							</Data>
+												<Data name='pc'>
+								<value>4121</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neuville-en-Condroz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue des Chevrefeuilles, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue des Chevrefeuilles, 8 NEUPRE Liège 4121</address>
+				<Point>
+					<coordinates>5.4748086,50.5551226,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>681</value>
+							</Data>
+												<Data name='nq'>
+								<value>1139</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4121</value>
+							</Data>
+												<Data name='pc'>
+								<value>4121</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neuville-en-Condroz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Eglantiers, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Eglantiers, 9 NEUPRE Liège 4121</address>
+				<Point>
+					<coordinates>5.4874282,50.5451233,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1724</value>
+							</Data>
+												<Data name='nq'>
+								<value>26244</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4121</value>
+							</Data>
+												<Data name='pc'>
+								<value>4121</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neuville-en-Condroz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Ermitage, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Ermitage, 33 NEUPRE Liège 4121</address>
+				<Point>
+					<coordinates>5.4625593,50.5535824,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1747</value>
+							</Data>
+												<Data name='nq'>
+								<value>16961</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4121</value>
+							</Data>
+												<Data name='pc'>
+								<value>4121</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Neuville-en-Condroz</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Tourterelles, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Tourterelles, 35 NEUPRE Liège 4121</address>
+				<Point>
+					<coordinates>5.4560708,50.5499084,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>84</value>
+							</Data>
+												<Data name='nq'>
+								<value>5283</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4122</value>
+							</Data>
+												<Data name='pc'>
+								<value>4122</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Plainevaux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Strivay, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Strivay, 40 NEUPRE Liège 4122</address>
+				<Point>
+					<coordinates>5.5337185,50.5351873,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2597</value>
+							</Data>
+												<Data name='nq'>
+								<value>3543</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4122</value>
+							</Data>
+												<Data name='pc'>
+								<value>4122</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Plainevaux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>NEUPRE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Fine Pierre, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Fine Pierre, 9 NEUPRE Liège 4122</address>
+				<Point>
+					<coordinates>5.53049,50.5367162,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>434</value>
+							</Data>
+												<Data name='nq'>
+								<value>11940</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4681</value>
+							</Data>
+												<Data name='pc'>
+								<value>4681</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hermalle-sous-Argenteau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Vanniers, 8</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Vanniers, 8 OUPEYE Liège 4681</address>
+				<Point>
+					<coordinates>5.6771497,50.7132062,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>940</value>
+							</Data>
+												<Data name='nq'>
+								<value>10381</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4681</value>
+							</Data>
+												<Data name='pc'>
+								<value>4681</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Hermalle-sous-Argenteau</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Walter Dewe, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Walter Dewe, 1 OUPEYE Liège 4681</address>
+				<Point>
+					<coordinates>5.6756507,50.714163,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2423</value>
+							</Data>
+												<Data name='nq'>
+								<value>11057</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4682</value>
+							</Data>
+												<Data name='pc'>
+								<value>4682</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Heure-le-Romain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Baronhaie, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Baronhaie, 9 OUPEYE Liège 4682</address>
+				<Point>
+					<coordinates>5.6377856,50.7273092,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>519</value>
+							</Data>
+												<Data name='nq'>
+								<value>6685</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4682</value>
+							</Data>
+												<Data name='pc'>
+								<value>4682</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Houtain-Saint-Siméon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Wonck, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Wonck, 19 OUPEYE Liège 4682</address>
+				<Point>
+					<coordinates>5.6123091,50.740506,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>628</value>
+							</Data>
+												<Data name='nq'>
+								<value>7475</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4682</value>
+							</Data>
+												<Data name='pc'>
+								<value>4682</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Houtain-Saint-Siméon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Wonck, 72</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Wonck, 72 OUPEYE Liège 4682</address>
+				<Point>
+					<coordinates>5.615039,50.7431432,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>638</value>
+							</Data>
+												<Data name='nq'>
+								<value>9068</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4682</value>
+							</Data>
+												<Data name='pc'>
+								<value>4682</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Houtain-Saint-Siméon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Chapeliers, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Chapeliers, 5 OUPEYE Liège 4682</address>
+				<Point>
+					<coordinates>5.615149,50.7407371,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1641</value>
+							</Data>
+												<Data name='nq'>
+								<value>16654</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4682</value>
+							</Data>
+												<Data name='pc'>
+								<value>4682</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Houtain-Saint-Siméon</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Rouwa, 37</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Rouwa, 37 OUPEYE Liège 4682</address>
+				<Point>
+					<coordinates>5.61492,50.736491,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>68</value>
+							</Data>
+												<Data name='nq'>
+								<value>584</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Hermee, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Hermee, 1 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6356242,50.7099025,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>488</value>
+							</Data>
+												<Data name='nq'>
+								<value>10480</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Cockroux, 91</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Cockroux, 91 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.649848,50.7101837,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>601</value>
+							</Data>
+												<Data name='nq'>
+								<value>3421</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Pierre Renson, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Pierre Renson, 5 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6347244,50.7070311,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>874</value>
+							</Data>
+												<Data name='nq'>
+								<value>7019</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Fernand Brunfaut, 6</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Fernand Brunfaut, 6 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6411279,50.7080741,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>973</value>
+							</Data>
+												<Data name='nq'>
+								<value>11961</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Justice, 23</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Justice, 23 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6382811,50.7125621,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1164</value>
+							</Data>
+												<Data name='nq'>
+								<value>25541</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Alfred de Taeye, 42</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Alfred de Taeye, 42 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.63575,50.70761,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1758</value>
+							</Data>
+												<Data name='nq'>
+								<value>23030</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Georges Simenon, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Georges Simenon, 11 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6489135,50.7090879,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2480</value>
+							</Data>
+												<Data name='nq'>
+								<value>18356</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4680</value>
+							</Data>
+												<Data name='pc'>
+								<value>4680</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Oupeye</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Dreve, 13</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Dreve, 13 OUPEYE Liège 4680</address>
+				<Point>
+					<coordinates>5.6524974,50.7048251,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>394</value>
+							</Data>
+												<Data name='nq'>
+								<value>2054</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4683</value>
+							</Data>
+												<Data name='pc'>
+								<value>4683</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vivegnis</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Paix, 86</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Paix, 86 OUPEYE Liège 4683</address>
+				<Point>
+					<coordinates>5.6523055,50.6941159,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1469</value>
+							</Data>
+												<Data name='nq'>
+								<value>22335</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4683</value>
+							</Data>
+												<Data name='pc'>
+								<value>4683</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vivegnis</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Abhooz, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Abhooz, 17 OUPEYE Liège 4683</address>
+				<Point>
+					<coordinates>5.6206595,50.6941434,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1689</value>
+							</Data>
+												<Data name='nq'>
+								<value>18613</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4683</value>
+							</Data>
+												<Data name='pc'>
+								<value>4683</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vivegnis</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Pontisse, 57</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Pontisse, 57 OUPEYE Liège 4683</address>
+				<Point>
+					<coordinates>5.645856,50.6944232,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2294</value>
+							</Data>
+												<Data name='nq'>
+								<value>15030</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4683</value>
+							</Data>
+												<Data name='pc'>
+								<value>4683</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vivegnis</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Jean Volders, 231</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Jean Volders, 231 OUPEYE Liège 4683</address>
+				<Point>
+					<coordinates>5.6391166,50.701375,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2562</value>
+							</Data>
+												<Data name='nq'>
+								<value>2351</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4683</value>
+							</Data>
+												<Data name='pc'>
+								<value>4683</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Vivegnis</value>
+							</Data>
+												<Data name='municipality'>
+								<value>OUPEYE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Arbre Saint Roch, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Arbre Saint Roch, 5 OUPEYE Liège 4683</address>
+				<Point>
+					<coordinates>5.6432544,50.7005582,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>607</value>
+							</Data>
+												<Data name='nq'>
+								<value>10113</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MONTEGNEE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue D&apos;ANGLEUR, 57 / 031</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue D&apos;ANGLEUR, 57  031 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5125899,50.6375933,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>789</value>
+							</Data>
+												<Data name='nq'>
+								<value>4501</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MONTEGNEE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue ANDRE RENARD, 34</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue ANDRE RENARD, 34 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5227497,50.6336812,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1287</value>
+							</Data>
+												<Data name='nq'>
+								<value>16137</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>MONTEGNEE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>CHaussee ROOSEVELT, 241</value>
+							</Data>
+									</ExtendedData>
+								<address>CHaussee ROOSEVELT, 241 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5156867,50.6477955,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>308</value>
+							</Data>
+												<Data name='nq'>
+								<value>4512</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue LIKENNE, 79</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue LIKENNE, 79 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.543372,50.6286365,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>641</value>
+							</Data>
+												<Data name='nq'>
+								<value>9225</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue MALAISE, 94</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue MALAISE, 94 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5362225,50.63206,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>928</value>
+							</Data>
+												<Data name='nq'>
+								<value>12689</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue TOUT VA BIEN, 70</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue TOUT VA BIEN, 70 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5347119,50.6288595,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1511</value>
+							</Data>
+												<Data name='nq'>
+								<value>26903</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE TILLEUR, 44 / 024</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE TILLEUR, 44  024 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.546201,50.631437,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2496</value>
+							</Data>
+												<Data name='nq'>
+								<value>9984</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue BURAUFOSSE, 42</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue BURAUFOSSE, 42 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5285883,50.6260333,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2536</value>
+							</Data>
+												<Data name='nq'>
+								<value>14656</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>ST NICOLAS</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES BLES, 196</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES BLES, 196 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5421781,50.6317026,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2824</value>
+							</Data>
+												<Data name='nq'>
+								<value>20016</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4420</value>
+							</Data>
+												<Data name='pc'>
+								<value>4420</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>TILLEUR</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SAINT-NICOLAS</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU HUIT MAI, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU HUIT MAI, 9 SAINT-NICOLAS Liège 4420</address>
+				<Point>
+					<coordinates>5.5218575,50.6193555,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>314</value>
+							</Data>
+												<Data name='nq'>
+								<value>13699</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie DE LONNEUX, 11 / 22</value>
+							</Data>
+									</ExtendedData>
+								<address>Voie DE LONNEUX, 11  22 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5411307,50.569018,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>384</value>
+							</Data>
+												<Data name='nq'>
+								<value>2668</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>AVenue DES SILLONS, 54</value>
+							</Data>
+									</ExtendedData>
+								<address>AVenue DES SILLONS, 54 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.542519,50.5692982,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1270</value>
+							</Data>
+												<Data name='nq'>
+								<value>17724</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU SART, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU SART, 15 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5381412,50.5726097,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1776</value>
+							</Data>
+												<Data name='nq'>
+								<value>22216</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie DE LONNEUX, 11 / 22</value>
+							</Data>
+									</ExtendedData>
+								<address>Voie DE LONNEUX, 11  22 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5411307,50.569018,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1951</value>
+							</Data>
+												<Data name='nq'>
+								<value>27617</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie DU SART HAGUET, 3</value>
+							</Data>
+									</ExtendedData>
+								<address>Voie DU SART HAGUET, 3 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5432452,50.5696705,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2174</value>
+							</Data>
+												<Data name='nq'>
+								<value>15978</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue REINE ASTRID, 17</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue REINE ASTRID, 17 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.538251,50.5716146,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2339</value>
+							</Data>
+												<Data name='nq'>
+								<value>675</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue CEPEES, 1 / B2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue CEPEES, 1  B2 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5287124,50.5674178,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2544</value>
+							</Data>
+												<Data name='nq'>
+								<value>11703</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>BONCELLES</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE FRAIGNEUX, 30</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE FRAIGNEUX, 30 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5312785,50.5717825,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>996</value>
+							</Data>
+												<Data name='nq'>
+								<value>13520</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4101</value>
+							</Data>
+												<Data name='pc'>
+								<value>4101</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>JEMEPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue SIMON PASSEUX, 42</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue SIMON PASSEUX, 42 SERAING Liège 4101</address>
+				<Point>
+					<coordinates>5.4826576,50.6238381,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1915</value>
+							</Data>
+												<Data name='nq'>
+								<value>16568</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4101</value>
+							</Data>
+												<Data name='pc'>
+								<value>4101</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>JEMEPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue CHAMP D&apos;OISEAUX, 176 / 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue CHAMP D&apos;OISEAUX, 176  5 SERAING Liège 4101</address>
+				<Point>
+					<coordinates>5.481504,50.617722,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2793</value>
+							</Data>
+												<Data name='nq'>
+								<value>29711</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4101</value>
+							</Data>
+												<Data name='pc'>
+								<value>4101</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>JEMEPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU CARREFOUR, 134</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU CARREFOUR, 134 SERAING Liège 4101</address>
+				<Point>
+					<coordinates>5.5034873,50.623211,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2866</value>
+							</Data>
+												<Data name='nq'>
+								<value>20551</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4101</value>
+							</Data>
+												<Data name='pc'>
+								<value>4101</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>JEMEPPE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue WALEFFE, 131</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue WALEFFE, 131 SERAING Liège 4101</address>
+				<Point>
+					<coordinates>5.514489,50.6262784,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>329</value>
+							</Data>
+												<Data name='nq'>
+								<value>3737</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue PETITE MAI, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue PETITE MAI, 15 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5437084,50.5996212,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>920</value>
+							</Data>
+												<Data name='nq'>
+								<value>716</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES COTEAUX, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES COTEAUX, 24 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5411851,50.598293,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1717</value>
+							</Data>
+												<Data name='nq'>
+								<value>24599</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>ALlee DU BEAU VIVIER, 83</value>
+							</Data>
+									</ExtendedData>
+								<address>ALlee DU BEAU VIVIER, 83 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5444296,50.5827699,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1820</value>
+							</Data>
+												<Data name='nq'>
+								<value>19182</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue EUDORE DAVIO, 36</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue EUDORE DAVIO, 36 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5445948,50.5991347,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1888</value>
+							</Data>
+												<Data name='nq'>
+								<value>23045</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA ROSE, 62</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA ROSE, 62 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5401572,50.5859135,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1894</value>
+							</Data>
+												<Data name='nq'>
+								<value>26250</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue SCHWEITZER, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue SCHWEITZER, 40 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5442046,50.5798883,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2392</value>
+							</Data>
+												<Data name='nq'>
+								<value>11193</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE L&apos;ETANG, 39</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE L&apos;ETANG, 39 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.539474,50.597449,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2429</value>
+							</Data>
+												<Data name='nq'>
+								<value>22398</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4102</value>
+							</Data>
+												<Data name='pc'>
+								<value>4102</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>OUGREE</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES NATIONS, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES NATIONS, 31 SERAING Liège 4102</address>
+				<Point>
+					<coordinates>5.5623676,50.5924323,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>36</value>
+							</Data>
+												<Data name='nq'>
+								<value>4567</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU CHENE, 232</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU CHENE, 232 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5159459,50.6012823,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>333</value>
+							</Data>
+												<Data name='nq'>
+								<value>4240</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue LAVOISIER, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue LAVOISIER, 21 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4936887,50.5793066,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>499</value>
+							</Data>
+												<Data name='nq'>
+								<value>10311</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>AVenue EMMA, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>AVenue EMMA, 5 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4822536,50.5905986,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>501</value>
+							</Data>
+												<Data name='nq'>
+								<value>292</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>AVenue DAVY, 18 / 2</value>
+							</Data>
+									</ExtendedData>
+								<address>AVenue DAVY, 18  2 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4887927,50.5792836,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>605</value>
+							</Data>
+												<Data name='nq'>
+								<value>14680</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU PAIRAY, 105</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU PAIRAY, 105 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5105411,50.5963183,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1009</value>
+							</Data>
+												<Data name='nq'>
+								<value>6385</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES HAUTS SARTS, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES HAUTS SARTS, 38 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4993893,50.5900073,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1207</value>
+							</Data>
+												<Data name='nq'>
+								<value>19124</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES HAUTS SARTS, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES HAUTS SARTS, 38 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4993893,50.5900073,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1285</value>
+							</Data>
+												<Data name='nq'>
+								<value>16500</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA GLACIERE, 94</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA GLACIERE, 94 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5117234,50.606626,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1316</value>
+							</Data>
+												<Data name='nq'>
+								<value>17001</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>AVenue DAVY, 7 / 14</value>
+							</Data>
+									</ExtendedData>
+								<address>AVenue DAVY, 7  14 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4885703,50.5811162,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1381</value>
+							</Data>
+												<Data name='nq'>
+								<value>15621</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue HAUTE, 80 / 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue HAUTE, 80  2 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5076343,50.5914042,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1415</value>
+							</Data>
+												<Data name='nq'>
+								<value>20957</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES BLUETS, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES BLUETS, 19 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5143793,50.5834524,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1441</value>
+							</Data>
+												<Data name='nq'>
+								<value>29969</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU CANAL, 87</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU CANAL, 87 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4995386,50.5837187,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1522</value>
+							</Data>
+												<Data name='nq'>
+								<value>27711</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA FORET, 141</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA FORET, 141 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5131802,50.5868948,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1608</value>
+							</Data>
+												<Data name='nq'>
+								<value>26715</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue PAQUAY, 89</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue PAQUAY, 89 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5226165,50.6001387,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1700</value>
+							</Data>
+												<Data name='nq'>
+								<value>16467</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue BASSE MARIHAYE, 324</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue BASSE MARIHAYE, 324 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4918702,50.5992625,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1712</value>
+							</Data>
+												<Data name='nq'>
+								<value>23021</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue FIVE, 180 / 28</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue FIVE, 180  28 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4876016,50.5958981,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1789</value>
+							</Data>
+												<Data name='nq'>
+								<value>21511</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES CHANTERELLES, 203</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES CHANTERELLES, 203 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5152088,50.596143,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2548</value>
+							</Data>
+												<Data name='nq'>
+								<value>19073</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES SOUFFLEURS, 8 / 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES SOUFFLEURS, 8  1 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4928709,50.588261,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2644</value>
+							</Data>
+												<Data name='nq'>
+								<value>10071</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>SQUARE DU VAL POTET, 2 / 3</value>
+							</Data>
+									</ExtendedData>
+								<address>SQUARE DU VAL POTET, 2  3 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4944933,50.5962762,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2648</value>
+							</Data>
+												<Data name='nq'>
+								<value>11441</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DES VILLAS, 60</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DES VILLAS, 60 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5080677,50.5836967,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2766</value>
+							</Data>
+												<Data name='nq'>
+								<value>16277</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DELEVAL, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DELEVAL, 19 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.4938659,50.5922391,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2774</value>
+							</Data>
+												<Data name='nq'>
+								<value>28745</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DU FORT, 68</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DU FORT, 68 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5254047,50.597258,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2775</value>
+							</Data>
+												<Data name='nq'>
+								<value>17562</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4100</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue DE LA COLLECTIVITE, 71</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue DE LA COLLECTIVITE, 71 SERAING Liège 4100</address>
+				<Point>
+					<coordinates>5.5161687,50.5884657,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>766</value>
+							</Data>
+												<Data name='nq'>
+								<value>13685</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4051</value>
+							</Data>
+												<Data name='pc'>
+								<value>4100</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>VAUX</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SERAING</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>CILE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>CheMin DU PANORAMA, 22</value>
+							</Data>
+									</ExtendedData>
+								<address>CheMin DU PANORAMA, 22 SERAING Liège 4051</address>
+				<Point>
+					<coordinates>5.4996296,50.5838832,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>145</value>
+							</Data>
+												<Data name='nq'>
+								<value>3869</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ayeneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Champs, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Champs, 10 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7019231,50.6077104,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>171</value>
+							</Data>
+												<Data name='nq'>
+								<value>5498</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ayeneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Trois-Chenes , 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Trois-Chenes , 5 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7058922,50.6125049,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>528</value>
+							</Data>
+												<Data name='nq'>
+								<value>8828</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Ayeneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Carmes, 169</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Carmes, 169 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7301482,50.614364,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2108</value>
+							</Data>
+												<Data name='nq'>
+								<value>17407</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4633</value>
+							</Data>
+												<Data name='pc'>
+								<value>4633</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Melen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Ardoncour, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Ardoncour, 24 SOUMAGNE Liège 4633</address>
+				<Point>
+					<coordinates>5.738316,50.6433965,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1715</value>
+							</Data>
+												<Data name='nq'>
+								<value>25619</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4631</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Micheroux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Campagne, 242</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Campagne, 242 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7083228,50.6353001,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2353</value>
+							</Data>
+												<Data name='nq'>
+								<value>6204</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Micheroux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Heuseux, 62</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Heuseux, 62 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7229769,50.6320344,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>397</value>
+							</Data>
+												<Data name='nq'>
+								<value>2840</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soumagne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Docteur Schweitzer, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Docteur Schweitzer, 27 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7453801,50.6306474,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>632</value>
+							</Data>
+												<Data name='nq'>
+								<value>241</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soumagne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Docteur Schweitzer, 76</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Docteur Schweitzer, 76 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7448431,50.6291006,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>639</value>
+							</Data>
+												<Data name='nq'>
+								<value>9504</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soumagne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Chaine, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Chaine, 10 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7398502,50.6292229,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1401</value>
+							</Data>
+												<Data name='nq'>
+								<value>22340</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soumagne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Clos Franquet, 58 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Clos Franquet, 58 A SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.7401396,50.6254699,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2249</value>
+							</Data>
+												<Data name='nq'>
+								<value>13124</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4630</value>
+							</Data>
+												<Data name='pc'>
+								<value>4630</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Soumagne</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SOUMAGNE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Docteur Schweitzer, 1</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Docteur Schweitzer, 1 SOUMAGNE Liège 4630</address>
+				<Point>
+					<coordinates>5.745922,50.6316786,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>513</value>
+							</Data>
+												<Data name='nq'>
+								<value>14485</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dolembreux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Piretfontaine, 53</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Piretfontaine, 53 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.6441565,50.5391953,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1120</value>
+							</Data>
+												<Data name='nq'>
+								<value>24657</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dolembreux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Piretfontaine, 24</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Piretfontaine, 24 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.6363323,50.5371419,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1658</value>
+							</Data>
+												<Data name='nq'>
+								<value>24043</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Dolembreux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Pecherie, 33</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Pecherie, 33 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.6369877,50.536364,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2280</value>
+							</Data>
+												<Data name='nq'>
+								<value>24623</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Gomzé-Andoumont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue d&apos;Andoumont, 109</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue d&apos;Andoumont, 109 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.7042716,50.5480081,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>648</value>
+							</Data>
+												<Data name='nq'>
+								<value>11031</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4141</value>
+							</Data>
+												<Data name='pc'>
+								<value>4141</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Louveigné</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Sendrogne , 72</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Sendrogne , 72 SPRIMONT Liège 4141</address>
+				<Point>
+					<coordinates>5.6771395,50.5237187,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2858</value>
+							</Data>
+												<Data name='nq'>
+								<value>17546</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4141</value>
+							</Data>
+												<Data name='pc'>
+								<value>4141</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Louveigné</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Fusilles, 15</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Fusilles, 15 SPRIMONT Liège 4141</address>
+				<Point>
+					<coordinates>5.73815,50.5404139,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>544</value>
+							</Data>
+												<Data name='nq'>
+								<value>3545</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sprimont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Fraiture , 114</value>
+							</Data>
+									</ExtendedData>
+								<address>Fraiture , 114 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.60558,50.48795,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>710</value>
+							</Data>
+												<Data name='nq'>
+								<value>3444</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sprimont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Mazeure, 47</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Mazeure, 47 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.6566079,50.5195107,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1081</value>
+							</Data>
+												<Data name='nq'>
+								<value>1277</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4140</value>
+							</Data>
+												<Data name='pc'>
+								<value>4140</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sprimont</value>
+							</Data>
+												<Data name='municipality'>
+								<value>SPRIMONT</value>
+							</Data>
+												<Data name='arr'>
+								<value>Liège</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Liège</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Brouckai, 41</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Brouckai, 41 SPRIMONT Liège 4140</address>
+				<Point>
+					<coordinates>5.6275045,50.4978462,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

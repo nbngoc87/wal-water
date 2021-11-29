@@ -1,0 +1,1603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ads_Liege_Herve_Malme</name>
+		<description> | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>761</value>
+							</Data>
+												<Data name='nq'>
+								<value>1491</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4651</value>
+							</Data>
+												<Data name='pc'>
+								<value>4651</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Battice</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Grotte, 35</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Grotte, 35 HERVE Liège 4651</address>
+				<Point>
+					<coordinates>5.8054114,50.6223112,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1695</value>
+							</Data>
+												<Data name='nq'>
+								<value>28389</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4651</value>
+							</Data>
+												<Data name='pc'>
+								<value>4651</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Battice</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Verviers, 40</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Verviers, 40 HERVE Liège 4651</address>
+				<Point>
+					<coordinates>5.8205934,50.6439886,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2012</value>
+							</Data>
+												<Data name='nq'>
+								<value>24076</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4651</value>
+							</Data>
+												<Data name='pc'>
+								<value>4651</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Battice</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de Herve, 49</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de Herve, 49 HERVE Liège 4651</address>
+				<Point>
+					<coordinates>5.8133809,50.6471647,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2622</value>
+							</Data>
+												<Data name='nq'>
+								<value>5923</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4651</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Battice</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bois de Herve, 21 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Bois de Herve, 21 A HERVE Liège 4651</address>
+				<Point>
+					<coordinates>5.794141,50.6183271,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>178</value>
+							</Data>
+												<Data name='nq'>
+								<value>3938</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Chaineux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Espinette, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Espinette, 5 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.8378617,50.6317805,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1543</value>
+							</Data>
+												<Data name='nq'>
+								<value>22349</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Chaineux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue du Coteau, 5</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue du Coteau, 5 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.8557977,50.629635,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1552</value>
+							</Data>
+												<Data name='nq'>
+								<value>25888</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4654</value>
+							</Data>
+												<Data name='pc'>
+								<value>4654</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Charneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bebronne, 214</value>
+							</Data>
+									</ExtendedData>
+								<address>Bebronne, 214 HERVE Liège 4654</address>
+				<Point>
+					<coordinates>5.7973832,50.6696119,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1626</value>
+							</Data>
+												<Data name='nq'>
+								<value>17727</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4654</value>
+							</Data>
+												<Data name='pc'>
+								<value>4654</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Charneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Renouprez, 833</value>
+							</Data>
+									</ExtendedData>
+								<address>Renouprez, 833 HERVE Liège 4654</address>
+				<Point>
+					<coordinates>5.827139,50.6731035,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2852</value>
+							</Data>
+												<Data name='nq'>
+								<value>18615</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Grand-Rechain</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de l&apos;Agolina, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de l&apos;Agolina, 38 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.806198,50.6110735,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1146</value>
+							</Data>
+												<Data name='nq'>
+								<value>17809</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Herve</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue de la Liberation, 25</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue de la Liberation, 25 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.8003107,50.6408321,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1537</value>
+							</Data>
+												<Data name='nq'>
+								<value>27341</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Herve</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Place Albert 1er, 10</value>
+							</Data>
+									</ExtendedData>
+								<address>Place Albert 1er, 10 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.7937249,50.6419957,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1553</value>
+							</Data>
+												<Data name='nq'>
+								<value>28483</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4650</value>
+							</Data>
+												<Data name='pc'>
+								<value>4650</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Herve</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Leclercq, 59</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Leclercq, 59 HERVE Liège 4650</address>
+				<Point>
+					<coordinates>5.796914,50.6422095,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>866</value>
+							</Data>
+												<Data name='nq'>
+								<value>12921</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4652</value>
+							</Data>
+												<Data name='pc'>
+								<value>4652</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Xhendelesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Voie aux Pierres, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Voie aux Pierres, 7 HERVE Liège 4652</address>
+				<Point>
+					<coordinates>5.7713678,50.6032993,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1295</value>
+							</Data>
+												<Data name='nq'>
+								<value>17795</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4652</value>
+							</Data>
+												<Data name='pc'>
+								<value>4652</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Xhendelesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Cloutiers, 27</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Cloutiers, 27 HERVE Liège 4652</address>
+				<Point>
+					<coordinates>5.7732028,50.5997095,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1760</value>
+							</Data>
+												<Data name='nq'>
+								<value>21791</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4652</value>
+							</Data>
+												<Data name='pc'>
+								<value>4652</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Xhendelesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Chemin du Terril, 7</value>
+							</Data>
+									</ExtendedData>
+								<address>Chemin du Terril, 7 HERVE Liège 4652</address>
+				<Point>
+					<coordinates>5.7676914,50.6227439,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1967</value>
+							</Data>
+												<Data name='nq'>
+								<value>26163</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4652</value>
+							</Data>
+												<Data name='pc'>
+								<value>4652</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Xhendelesse</value>
+							</Data>
+												<Data name='municipality'>
+								<value>HERVE</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des deux Tilleuls, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des deux Tilleuls, 21 HERVE Liège 4652</address>
+				<Point>
+					<coordinates>5.7662259,50.6259748,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>239</value>
+							</Data>
+												<Data name='nq'>
+								<value>10578</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4845</value>
+							</Data>
+												<Data name='pc'>
+								<value>4845</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jalhay</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JALHAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Moulin de Dison, 53 L</value>
+							</Data>
+									</ExtendedData>
+								<address>Moulin de Dison, 53 L JALHAY Liège 4845</address>
+				<Point>
+					<coordinates>5.9666147,50.5505989,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2226</value>
+							</Data>
+												<Data name='nq'>
+								<value>23335</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4845</value>
+							</Data>
+												<Data name='pc'>
+								<value>4845</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Jalhay</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JALHAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Haut-Vinave, 38</value>
+							</Data>
+									</ExtendedData>
+								<address>Haut-Vinave, 38 JALHAY Liège 4845</address>
+				<Point>
+					<coordinates>5.9645502,50.5583342,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>400</value>
+							</Data>
+												<Data name='nq'>
+								<value>6517</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4845</value>
+							</Data>
+												<Data name='pc'>
+								<value>4845</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sart-lez-Spa</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JALHAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Solwaster, 60</value>
+							</Data>
+									</ExtendedData>
+								<address>Solwaster, 60 JALHAY Liège 4845</address>
+				<Point>
+					<coordinates>5.9660525,50.5239354,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>860</value>
+							</Data>
+												<Data name='nq'>
+								<value>13277</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4845</value>
+							</Data>
+												<Data name='pc'>
+								<value>4845</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sart-lez-Spa</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JALHAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Wayai, 50 A</value>
+							</Data>
+									</ExtendedData>
+								<address>Wayai, 50 A JALHAY Liège 4845</address>
+				<Point>
+					<coordinates>5.9443562,50.5068228,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>951</value>
+							</Data>
+												<Data name='nq'>
+								<value>9050</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4845</value>
+							</Data>
+												<Data name='pc'>
+								<value>4845</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Sart-lez-Spa</value>
+							</Data>
+												<Data name='municipality'>
+								<value>JALHAY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Alexandre Beaupain, 32</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Alexandre Beaupain, 32 JALHAY Liège 4845</address>
+				<Point>
+					<coordinates>5.9324039,50.5135386,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>366</value>
+							</Data>
+												<Data name='nq'>
+								<value>1690</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4990</value>
+							</Data>
+												<Data name='pc'>
+								<value>4990</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lierneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIERNEUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bra, 61</value>
+							</Data>
+									</ExtendedData>
+								<address>Bra, 61 LIERNEUX Liège 4990</address>
+				<Point>
+					<coordinates>5.731945,50.3232384,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>934</value>
+							</Data>
+												<Data name='nq'>
+								<value>1878</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4990</value>
+							</Data>
+												<Data name='pc'>
+								<value>4990</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lierneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIERNEUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Verleumont, 21</value>
+							</Data>
+									</ExtendedData>
+								<address>Verleumont, 21 LIERNEUX Liège 4990</address>
+				<Point>
+					<coordinates>5.8082496,50.2745488,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1361</value>
+							</Data>
+												<Data name='nq'>
+								<value>24194</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4990</value>
+							</Data>
+												<Data name='pc'>
+								<value>4990</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lierneux</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIERNEUX</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Vehinnes, 19</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Vehinnes, 19 LIERNEUX Liège 4990</address>
+				<Point>
+					<coordinates>5.7930028,50.2856505,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>56</value>
+							</Data>
+												<Data name='nq'>
+								<value>4439</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4830</value>
+							</Data>
+												<Data name='pc'>
+								<value>4830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Limbourg</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIMBOURG</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Brull, 2</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Brull, 2 LIMBOURG Liège 4830</address>
+				<Point>
+					<coordinates>5.9431358,50.6200354,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>909</value>
+							</Data>
+												<Data name='nq'>
+								<value>2298</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4830</value>
+							</Data>
+												<Data name='pc'>
+								<value>4830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Limbourg</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIMBOURG</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Avenue Victor David, 131</value>
+							</Data>
+									</ExtendedData>
+								<address>Avenue Victor David, 131 LIMBOURG Liège 4830</address>
+				<Point>
+					<coordinates>5.9442245,50.6146829,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1727</value>
+							</Data>
+												<Data name='nq'>
+								<value>17549</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4830</value>
+							</Data>
+												<Data name='pc'>
+								<value>4830</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Limbourg</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LIMBOURG</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Oscar Thimus, 77</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Oscar Thimus, 77 LIMBOURG Liège 4830</address>
+				<Point>
+					<coordinates>5.9402295,50.6177819,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1422</value>
+							</Data>
+												<Data name='nq'>
+								<value>28948</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4710</value>
+							</Data>
+												<Data name='pc'>
+								<value>4710</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lontzen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LONTZEN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Konig Leopold III Strasse, 36</value>
+							</Data>
+									</ExtendedData>
+								<address>Konig Leopold III Strasse, 36 LONTZEN Liège 4710</address>
+				<Point>
+					<coordinates>5.9887386,50.6585932,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2892</value>
+							</Data>
+												<Data name='nq'>
+								<value>13836</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4710</value>
+							</Data>
+												<Data name='pc'>
+								<value>4710</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Lontzen</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LONTZEN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rosenstrasse, 16</value>
+							</Data>
+									</ExtendedData>
+								<address>Rosenstrasse, 16 LONTZEN Liège 4710</address>
+				<Point>
+					<coordinates>5.9769451,50.6989856,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1515</value>
+							</Data>
+												<Data name='nq'>
+								<value>23466</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4711</value>
+							</Data>
+												<Data name='pc'>
+								<value>4711</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Walhorn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LONTZEN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Asteneter Strasse, 65 C</value>
+							</Data>
+									</ExtendedData>
+								<address>Asteneter Strasse, 65 C LONTZEN Liège 4711</address>
+				<Point>
+					<coordinates>6.0360089,50.6827296,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2700</value>
+							</Data>
+												<Data name='nq'>
+								<value>8247</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4711</value>
+							</Data>
+												<Data name='pc'>
+								<value>4711</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Walhorn</value>
+							</Data>
+												<Data name='municipality'>
+								<value>LONTZEN</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Ketteniser Strasse, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Ketteniser Strasse, 11 LONTZEN Liège 4711</address>
+				<Point>
+					<coordinates>6.045832,50.6735698,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>46</value>
+							</Data>
+												<Data name='nq'>
+								<value>2166</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue de la Warchenne, 14</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue de la Warchenne, 14 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0276945,50.4246436,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>837</value>
+							</Data>
+												<Data name='nq'>
+								<value>4341</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Haute Vaulx, 39</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Haute Vaulx, 39 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0349376,50.4252373,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1082</value>
+							</Data>
+												<Data name='nq'>
+								<value>4083</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Bernister-Route des Planeresses, 41 B</value>
+							</Data>
+									</ExtendedData>
+								<address>Bernister-Route des Planeresses, 41 B MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0171772,50.4417577,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1327</value>
+							</Data>
+												<Data name='nq'>
+								<value>29134</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Place de la Fraternite, 9</value>
+							</Data>
+									</ExtendedData>
+								<address>Place de la Fraternite, 9 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0282292,50.4239654,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1386</value>
+							</Data>
+												<Data name='nq'>
+								<value>25003</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Route de Chodes, 62</value>
+							</Data>
+									</ExtendedData>
+								<address>Route de Chodes, 62 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.039984,50.4234592,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>1548</value>
+							</Data>
+												<Data name='nq'>
+								<value>19047</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue Augustin-Francois, 11</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue Augustin-Francois, 11 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0171088,50.4203742,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+								<ExtendedData>
+												<Data name='id'>
+								<value>2533</value>
+							</Data>
+												<Data name='nq'>
+								<value>27808</value>
+							</Data>
+												<Data name='awpc.bis'>
+								<value>4960</value>
+							</Data>
+												<Data name='pc'>
+								<value>4960</value>
+							</Data>
+												<Data name='submunicipality'>
+								<value>Malmedy</value>
+							</Data>
+												<Data name='municipality'>
+								<value>MALMEDY</value>
+							</Data>
+												<Data name='arr'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='arr.group'>
+								<value>Verviers</value>
+							</Data>
+												<Data name='province.bis'>
+								<value>Liège</value>
+							</Data>
+												<Data name='distributer'>
+								<value>SWDE</value>
+							</Data>
+												<Data name='address.bis'>
+								<value>Rue des Arsilliers, 31</value>
+							</Data>
+									</ExtendedData>
+								<address>Rue des Arsilliers, 31 MALMEDY Liège 4960</address>
+				<Point>
+					<coordinates>6.0245984,50.4247796,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/red_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>
