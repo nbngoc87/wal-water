@@ -88,9 +88,9 @@ vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
     tmpdf$bill_new <- fixed + 0.0125*tmpdf$csmptv + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
     tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
     tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
-    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc", fixed, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill_fixed", fixed, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab_fixed", fixed, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc_fixed", fixed, sep = "_")
     
   }
   list(tmpdf, cvd_v)
@@ -107,7 +107,7 @@ vary_fixed_df <- Reduce(rbind, lapply(vary_fixed_ls, function(x) x[[1]]))
 
 df <- left_join(df, vary_fixed_df)
 
-test <- df[,c("id", "income" , grep("difab", colnames(df), value = T))]
+test <- df[,c("id", "income" , grep("difab_fixed", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
 test$incqnt <- as.factor(test$incqnt)
@@ -122,7 +122,7 @@ ggplot(test_lg) +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (EUR)")
 
-test <- df[,c("id", "income" , grep("difpc", colnames(df), value = T))]
+test <- df[,c("id", "income" , grep("difpc_fixed", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
 test$incqnt <- as.factor(test$incqnt)
@@ -137,8 +137,34 @@ ggplot(test_lg) +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (%)")
 
+df$urban <- factor(df$urban)
+df$urban <- car::recode(df$urban, "c('0', '1') = 'low'; c('2','3') = 'medium'; c('4','5') = 'high' ")
 
+df$urban <- factor(df$urban, levels = lvls(df$urban)[c(2,3,1)])
 
+test <- df[,c("id", "urban" , grep("difab_fixed", colnames(df), value = T))]
+
+test_lg <- melt(test, id.vars = c("id", "urban"))
+test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
+
+ggplot(test_lg) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_wrap(.~ fixed) +
+  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  theme_bw() +
+  labs(x = "urbanization", y = "Changes in water bill (EUR)")
+
+test <- df[,c("id", "urban" , grep("difpc_fixed", colnames(df), value = T))]
+
+test_lg <- melt(test, id.vars = c("id", "urban"))
+test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
+
+ggplot(test_lg) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_wrap(.~ fixed) +
+  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  theme_bw() +
+  labs(x = "urbanization", y = "Changes in water bill (%)")
 
 
 # ## 3.3. linear with and without fixed -----
@@ -161,23 +187,31 @@ ggplot(test_lg) +
 # 
 # 
 # 
-# ## 3.4. block tariffs per captia -----
-# 
-# # follow Brussels scheme
-# 
-# 
-# 
-# bl_2_1 <- 3.7696/2.115
-# bl_3_2 <- 5.5726/3.7696
-# bl_4_3 <- 8.1338/5.5726
-# 
-# 
-# bl1 <- 2.78
-# bl2 <- bl1*bl_2_1
-# bl3 <- bl2*bl_3_2
-# bl4 <- bl3*bl_4_3
-# 
-# df$bill_brx <- 25.23 + (15*bl1 + 15*bl2 + 30*bl3 + (df$cspc - 60)*bl4)*df$hhs
+## 3.4. block tariffs per captia -----
+
+### Brussels scheme ------------
+
+df$bl2 <- ifelse(df$cspc <= 30 & df$cspc > 15, 1, 0)
+df$bl3 <- ifelse(df$cspc <= 60 & df$cspc >30, 1, 0)
+df$bl4 <- ifelse(df$cspc > 60, 1, 0)
+
+summary(df$bl3)
+
+tot <- sum(df$bill_cur)
+
+
+bl_2_1 <- 3.7696/2.115  # 1.782317
+bl_3_1 <- 5.5726/2.115 # 2.634799
+bl_4_1 <- 8.1338/2.115 # 3.845768
+
+bl1 <- (tot - 25.23*nrow(df))/sum((df$cspc + (df$cspc-15)*(bl_2_1 - 1)*df$bl2 + (df$cspc-30)*(bl_3_1 - bl_2_1)*df$bl3 + (df$cspc-60)*(bl_4_1 - bl_3_1)*df$bl4)*df$hhs)
+
+df$bill_brx <- 25.23 + bl1*(df$cspc + (df$cspc-15)*(bl_2_1 - 1)*df$bl2 + (df$cspc-30)*(bl_3_1 - bl_2_1)*df$bl3 + (df$cspc-60)*(bl_4_1 - bl_3_1)*df$bl4)*df$hhs
+
+summary(df$bill_brx)
+summary(df$bill_cur)
+sum(df$bill_brx)
+sum(df$bill_cur)
 # 
 # df$bill_brx <- ifelse(df$cspc <= 60 & df$cspc >30, 25.23 + (15*bl1 + 15*bl2 + (df$cspc - 30)*bl3)*df$hhs, df$bill_brx)
 # 
@@ -192,6 +226,10 @@ ggplot(test_lg) +
 # 
 ## 3.5. rainwater tank tax ---------
 
+
+df$rwtank <- as.numeric(df$rwtank %in% "yes")
+
+
 vary_rwtf_f <- function(dtbtorname = "SWDE", rwtfs = seq (0, 200, 40)) {
   tmpdf <- df[df$dtbtor %in% dtbtorname,]
   
@@ -201,61 +239,92 @@ vary_rwtf_f <- function(dtbtorname = "SWDE", rwtfs = seq (0, 200, 40)) {
   
   for (rwtf in rwtfs) {
     
-    cvd <- (total - fse - fixed*nrow(tmpdf) - sum((tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30))/sum(0.5*tmpdf$csmptv + 0.5*(tmpdf$csmptv - 30)*tmpdf$ab30)
+    rwtt <- sum(rwtf*tmpdf$rwtank)
+    
+    cvd <- (total - fse - rwtt - sum(30*tmpdf$CVA + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30))/sum(20 + 0.5*tmpdf$csmptv + 0.5*(tmpdf$csmptv - 30)*tmpdf$ab30)
     cvd_v <- c(cvd_v, cvd)
-    tmpdf$bill_new <- fixed + 0.0125*tmpdf$csmptv + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
+    tmpdf$bill_new <- rwtf*tmpdf$rwtank + 30*tmpdf$CVA + 20*cvd + 0.0125*tmpdf$csmptv + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
     tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
     tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
-    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc", fixed, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill_rwtt", rwtf, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab_rwtt", rwtf, sep = "_")
+    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc_rwtt", rwtf, sep = "_")
     
   }
   list(tmpdf, cvd_v)
 }
 
+### 0-200,40 -------------
+vary_rwtf_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_rwtf_f)
 
-vary_fixed_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_fixed_f)
-
-cvd <- sapply(vary_fixed_ls, function(x) x[[2]])
+cvd <- sapply(vary_rwtf_ls, function(x) x[[2]])
 
 write.table(cvd, "clipboard", sep = "\t")
 
-vary_fixed_df <- Reduce(rbind, lapply(vary_fixed_ls, function(x) x[[1]]))
+ndtb <- matrix(table(df$dtbtor)[c(3,1,2)])
 
-df <- left_join(df, vary_fixed_df)
+write.table((cvd%*%ndtb*20 + unique(df$CVA)*30*1534)/1534, "clipboard", sep = "\t")
 
-test <- df[,c("id", "income" , grep("difab", colnames(df), value = T))]
+vary_rwtf_df <- Reduce(rbind, lapply(vary_rwtf_ls, function(x) x[[1]]))
+
+df <- left_join(df, vary_rwtf_df)
+
+test <- df[,c("id", "income" , grep("difab_rwtt", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
 test$incqnt <- as.factor(test$incqnt)
 
 test_lg <- melt(test, id.vars = c("id", "income", "incqnt"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
+test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
 
-ggplot(test_lg) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_wrap(.~ fixed) +
+ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
+  geom_boxplot() +
+  stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") +
+  facet_wrap(.~ rwtt) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (EUR)")
 
-test <- df[,c("id", "income" , grep("difpc", colnames(df), value = T))]
+test <- df[,c("id", "income" , grep("difpc_rwtt", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
 test$incqnt <- as.factor(test$incqnt)
 
 test_lg <- melt(test, id.vars = c("id", "income", "incqnt"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
+test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
 
-ggplot(test_lg) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_wrap(.~ fixed) +
+ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
+  geom_boxplot() +
+  stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") +
+  facet_wrap(.~ rwtt) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (%)")
 
+test <- df[,c("id", "urban" , grep("difab_rwtt", colnames(df), value = T))]
 
+test_lg <- melt(test, id.vars = c("id", "urban"))
+test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
+
+ggplot(test_lg) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_wrap(.~ rwtt) +
+  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  theme_bw() +
+  labs(x = "urbanization", y = "Changes in water bill (%)")
+
+
+test <- df[,c("id", "urban" , grep("difpc_rwtt", colnames(df), value = T))]
+
+test_lg <- melt(test, id.vars = c("id", "urban"))
+test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
+
+ggplot(test_lg) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_wrap(.~ rwtt) +
+  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  theme_bw() +
+  labs(x = "urbanization", y = "Changes in water bill (%)")
 
 
 # # 4. plots -----------
@@ -611,10 +680,6 @@ ggplot(test_lg) +
 # ## 4.4. by urban -----
 # 
 # 
-# df$urban <- factor(df$urban)
-# df$urban <- car::recode(df$urban, "c('0', '1') = 'low'; c('2','3') = 'medium'; c('4','5') = 'high' ")
-# 
-# df$urban <- factor(df$urban, levels = lvls(df$urban)[c(2,3,1)])
 # 
 # df_sum <- df %>%
 #   group_by(urban) %>%
