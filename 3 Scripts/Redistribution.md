@@ -1,305 +1,31 @@
-#' ---
-#' title: "Redistribution effects of water tariffs"
-#' author: "Nguyen Bich Ngoc,"
-#' date: "`r format(Sys.time(), '%d %B %Y')`"
-#' output: github_document
-#' ---
+Redistribution effects of water tariffs
+================
+Nguyen Bich Ngoc,
+02 December 2021
 
+# Introduction
 
-#+ r setup, include = F
-# notes from last run----------------------
+    ##    dtbtor   CVA
+    ## 1    SWDE 1.745
+    ## 2    CILE 1.745
+    ## 11  IECBW 1.745
 
+![](redistribution_files/figure-gfm/changefixed-1.png)<!-- -->![](redistribution_files/figure-gfm/changefixed-2.png)<!-- -->![](redistribution_files/figure-gfm/changefixed-3.png)<!-- -->![](redistribution_files/figure-gfm/changefixed-4.png)<!-- -->
 
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##  0.0000  0.0000  0.0000  0.3846  1.0000  1.0000
 
-# 1. setup ---------
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   28.57  167.70  273.18  305.18  405.28 1630.66
 
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   102.5   169.1   272.4   305.2   396.0  1202.4
 
+    ## [1] 468142.9
 
+    ## [1] 468142.9
 
-
-## 1.1. load functions -----------------
-
-# install.packages("here")
-library(here)
-
-
-source(here("3 Scripts", "general_functions.R"))
-
-loadpackage('dplyr')
-loadpackage('ggplot2')
-loadpackage('reshape2')
-loadpackage('raster')
-loadpackage('sf')
-
-## 1.2 load data --------
-
-### data folder
-rdir <- '2 Data/1 Raw'
-pdir <- '2 Data/2 Processed'
-
-### survey data
-
-surv14 <- read.csv(file = here(pdir, "UtiSurv_2014_AWalCEHD_Wal/Survey2014_obs_AquaWal_prd.csv"))
-
-### price data
-
-price <- read.csv(file = here(pdir, 'Water_price_AWal_Wal/water_price_Wal_12_17.csv'))
-
-
-### location 
-load(file= here(pdir, 'UtiSurv_2014_AWalCEHD_Wal/Addresses/surv14_coord_PICC.Rdata'))
-
-### urbanization
-
-urban_10 <- raster(here(pdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
-
-crs(urban_10) <- st_crs(surv14_coords)
-
-# 2. merge data ----------
-
-surv14$year <- 2014
-
-df <- dplyr::left_join(surv14, price)[, c('id', 'CVD', 'CVA', 'csmptv', 'inceqa', 'rwtank', 'hhs_0_19', 'hhs_20_95', 'income', 'inccat', 'dtbtor', "rprage")]
-df$hhs <- df$hhs_0_19 + df$hhs_20_95
-
-df$csmptv[df$csmptv > 300] <- NA
-
-
-
-urban <- cbind.data.frame(id = surv14_coords$id, urban = extract(urban_10, surv14_coords))
-
-urban <- urban[urban$urban > -1,]
-
-df <- inner_join(df, urban)
-df$cspc <- df$csmptv/df$hhs
-
-df <- df[!is.na(df$csmptv) & !is.na(df$inceqa) & !is.na(df$CVD),]
-
-df <- df[df$dtbtor %in% c("CILE", "SWDE", "IECBW"),]
-
-df$ab30 <- as.numeric(df$csmptv > 30)
-
-df$bill_cur <- (20*df$CVD + 30*df$CVA) + 0.0125*df$csmptv + 0.5*df$csmptv*df$CVD + 0.5*(df$csmptv - 30)*df$CVD*df$ab30 + (df$csmptv - 30)*df$CVA*df$ab30
-
-df <- df %>% mutate(incqnt = ntile(income, 4))
-df$incqnt <- as.factor(df$incqnt)
-df$TEH <- df$bill_cur*100/(df$income*12)
-
-
-# 3. equity analysis ----
-
-#' ## Introduction
-#' 
-#' 
-
-
-#+ intro, echo = F, message = F
-
-#' ### Rational:
-#' Water tariff purpose:
-#' 
-
-# shared total revenue by each income group?
-
-
-ggplot(df, aes(x = incqnt, y = bill_cur)) + 
-  stat_summary(
-    fun = sum,
-    geom = "col",
-  )
-
-# TEH by each income group?
-
-
-ggplot(df, aes(x = incqnt, y = TEH)) + 
-  geom_boxplot()
-
-# average price per habitant per m3 by income group
-
-df$pwpcpv <- df$bill_cur/df$csmptv/df$hhs
-
-ggplot(df, aes(x = incqnt, y = pwpcpv)) + 
-  geom_boxplot()
-
-
-plotdf <- df %>% 
-  group_by(incqnt) %>%
-  summarise(tothab = sum(hhs),
-            totbill = sum(bill_cur))
-
-plotdf$billpc <- plotdf$totbill/plotdf$tothab
-
-ggplot(plotdf, aes(x = incqnt, y = billpc)) +
-  geom_col()
-
-ggplot(df, aes(x = incqnt, y = inceqa)) +
-  geom_boxplot()
-
-
-df$incpc <- df$income/df$hhs
-
-ggplot(df, aes(x = incqnt, y = incpc)) +
-  geom_boxplot() +
-  stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") 
-  
-# marginal price vs income quartiles
-# average priec vs income quantiles
-# 4. changing fixed  -----
-#+ changefixed, echo = F, message = F
-
-
-vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
-  tmpdf <- df[df$dtbtor %in% dtbtorname,]
-  
-  total <- sum(tmpdf$bill_cur)
-  fse <- sum(0.0125*tmpdf$csmptv)
-  cvd_v <- numeric()
-  
-  for (fixed in fixeds) {
-    
-    cvd <- (total - fse - fixed*nrow(tmpdf) - sum((tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30))/sum(0.5*tmpdf$csmptv + 0.5*(tmpdf$csmptv - 30)*tmpdf$ab30)
-    cvd_v <- c(cvd_v, cvd)
-    tmpdf$bill_new <- fixed + 0.0125*tmpdf$csmptv + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
-    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
-    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
-    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc_fixed", fixed, sep = "_")
-    
-  }
-  list(tmpdf, cvd_v)
-}
-
-
-vary_fixed_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_fixed_f)
-
-cvd <- sapply(vary_fixed_ls, function(x) x[[2]])
-
-write.table(cvd, "clipboard", sep = "\t")
-
-vary_fixed_df <- Reduce(rbind, lapply(vary_fixed_ls, function(x) x[[1]]))
-
-df <- left_join(df, vary_fixed_df)
-
-test <- df[,c("id", "income" , grep("difab_fixed", colnames(df), value = T))]
-
-test <- test %>% mutate(incqnt = ntile(income, 4))
-test$incqnt <- as.factor(test$incqnt)
-
-test_lg <- melt(test, id.vars = c("id", "income", "incqnt"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "income quartile", y = "Changes in water bill (EUR)")
-
-test <- df[,c("id", "income" , grep("difpc_fixed", colnames(df), value = T))]
-
-
-
-test_lg <- melt(test, id.vars = c("id", "income", "incqnt"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "income quartile", y = "Changes in water bill (%)")
-
-df$urban <- factor(df$urban)
-df$urban <- car::recode(df$urban, "c('0', '1') = 'low'; c('2','3') = 'medium'; c('4','5') = 'high' ")
-
-df$urban <- factor(df$urban, levels = lvls(df$urban)[c(2,3,1)])
-
-test <- df[,c("id", "urban" , grep("difab_fixed", colnames(df), value = T))]
-
-test_lg <- melt(test, id.vars = c("id", "urban"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = urban, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "urbanization", y = "Changes in water bill (EUR)")
-
-test <- df[,c("id", "urban" , grep("difpc_fixed", colnames(df), value = T))]
-
-test_lg <- melt(test, id.vars = c("id", "urban"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = urban, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "urbanization", y = "Changes in water bill (%)")
-
-
-# ## 3.3. linear with and without fixed -----
-# 
-# unpr <- sum(df$bill_14)/sum(df$csmptv)
-# 
-# df$bill_ln <- df$csmptv*unpr
-# 
-# df$dif_ln <- df$bill_ln - df$bill_14
-# 
-# #### with fixed
-# fixed <- 1.06*(20*mean(df$CVD) + 30*mean(df$CVA))
-# 
-# unpr1 <- (sum(df$bill_14) - nrow(df)*fixed)/sum(df$csmptv)
-# 
-# df$bill_lnwf <- fixed + df$csmptv*unpr1
-# 
-# 
-# df$dif_lnwf <- df$bill_lnwf - df$bill_14
-# 
-# 
-# 
-## 3.4. block tariffs per captia -----
-
-### Brussels scheme ------------
-
-df$bl2 <- ifelse(df$cspc <= 30 & df$cspc > 15, 1, 0)
-df$bl3 <- ifelse(df$cspc <= 60 & df$cspc >30, 1, 0)
-df$bl4 <- ifelse(df$cspc > 60, 1, 0)
-
-summary(df$bl3)
-
-tot <- sum(df$bill_cur)
-
-
-bl_2_1 <- 3.7696/2.115  # 1.782317
-bl_3_1 <- 5.5726/2.115 # 2.634799
-bl_4_1 <- 8.1338/2.115 # 3.845768
-
-bl1 <- (tot - 25.23*nrow(df))/sum((df$cspc + (df$cspc-15)*(bl_2_1 - 1)*df$bl2 + (df$cspc-30)*(bl_3_1 - bl_2_1)*df$bl3 + (df$cspc-60)*(bl_4_1 - bl_3_1)*df$bl4)*df$hhs)
-
-df$bill_brx <- 25.23 + bl1*(df$cspc + (df$cspc-15)*(bl_2_1 - 1)*df$bl2 + (df$cspc-30)*(bl_3_1 - bl_2_1)*df$bl3 + (df$cspc-60)*(bl_4_1 - bl_3_1)*df$bl4)*df$hhs
-
-summary(df$bill_brx)
-summary(df$bill_cur)
-sum(df$bill_brx)
-sum(df$bill_cur)
-# 
-# df$bill_brx <- ifelse(df$cspc <= 60 & df$cspc >30, 25.23 + (15*bl1 + 15*bl2 + (df$cspc - 30)*bl3)*df$hhs, df$bill_brx)
-# 
-# df$bill_brx <- ifelse(df$cspc <= 30 & df$cspc > 15, 25.23 + (15*bl1 + (df$cspc - 15)*bl2)*df$hhs, df$bill_brx)
-# 
-# df$bill_brx <- ifelse(df$cspc <=  15, 25.23 + (df$cspc*bl1)*df$hhs, df$bill_brx)
-# 
-# sum(df$bill_brx)
-# sum(df$bill_14)
-# 
-# df$dif_brx <- df$bill_brx - df$bill_14
-# 
-## 3.5. rainwater tank tax ---------
-#+ changerwtt
-
+``` r
 df$rwtank <- as.numeric(df$rwtank %in% "yes")
 
 
@@ -341,7 +67,11 @@ write.table((cvd%*%ndtb*20 + unique(df$CVA)*30*1534)/1534, "clipboard", sep = "\
 vary_rwtf_df <- Reduce(rbind, lapply(vary_rwtf_ls, function(x) x[[1]]))
 
 df <- left_join(df, vary_rwtf_df)
+```
 
+    ## Joining, by = c("id", "CVD", "CVA", "csmptv", "inceqa", "rwtank", "hhs_0_19", "hhs_20_95", "income", "inccat", "dtbtor", "hhs", "urban", "cspc", "ab30", "bill_cur", "bill_fixed_0", "difab_fixed_0", "difpc_fixed_0", "bill_fixed_40", "difab_fixed_40", "difpc_fixed_40", "bill_fixed_80", "difab_fixed_80", "difpc_fixed_80", "bill_fixed_120", "difab_fixed_120", "difpc_fixed_120", "bill_fixed_160", "difab_fixed_160", "difpc_fixed_160", "bill_fixed_200", "difab_fixed_200", "difpc_fixed_200", "bl2", "bl3", "bl4", "bill_brx")
+
+``` r
 test <- df[,c("id", "income" , grep("difab_rwtt", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
@@ -357,7 +87,13 @@ ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (EUR)")
+```
 
+    ## Warning: `fun.y` is deprecated. Use `fun` instead.
+
+![](redistribution_files/figure-gfm/changerwtt-1.png)<!-- -->
+
+``` r
 test <- df[,c("id", "income" , grep("difpc_rwtt", colnames(df), value = T))]
 
 test <- test %>% mutate(incqnt = ntile(income, 4))
@@ -373,7 +109,13 @@ ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (%)")
+```
 
+    ## Warning: `fun.y` is deprecated. Use `fun` instead.
+
+![](redistribution_files/figure-gfm/changerwtt-2.png)<!-- -->
+
+``` r
 test <- df[,c("id", "urban" , grep("difab_rwtt", colnames(df), value = T))]
 
 test_lg <- melt(test, id.vars = c("id", "urban"))
@@ -385,8 +127,11 @@ ggplot(test_lg) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "urbanization", y = "Changes in water bill (%)")
+```
 
+![](redistribution_files/figure-gfm/changerwtt-3.png)<!-- -->
 
+``` r
 test <- df[,c("id", "urban" , grep("difpc_rwtt", colnames(df), value = T))]
 
 test_lg <- melt(test, id.vars = c("id", "urban"))
@@ -398,8 +143,11 @@ ggplot(test_lg) +
   geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
   theme_bw() +
   labs(x = "urbanization", y = "Changes in water bill (%)")
+```
 
+![](redistribution_files/figure-gfm/changerwtt-4.png)<!-- -->
 
+``` r
 # # 4. plots -----------
 # 
 # 
@@ -850,6 +598,4 @@ ggplot(test_lg) +
 #   theme_bw() +
 #   labs(y = 'Difference in water bill (%)', x = 'Urban density') +
 #   ylim(-18,18)
-
-
-
+```
