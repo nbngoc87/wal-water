@@ -4,10 +4,21 @@
 
 # 1. setup ---------
 
+#' ---
+#' title:"Redistribution effects of water tariffs"
+#' output: github_document
+#' --- 
+
+
+
 
 ## 1.1. load functions -----------------
 
-source('3 Scripts/general_functions.R')
+# install.packages("here")
+library(here)
+
+
+source(here("3 Scripts", "general_functions.R"))
 
 loadpackage('dplyr')
 loadpackage('ggplot2')
@@ -23,19 +34,19 @@ pdir <- '2 Data/2 Processed'
 
 ### survey data
 
-surv14 <- read.csv(file = file.path(pdir, "UtiSurv_2014_AWalCEHD_Wal/Survey2014_obs_AquaWal_prd.csv"))
+surv14 <- read.csv(file = here(pdir, "UtiSurv_2014_AWalCEHD_Wal/Survey2014_obs_AquaWal_prd.csv"))
 
 ### price data
 
-price <- read.csv(file = file.path(pdir, 'Water_price_AWal_Wal/water_price_Wal_12_17.csv'))
+price <- read.csv(file = here(pdir, 'Water_price_AWal_Wal/water_price_Wal_12_17.csv'))
 
 
 ### location 
-load(file= file.path(pdir, 'UtiSurv_2014_AWalCEHD_Wal/Addresses/surv14_coord_PICC.Rdata'))
+load(file= here(pdir, 'UtiSurv_2014_AWalCEHD_Wal/Addresses/surv14_coord_PICC.Rdata'))
 
 ### urbanization
 
-urban_10 <- raster(file.path(pdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
+urban_10 <- raster(here(pdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
 
 crs(urban_10) <- st_crs(surv14_coords)
 
@@ -67,12 +78,14 @@ df$ab30 <- as.numeric(df$csmptv > 30)
 
 # 3. water bills ----
 ## 3.1. current -----
+#+ current
 
 df$bill_cur <- (20*df$CVD + 30*df$CVA) + 0.0125*df$csmptv + 0.5*df$csmptv*df$CVD + 0.5*(df$csmptv - 30)*df$CVD*df$ab30 + (df$csmptv - 30)*df$CVA*df$ab30
 
 
 unique(df[, c("dtbtor", "CVA")])
 ## 3.2. current with different fixed  -----
+#+ changefixed
 
 vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
   tmpdf <- df[df$dtbtor %in% dtbtorname,]
@@ -225,7 +238,7 @@ sum(df$bill_cur)
 # df$dif_brx <- df$bill_brx - df$bill_14
 # 
 ## 3.5. rainwater tank tax ---------
-
+#+ changerwtt
 
 df$rwtank <- as.numeric(df$rwtank %in% "yes")
 
