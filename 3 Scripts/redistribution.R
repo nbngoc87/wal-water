@@ -1,12 +1,17 @@
 #' ---
 #' title: "Redistribution effects of water tariffs"
-#' author: "Nguyen Bich Ngoc,"
+#' author: "Nguyen Bich Ngoc, Jacques Teller"  
 #' date: "`r format(Sys.time(), '%d %B %Y')`"
-#' output: github_document
+#' output: 
+#'  bookdown::pdf_document2:
+#'   theme: cosmo
+#'   keep_md: true
 #' ---
+  
 
 
-#+ r setup, include = F
+
+#+ r setup, include = F, message = F
 # notes from last run----------------------
 
 
@@ -33,23 +38,23 @@ loadpackage('sf')
 
 ## 1.2 load data --------
 
-### data folder
+### data folder ----
 rdir <- '2 Data/1 Raw'
 pdir <- '2 Data/2 Processed'
 
-### survey data
+### survey data ----------
 
 surv14 <- read.csv(file = here(pdir, "UtiSurv_2014_AWalCEHD_Wal/Survey2014_obs_AquaWal_prd.csv"))
 
-### price data
+### price data ---------
 
 price <- read.csv(file = here(pdir, 'Water_price_AWal_Wal/water_price_Wal_12_17.csv'))
 
 
-### location 
+### location  ---------
 load(file= here(pdir, 'UtiSurv_2014_AWalCEHD_Wal/Addresses/surv14_coord_PICC.Rdata'))
 
-### urbanization
+### urbanization -------------
 
 urban_10 <- raster(here(pdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
 
@@ -86,19 +91,91 @@ df$incqnt <- as.factor(df$incqnt)
 df$TEH <- df$bill_cur*100/(df$income*12)
 
 
+#' # Introduction
+#' ## Rational:
+#' * Water tariff objectives:
+#'    + self-sufficiency for service providers
+#'    + equity among customers
+#'    + conservation/economic efficiency for society
+#' * Current tariff in Wallonia:
+#'    + 2 parts: fixed + volumetric
+#'    + fixed: 20CVD + 20CVA, differences among distributors are negligible
+#'    + volumetric: 2 increasing blocks at connection level --- IBT-con &#40;actually 3 blocks, but household rarely reach block 3&#41;
+#'       - 0-30 m^3^: 0.5*CVD
+#'       - 30-500 m^3^: CVD + CVA
+#' * Arguments for IBT:
+#'    + incentive to save water &#40;higher price for larger consumption&#41;
+#'    + pro-poor &#40;supposedly&#41;
+#' * Arguments against IBT:
+#'    + pro-poor often not true due to low correlation between water consumption and income. That value of Wallonia is `r cor(df$csmptv, df$income)` for household consumption and `r cor(df$cspc, df$income)` for consumption per inhabitant.
+#'    + difficult to understand hence not clear signal for custumer to use water wisely  
+#'    
+#' ## Objectives
+#' * Assess social aspects of current price tariffs
+#' * Compare social equity of different hypothesized tariff schemes 
+#' 
+#' # Data and method
+#' ## Data
+#' * Utility survey data provided by Aquawal and CEHD
+#'    + year: 2014     
+#'    + 1534 households
+#'    + 3 main distributors: SWDE &#40;1143&#41;, CILE &#40;265&#41;, inBW &#40;126&#41;
+#'    + information include: water consumption, household size, income, rainwater tank ...
+#' * built-up density
+#'    + year: 2011
+#'    + at 100x100m scale
+#'    + 3 categories: low, medium, high
+#'    
+#' ## Method
+#' * assess social aspects of current tariff
+#'    + divide households into 4 groups using household income quartiles
+#'    + pairwise analyses of household income and other factors: income per equivalent adults, water use, water bill, TEH ...
+#' * compare different tariff scheme
+#'    + current format with different changing fixed part
+#'       - assumptions: keep same total bill in 2014 for all households within the same distributor & keep CVA of 2014 not changing
+#'       - changing fixed part: EUR 0, 40, ..., 200 
+#'       - recalculate CVD for each distributor at each value of fixed part
+#'       - recalculate household water bill in 2014 and compare with the actual one
+#'    + current format with potential tax on rainwater tank
+#'       - assumptions: keep same total bill in 2014 for all households within the same distributor & keep CVA of 2014 not changing
+#'       - changing watertank tax: EUR 0, 40, ..., 200 
+#'       - recalculate CVD for each distributor at each value of fixed part
+#'       - recalculate household water bill in 2014 and compare with the actual one
+#'    + compare IBT-con, IBT-cap, linear
+#' 
+#' # Results
+#' ## Social aspects of water tariff in Wallonia
+
+#+ heading1, include = F
+
 # 3. equity analysis ----
+## 3.1 income quantile summary -------
 
-#' ## Introduction
-#' 
-#' 
+incqnt_tab <- df %>%
+  group_by(incqnt) %>%
+  summarise(count = n(),
+            npp = sum(hhs),
+            mininc = min(income),
+            maxinc = max(income))
 
 
-#+ intro, echo = F, message = F
 
-#' ### Rational:
-#' Water tariff purpose:
-#' 
+#+ tabinc, echo = F, message = F
+ 
+knitr::kable(incqnt_tab, caption = "Household income quartile characteristics", digits = 2, col.names = c("Quartile", "Number of households", "Number of people", "Min income (EUR/month)", "Max income (EUR/month)"))
 
+
+
+#+ inceqa, fig.cap = "Income per equivalent adults for different household income group", echo = F, message = F
+
+ggplot(df, aes(x = incqnt, y = inceqa)) +
+  geom_boxplot() +
+  theme_bw() +
+  labs(x = "Household income quartiles", y = "Income per equivalent adult")
+
+knitr::knit_exit()
+
+#+ new, echo = F, message = F
 # shared total revenue by each income group?
 
 
@@ -141,6 +218,8 @@ df$incpc <- df$income/df$hhs
 ggplot(df, aes(x = incqnt, y = incpc)) +
   geom_boxplot() +
   stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") 
+
+
   
 # marginal price vs income quartiles
 # average priec vs income quantiles
