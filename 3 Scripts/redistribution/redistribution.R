@@ -726,7 +726,7 @@ knitr::kable(cvd, digits = 4, col.names = c(" ", " ", "SWDE", "CILE", "IECBW", "
   kable_styling(full_width = T)
 
 
-### change in water bill------
+### by income ------
 
 #+ fixedpc, echo = F, message = F , fig.width = 10, fig.height = 5
 
@@ -758,7 +758,7 @@ ggplot(plotdf) +
   theme_bw() +
   labs(x = "Income quintiles", y = "Ratio of changes in bill to income (%)")
 
-### change TEH ------
+
 
 #+ fixedTEH, echo = F, message = F , fig.width = 10, fig.height = 5
 
@@ -773,6 +773,10 @@ ggplot(plotdf) +
   facet_grid(.~ fixed)  +
   theme_bw() +
   labs(x = "Income quintiles", y = "Ratio of water bill to income (%)")
+
+### by urban -----------
+
+### poorest --------------
 
 
 knitr::knit_exit()
