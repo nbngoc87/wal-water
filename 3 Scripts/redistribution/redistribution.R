@@ -837,11 +837,6 @@ ggplot(plotdf) +
   theme_bw() +
   theme(legend.position = "bottom") 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
-
 
 #+ fixTEHinc, echo = F, message = F , fig.width = 10, fig.height = 5
 
@@ -1358,6 +1353,10 @@ ggplot(plotdf, aes(x = variable, y = value)) +
   theme(legend.position = "bottom") 
 
 
+
+### by urban -----------
+
+### poorest --------------
 
 
 knitr::knit_exit()
