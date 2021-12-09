@@ -17,7 +17,7 @@
 # 1. setup ---------
 
 
-knitr::opts_chunk$set(fig.width=5, fig.height=5, dpi = 1000) 
+knitr::opts_chunk$set(fig.width=5, fig.height=5, dpi = 300) 
 
 
 ## 1.1. load functions -----------------
@@ -41,6 +41,7 @@ vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
   tmpdf <- df[df$dtbtor %in% dtbtorname,]
   
   total <- sum(tmpdf$bill_cur)
+  avrprc <- sum(tmpdf$bill_cur)/sum(tmpdf$csmptv)
   cvd_v <- numeric()
   
   for (fixed in fixeds) {
@@ -52,18 +53,41 @@ vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
     tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
     tmpdf$difpcinc <- tmpdf$diff*100/(tmpdf$income*12)
     tmpdf$TEH_new <- tmpdf$bill_new*100/(tmpdf$income*12)
-    colnames(tmpdf)[ncol(tmpdf) - 4] <- paste("bill_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 3] <- paste("difab_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("difpc_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difpcinc_fixed", fixed, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf)] <- paste("TEH_fixed", fixed, sep = "_")
-    
+    tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
+    tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
+    colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "fixed", fixed, sep = "_")
     
   }
   list(tmpdf, cvd_v)
 }
 
 
+
+vary_rwtt_f <- function(dtbtorname = "SWDE", rwtts = seq (0, 200, 40)) {
+  tmpdf <- df[df$dtbtor %in% dtbtorname,]
+  
+  total <- sum(tmpdf$bill_cur)
+  avrprc <- sum(tmpdf$bill_cur)/sum(tmpdf$csmptv)
+  cvd_v <- numeric()
+  
+  for (rwtt in rwtts) {
+    
+    rwtt_tot <- sum(rwtt*tmpdf$rwt_num)
+    
+    cvd <- (total - rwtt_tot - sum(30*tmpdf$CVA + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30))/sum(20 + 0.5*tmpdf$csmptv + 0.5*(tmpdf$csmptv - 30)*tmpdf$ab30)
+    cvd_v <- c(cvd_v, cvd)
+    tmpdf$bill_new <- rwtt*tmpdf$rwt_num + 30*tmpdf$CVA + 20*cvd + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
+    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
+    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
+    tmpdf$difpcinc <- tmpdf$diff*100/(tmpdf$income*12)
+    tmpdf$TEH_new <- tmpdf$bill_new*100/(tmpdf$income*12)
+    tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
+    tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
+    colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "rwtt", rwtt, sep = "_")   
+    
+  }
+  list(tmpdf, cvd_v)
+}
 
 ## 1.2 load data --------
 
@@ -97,7 +121,7 @@ surv14$year <- 2014
 df <- dplyr::left_join(surv14, price)[, c('id', 'CVD', 'CVA', 'csmptv', 'inceqa', 'rwtank', 'hhs_0_19', 'hhs_20_95', 'income', 'inccat', 'dtbtor', "rprage")]
 df$hhs <- df$hhs_0_19 + df$hhs_20_95
 
-df$csmptv[df$csmptv > 300] <- NA
+df$csmptv[df$csmptv > 300 | df$csmptv < 5] <- NA
 
 
 
@@ -165,24 +189,63 @@ df$hhscat <- df$hhs
 df$hhscat[df$hhscat > 4] <- "5+"
 df$hhscat <- factor(df$hhscat)
 
+df$inccat <- factor(df$inccat, levels = lvls(df$inccat)[c(4, 3, 1, 2)])
+
+df$rwt_num <- as.numeric(df$rwtank %in% "yes")
+
 ## 2.3. varying fixed --------
 fixeds <- seq(0,200,50)
 
 vary_fixed_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_fixed_f, fixeds = fixeds)
 
-cvd <- as.data.frame(sapply(vary_fixed_ls, function(x) x[[2]]))
+tariff_fixed <- as.data.frame(sapply(vary_fixed_ls, function(x) x[[2]]))
 
-cvd <- rbind(t(avr_price$CVD
-), cvd)
+tariff_fixed <- rbind(t(avr_price$CVD
+), tariff_fixed)
 
-colnames(cvd) <- c("SWDE", "CILE", "IECBW")
+colnames(tariff_fixed) <- c("SWDE", "CILE", "IECBW")
 
-cvd$fixed <- c(20*mean(df$CVD) + 30*mean(df$CVA), fixeds)
+tariff_fixed$fixed <- c(20*mean(df$CVD) + 30*mean(df$CVA), fixeds)
+
+tariff_fixed$CVA <- unique(df$CVA)
+
+tariff_fixed$scenario <- c("As in 2014", 1:(nrow(tariff_fixed)-1))
+
+
+
+tariff_fixed <- tariff_fixed[, c(6,4,1:3,5)]
 
 
 vary_fixed_df <- Reduce(rbind, lapply(vary_fixed_ls, function(x) x[[1]]))
 
 df <- left_join(df, vary_fixed_df)
+
+## 2.4. rainwater tank tax ---------
+
+rwtts <- seq(0,200,50)
+
+vary_rwtt_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_rwtt_f, rwtts = rwtts)
+
+tariff_rwtt <- sapply(vary_rwtt_ls, function(x) x[[2]])
+
+ndtb <- matrix(table(df$dtbtor))
+
+fixed_new <- (tariff_rwtt%*%ndtb*20 + unique(df$CVA)*30*1534)/1534
+
+tariff_rwtt <- cbind.data.frame(fixed_new, tariff_rwtt)
+
+colnames(tariff_rwtt) <- c("fixed", "SWDE", "CILE", "IECBW")
+
+tariff_rwtt$rwtt <- rwtts
+
+tariff_rwtt$CVA <- unique(df$CVA)
+
+tariff_rwtt <- tariff_rwtt[,c(5, 1:4, 6)]
+
+
+vary_rwtt_df <- Reduce(rbind, lapply(vary_rwtt_ls, function(x) x[[1]]))
+
+df <- left_join(df, vary_rwtt_df)
 
 # 3. Outputs -------
 
@@ -196,6 +259,21 @@ ggplot(df, aes(x = income)) +
   labs(x = "Household diposable income (Eur/month)") + 
   theme_bw() +
   theme(legend.position = "bottom") 
+
+#+ inccat
+
+inccatdf <- df[!(is.na(df$inccat)),] %>%
+  group_by(inccat) %>%
+  summarise(count = n(),
+            prop = n()/nrow(df),
+            income_avr = mean(income),
+            income_min = min(income),
+            income_max = max(income),
+            inceqa_avr = mean(inceqa),
+            inceqa_min = min(inceqa),
+            inceqa_max = max(inceqa))
+
+inccatdf
 
 #+ hhsplot, fig.cap = "Household income histogram", echo = F, message = F
 
@@ -472,10 +550,6 @@ ggplot(df, aes(x = incqnt, y = mgnprc, fill = hhscat)) +
   theme(legend.position = "bottom") +
   guides(fill = guide_legend(nrow = 1))
 
-#+ mgprpoor
-
-summary(df$mgnprc)
-summary(df$mgnprc[df$poorest == 1])
 
 
 ### average price vs income ---------
@@ -519,10 +593,8 @@ ggplot(df, aes(x = incqnt, y = avrprc, fill = hhscat)) +
   theme(legend.position = "bottom") +
   guides(fill = guide_legend(nrow = 1))
 
-#+ avprpoor
 
-summary(df$avrprc)
-summary(df$avrprc[df$poorest == 1])
+
 
 
 ### subsidy vs income ----------------
@@ -545,9 +617,6 @@ ggplot(df, aes(x = incqnt, y = subs)) +
   labs(x = "Household income quintiles", y = "Subsidy for water bill (EUR)", color = "") + 
   theme_bw() +
   theme(legend.position = "bottom") 
-
-
-
 
 ## 3.3. by built-up density ------
 
@@ -707,28 +776,34 @@ ggplot(df, aes(x = urban, y = subs)) +
   theme_bw() +
   theme(legend.position = "bottom") 
 
+## 3.4. precarious ------
 
+#+ avprpoor
 
-## 3.4. changing fixed  -----
+summary(df$avrprc)
+summary(df$avrprc[df$poorest == 1])
+summary(df$avrprc[df$inccat == "precarious"])
+summary(df$subs[df$inccat == "precarious"])
+
+summary(df$mgnprc)
+summary(df$mgnprc[df$poorest == 1])
+summary(df$mgnprc[df$inccat == "precarious"])
+
+## 3.5. changing fixed  -----
 
 ### new cvd ------
 
 #+ fixedtab, echo = F, message = F, results = "asis"
 
-cvd$scenario <- c("As in 2014", 1:(nrow(cvd)-1))
 
-cvd$cva <- unique(df$CVA)
-
-cvd <- cvd[, c(5,4,1:3,6)]
-
-knitr::kable(cvd, digits = 4, col.names = c(" ", " ", "SWDE", "CILE", "IECBW", " ")) %>%
+knitr::kable(tariff_fixed, digits = 4, col.names = c(" ", " ", "SWDE", "CILE", "IECBW", " ")) %>%
   add_header_above(c("Scenarios" = 1, "Fixed" = 1, "CVD" = 3, "CVA" = 1)) %>%
   kable_styling(full_width = T)
 
 
-### change in water bill------
+### by income ------
 
-#+ fixedpc, echo = F, message = F , fig.width = 10, fig.height = 5
+#+ fixpcinc, echo = F, message = F , fig.width = 10, fig.height = 5
 
 plotdf <- df[,c("incqnt" , grep("difpc_fixed", colnames(df), value = T))]
 
@@ -738,12 +813,15 @@ plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 ggplot(plotdf) +
   geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
   geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_grid(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash")  +
+  facet_grid(.~ fixed,labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red" , linetype = "longdash") +
+  labs(x = "Income quintiles", y = "Changes in water bill (%)") + 
   theme_bw() +
-  labs(x = "Income quintiles", y = "Changes in water bill (%)")
+  theme(legend.position = "bottom") 
 
-#+ fixedpcinc, echo = F, message = F, fig.width = 10, fig.height = 5
+
+
+#+ fixpcincinc, echo = F, message = F, fig.width = 10, fig.height = 5
 
 plotdf <- df[,c("incqnt" , grep("difpcinc_fixed", colnames(df), value = T))]
 
@@ -753,14 +831,19 @@ plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 ggplot(plotdf) +
   geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
   geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_grid(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash")  +
+  facet_grid(.~ fixed, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Income quintiles", y = "Ratio of changes in bill to income (%)") + 
   theme_bw() +
-  labs(x = "Income quintiles", y = "Ratio of changes in bill to income (%)")
+  theme(legend.position = "bottom") 
 
-### change TEH ------
+<<<<<<< HEAD
+=======
 
-#+ fixedTEH, echo = F, message = F , fig.width = 10, fig.height = 5
+>>>>>>> origin/main
+
+
+#+ fixTEHinc, echo = F, message = F , fig.width = 10, fig.height = 5
 
 plotdf <- df[,c("incqnt" , grep("TEH_fixed", colnames(df), value = T))]
 
@@ -770,52 +853,520 @@ plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 ggplot(plotdf) +
   geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
   geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_grid(.~ fixed)  +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Income quintiles", y = "Ratio of water bill to income (%)") + 
   theme_bw() +
-  labs(x = "Income quintiles", y = "Ratio of water bill to income (%)")
+  theme(legend.position = "bottom") 
+
+
+#+ fixsubsinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("subs_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixavprinc1, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("avrprc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Income quintiles", y = expression(Average~price~(EUR/m^3))) + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixavprinc2, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("avrprc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf, aes(x = fixed, y = value, fill = incqnt))  +
+  annotate(geom = "rect", xmin = 75, xmax = 125, ymin = 0, ymax = 8, fill = scico(1, palette = 'batlow', begin = 0.35), alpha = 0.5) +
+         stat_summary(geom  = "col", position = "dodge", fun = mean) +
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end = 0.9, direction = -1)+
+  labs(x = "Fixed fee (EUR)", y =  expression(Average~price~(EUR/m^3)), fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+### by urban -----------
+
+#+ fixpcdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("difpc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Built-up density", y = "Changes in water bill (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixpcincdens, echo = F, message = F, fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("difpcinc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Built-up density", y = "Ratio of changes in bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+#+ fixTEHdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("TEH_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Built-up density", y = "Ratio of water bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+#+ fixsubsdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("subs_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Built-up density", y = "Subsidy for water bill (EUR)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixavprdens1, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("avrprc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$fixed == 100,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ fixed, labeller = label_both) +
+  labs(x = "Built-up density", y = expression(Average~price~(EUR/m^3))) + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixavprdens2, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("avrprc_fixed", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf, aes(x = fixed, y = value, fill = urban))  +
+  annotate(geom = "rect", xmin = 75, xmax = 125, ymin = 0, ymax = 8, fill = scico(1, palette = 'batlow', begin = 0.35), alpha = 0.5) +
+  stat_summary(geom  = "col", position = "dodge", fun = mean) +
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end = 0.9, direction = -1)+
+  labs(x = "Fixed fee (EUR)", y =  expression(Average~price~(EUR/m^3)), fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+
+### precarious --------------
+
+#+ fixdpcpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("difpc_fixed", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot()+
+  geom_hline(yintercept = 0, col = scico(1, palette = "batlow", begin = 0.65), linetype = "longdash", size = 0.8) +
+  labs(x = "Fixed fee (EUR)", y = "Changes in water bill (%)") +
+  scale_x_discrete(labels = fixeds)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+#+ fixtehpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("TEH_fixed", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Fixed fee (EUR)", y = "Ratio of water bill to income (%)") +
+  scale_x_discrete(labels = fixeds)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+#+ fixsubspreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("subs_fixed", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Fixed fee (EUR)", y = "Subsidy for water bill (EUR)") +
+  scale_x_discrete(labels = fixeds)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ fixavprpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("avrprc_fixed", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Fixed fee (EUR)", y = expression(Average~price~(EUR/m^3))) +
+  scale_x_discrete(labels = fixeds)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+## 3.6. changing rwtt  -----
+
+### new cvd ------
+
+#+ rwtttab, echo = F, message = F, results = "asis"
+
+cat("\n")
+
+knitr::kable(tariff_rwtt, digits = 4, col.names = c(" ", " ", "SWDE", "CILE", "IECBW", " ")) %>%
+  add_header_above(c("Rainwater tank tax" = 1, "Averaged Fixed" = 1, "CVD" = 3, "CVA" = 1)) %>%
+  kable_styling(full_width = T)
+
+### by income ------
+
+#+ rwttpcinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("difpc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt == 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  stat_summary(fun = median, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red" , linetype = "longdash") +
+  labs(x = "Income quintiles", y = "Changes in water bill (%)", color = "") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttpcincinc, echo = F, message = F, fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("difpcinc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  stat_summary(fun = median, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Income quintiles", y = "Ratio of changes in bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+#+ rwttTEHinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("TEH_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  stat_summary(fun = median, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = incqnt, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  labs(x = "Income quintiles", y = "Ratio of water bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttsubsinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("subs_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttavprinc1, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("avrprc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = incqnt, y = value)) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  labs(x = "Income quintiles", y = expression(Average~price~(EUR/m^3))) + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttavprinc2, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("avrprc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf, aes(x = rwtt, y = value, fill = incqnt))  +
+  annotate(geom = "rect", xmin = -25, xmax = 25, ymin = 0, ymax = 8, fill = scico(1, palette = 'batlow', begin = 0.35), alpha = 0.5) +
+  stat_summary(geom  = "col", position = "dodge", fun = mean) +
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end = 0.9, direction = -1) +
+  labs(x = "Fixed fee (EUR)", y =  expression(Average~price~(EUR/m^3)), fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+### by urban -----------
+
+#+ rwttpcdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("difpc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value))+
+  stat_summary(fun = median, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Built-up density", y = "Changes in water bill (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttpcincdens, echo = F, message = F, fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("difpcinc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value))+
+  stat_summary(fun = median, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both)  +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Built-up density", y = "Ratio of changes in bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+
+#+ rwttTEHdens1, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("TEH_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  stat_summary(fun = median, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "median"), width = 0.75, size = 1, linetype = "solid") +
+  stat_summary(fun = mean, geom = "errorbar", aes(x = urban, y = value, ymax = ..y.., ymin = ..y.., col = "mean"), width = 0.75, size = 1, linetype = "solid") +
+  scale_color_manual(values = c(scico(1, palette = 'batlow', begin = 0.65), "black")) +
+  facet_grid(.~ rwtt, labeller = label_both)  +
+  labs(x = "Built-up density", y = "Ratio of water bill to income (%)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttTEHdens2, echo = F, message = F , fig.width = 10, fig.height = 5
+
+ggplot(plotdf, aes(x = rwtt, y = value)) +
+  stat_summary(fun = mean, geom = "col", aes(fill = urban), position = "dodge")  +
+  scale_fill_scico_d(palette = 'batlow', begin = 0.1, end = 0.9, direction = -1)  +
+  labs(x = "Rainwater tank tax (EUR)", y = "Ratio of water bill to income (%)", "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+
+
+#+ rwttsubsdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("subs_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  labs(x = "Built-up density", y = "Subsidy for water bill (EUR)") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttavprdens1, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("avrprc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf) +
+  geom_rect(data = plotdf[plotdf$rwtt %in% 0,][1,], fill = scico(1, palette = 'batlow', begin = 0.35), xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, alpha = 0.5) +
+  geom_boxplot(aes(x = urban, y = value)) +
+  facet_grid(.~ rwtt, labeller = label_both) +
+  labs(x = "Built-up density", y = expression(Average~price~(EUR/m^3))) + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttavprdens2, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("avrprc_rwtt", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+ggplot(plotdf, aes(x = rwtt, y = value, fill = urban))  +
+  annotate(geom = "rect", xmin = -25, xmax = 25, ymin = 0, ymax = 8, fill = scico(1, palette = 'batlow', begin = 0.35), alpha = 0.5) +
+  stat_summary(geom  = "col", position = "dodge", fun = mean) +
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end = 0.9, direction = -1)+
+  labs(x = "Rainwater tank tax (EUR)", y =  expression(Average~price~(EUR/m^3)), fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+### precarious --------------
+
+#+ rwttdpcpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("difpc_rwtt", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot()+
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
+  labs(x = "Rainwater tank tax (EUR)", y = "Changes in water bill (%)") +
+  scale_x_discrete(labels = rwtts)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+#+ rwtttehpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("TEH_rwtt", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Rainwater tank tax (EUR)", y = "Ratio of water bill to income (%)") +
+  scale_x_discrete(labels = fixeds)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
+#+ rwttsubspreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("subs_rwtt", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Rainwater tank tax (EUR)", y = "Subsidy for water bill (EUR)") +
+  scale_x_discrete(labels = rwtts)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+#+ rwttavprpreca, echo = F, message = F
+
+plotdf <- df[df$inccat %in% "precarious",grep("avrprc_rwtt", colnames(df), value = T)]
+
+plotdf <- melt(plotdf)
+
+ggplot(plotdf, aes(x = variable, y = value)) + 
+  geom_boxplot() +
+  labs(x = "Rainwater tank tax (EUR)", y = expression(Average~price~(EUR/m^3))) +
+  scale_x_discrete(labels = rwtts)+ 
+  theme_bw() +
+  theme(legend.position = "bottom") 
+
+
 
 
 knitr::knit_exit()
+
 #+ notchecked
-plotdf <- df[, c('incqnt', )]
 
+test <- surv14[surv14$inccat %in% "precarious" & surv14$rwtank %in% "yes" ,]
 
-
-test_lg <- melt(test, id.vars = c("id", "income", "incqnt"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "income quartile", y = "Changes in water bill (%)")
-
-
-test <- df[,c("id", "urban" , grep("difab_fixed", colnames(df), value = T))]
-
-test_lg <- melt(test, id.vars = c("id", "urban"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = urban, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "urbanization", y = "Changes in water bill (EUR)")
-
-test <- df[,c("id", "urban" , grep("difpc_fixed", colnames(df), value = T))]
-
-test_lg <- melt(test, id.vars = c("id", "urban"))
-test_lg$fixed <- as.numeric(gsub(".*_", "", test_lg$variable))
-
-ggplot(test_lg) +
-  geom_boxplot(aes(x = urban, y = value)) +
-  facet_wrap(.~ fixed) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
-  theme_bw() +
-  labs(x = "urbanization", y = "Changes in water bill (%)")
-
+table(df$inccat, df$rwtank)
 
 # ## 3.3. linear with and without fixed -----
 # 
@@ -877,43 +1428,14 @@ sum(df$bill_cur)
 ## 3.5. rainwater tank tax ---------
 #+ changerwtt
 
-df$rwtank <- as.numeric(df$rwtank %in% "yes")
 
 
-vary_rwtf_f <- function(dtbtorname = "SWDE", rwtfs = seq (0, 200, 40)) {
-  tmpdf <- df[df$dtbtor %in% dtbtorname,]
-  
-  total <- sum(tmpdf$bill_cur)
-  fse <- sum(0.0125*tmpdf$csmptv)
-  cvd_v <- numeric()
-  
-  for (rwtf in rwtfs) {
-    
-    rwtt <- sum(rwtf*tmpdf$rwtank)
-    
-    cvd <- (total - fse - rwtt - sum(30*tmpdf$CVA + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30))/sum(20 + 0.5*tmpdf$csmptv + 0.5*(tmpdf$csmptv - 30)*tmpdf$ab30)
-    cvd_v <- c(cvd_v, cvd)
-    tmpdf$bill_new <- rwtf*tmpdf$rwtank + 30*tmpdf$CVA + 20*cvd + 0.0125*tmpdf$csmptv + 0.5*tmpdf$csmptv*cvd + 0.5*(tmpdf$csmptv - 30)*cvd*tmpdf$ab30 + (tmpdf$csmptv - 30)*tmpdf$CVA*tmpdf$ab30
-    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
-    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
-    colnames(tmpdf)[ncol(tmpdf) - 2] <- paste("bill_rwtt", rwtf, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf) - 1] <- paste("difab_rwtt", rwtf, sep = "_")
-    colnames(tmpdf)[ncol(tmpdf)] <- paste("difpc_rwtt", rwtf, sep = "_")
-    
-  }
-  list(tmpdf, cvd_v)
-}
 
 ### 0-200,40 -------------
-vary_rwtf_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_rwtf_f)
-
-cvd <- sapply(vary_rwtf_ls, function(x) x[[2]])
 
 write.table(cvd, "clipboard", sep = "\t")
 
-ndtb <- matrix(table(df$dtbtor)[c(3,1,2)])
 
-write.table((cvd%*%ndtb*20 + unique(df$CVA)*30*1534)/1534, "clipboard", sep = "\t")
 
 vary_rwtf_df <- Reduce(rbind, lapply(vary_rwtf_ls, function(x) x[[1]]))
 
@@ -931,7 +1453,7 @@ ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
   geom_boxplot() +
   stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") +
   facet_wrap(.~ rwtt) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (EUR)")
 
@@ -947,7 +1469,7 @@ ggplot(test_lg[test_lg$rwtt > 0,], aes(x = incqnt, y = value)) +
   geom_boxplot() +
   stat_summary(fun.y = mean, geom = "errorbar", aes(ymax = ..y.., ymin = ..y..), col = 'blue', width = 0.75, size = 1, linetype = "solid") +
   facet_wrap(.~ rwtt) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
   theme_bw() +
   labs(x = "income quartile", y = "Changes in water bill (%)")
 
@@ -959,7 +1481,7 @@ test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
 ggplot(test_lg) +
   geom_boxplot(aes(x = urban, y = value)) +
   facet_wrap(.~ rwtt) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
   theme_bw() +
   labs(x = "urbanization", y = "Changes in water bill (%)")
 
@@ -972,7 +1494,7 @@ test_lg$rwtt <- as.numeric(gsub(".*_", "", test_lg$variable))
 ggplot(test_lg) +
   geom_boxplot(aes(x = urban, y = value)) +
   facet_wrap(.~ rwtt) +
-  geom_hline(yintercept = 0, col = 'red', linetype = "longdash") +
+  geom_hline(yintercept = 0, col = "red", linetype = "longdash") +
   theme_bw() +
   labs(x = "urbanization", y = "Changes in water bill (%)")
 
