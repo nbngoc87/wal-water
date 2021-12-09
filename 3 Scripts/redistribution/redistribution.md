@@ -4,10 +4,35 @@ Nguyen Bich Ngoc, Jacques Teller
 08 December 2021
 
 ![Household income
-histogram](redistribution_files/figure-gfm/inchist-1.png) ![Household
-income histogram](redistribution_files/figure-gfm/hhsplot-1.png)
+histogram](redistribution_files/figure-gfm/inchist-1.png)
+
+``` r
+inccatdf <- df[!(is.na(df$inccat)),] %>%
+  group_by(inccat) %>%
+  summarise(count = n(),
+            prop = n()/nrow(df),
+            income_avr = mean(income),
+            income_min = min(income),
+            income_max = max(income),
+            inceqa_avr = mean(inceqa),
+            inceqa_min = min(inceqa),
+            inceqa_max = max(inceqa))
+
+inccatdf
+```
+
+    ## # A tibble: 4 x 9
+    ##   inccat     count   prop income_avr income_min income_max inceqa_avr inceqa_min
+    ##   <fct>      <int>  <dbl>      <dbl>      <int>      <int>      <dbl>      <dbl>
+    ## 1 precarious   148 0.0970      1135.        125       2250      8854.      1000 
+    ## 2 modest       697 0.457       1881.       1250       3250     15961.      5526.
+    ## 3 average      501 0.329       3203.       2250       4750     23622.     13200 
+    ## 4 higher       178 0.117       4739.       3750       5250     30957.     18214.
+    ## # ... with 1 more variable: inceqa_max <dbl>
+
 ![Household income
-histogram](redistribution_files/figure-gfm/cspthist-1.png)
+histogram](redistribution_files/figure-gfm/hhsplot-1.png) ![Household
+income histogram](redistribution_files/figure-gfm/cspthist-1.png)
 <table>
 <thead>
 <tr>
@@ -40,7 +65,7 @@ Block 2 price
 SWDE
 </td>
 <td style="text-align:right;">
-1143
+1138
 </td>
 <td style="text-align:right;">
 2.4480
@@ -49,7 +74,7 @@ SWDE
 1.745
 </td>
 <td style="text-align:right;">
-4.4613
+4.4551
 </td>
 <td style="text-align:right;">
 1.2240
@@ -63,7 +88,7 @@ SWDE
 CILE
 </td>
 <td style="text-align:right;">
-265
+261
 </td>
 <td style="text-align:right;">
 2.6366
@@ -72,7 +97,7 @@ CILE
 1.745
 </td>
 <td style="text-align:right;">
-4.6732
+4.6523
 </td>
 <td style="text-align:right;">
 1.3183
@@ -143,10 +168,10 @@ Max income (EUR/month)
 1
 </td>
 <td style="text-align:right;">
-307
+305
 </td>
 <td style="text-align:right;">
-476
+474
 </td>
 <td style="text-align:right;">
 125
@@ -160,10 +185,10 @@ Max income (EUR/month)
 2
 </td>
 <td style="text-align:right;">
-307
+305
 </td>
 <td style="text-align:right;">
-604
+602
 </td>
 <td style="text-align:right;">
 1250
@@ -177,10 +202,10 @@ Max income (EUR/month)
 3
 </td>
 <td style="text-align:right;">
-307
+305
 </td>
 <td style="text-align:right;">
-730
+734
 </td>
 <td style="text-align:right;">
 2250
@@ -194,10 +219,10 @@ Max income (EUR/month)
 4
 </td>
 <td style="text-align:right;">
-307
+305
 </td>
 <td style="text-align:right;">
-854
+845
 </td>
 <td style="text-align:right;">
 2750
@@ -211,10 +236,10 @@ Max income (EUR/month)
 5
 </td>
 <td style="text-align:right;">
-306
+305
 </td>
 <td style="text-align:right;">
-1008
+1006
 </td>
 <td style="text-align:right;">
 3750
@@ -242,13 +267,13 @@ cor.test(df$csmptv, df$income, method = "pearson")
     ##  Pearson's product-moment correlation
     ## 
     ## data:  df$csmptv and df$income
-    ## t = 15.76, df = 1532, p-value < 2.2e-16
+    ## t = 15.505, df = 1523, p-value < 2.2e-16
     ## alternative hypothesis: true correlation is not equal to 0
     ## 95 percent confidence interval:
-    ##  0.3296273 0.4157908
+    ##  0.3250574 0.4117940
     ## sample estimates:
     ##       cor 
-    ## 0.3735144
+    ## 0.3692295
 
 ``` r
 cor.test(df$csmptv, df$income, method = "spearman")
@@ -261,11 +286,11 @@ cor.test(df$csmptv, df$income, method = "spearman")
     ##  Spearman's rank correlation rho
     ## 
     ## data:  df$csmptv and df$income
-    ## S = 362572476, p-value < 2.2e-16
+    ## S = 358665135, p-value < 2.2e-16
     ## alternative hypothesis: true rho is not equal to 0
     ## sample estimates:
-    ##      rho 
-    ## 0.397343
+    ##       rho 
+    ## 0.3932203
 
 ``` r
 # Correlation between water consumption and income per equivalent adult should use spearman?????
@@ -277,13 +302,13 @@ cor.test(df$csmptv, df$inceqa, method = "pearson")
     ##  Pearson's product-moment correlation
     ## 
     ## data:  df$csmptv and df$inceqa
-    ## t = 1.9123, df = 1532, p-value = 0.05603
+    ## t = 1.8473, df = 1523, p-value = 0.06489
     ## alternative hypothesis: true correlation is not equal to 0
     ## 95 percent confidence interval:
-    ##  -0.001253886  0.098606824
+    ##  -0.00291998  0.09724963
     ## sample estimates:
-    ##        cor 
-    ## 0.04879841
+    ##       cor 
+    ## 0.0472837
 
 ``` r
 cor.test(df$csmptv, df$inceqa, method = "spearman")
@@ -296,11 +321,11 @@ cor.test(df$csmptv, df$inceqa, method = "spearman")
     ##  Spearman's rank correlation rho
     ## 
     ## data:  df$csmptv and df$inceqa
-    ## S = 557405323, p-value = 0.003974
+    ## S = 547594684, p-value = 0.004034
     ## alternative hypothesis: true rho is not equal to 0
     ## sample estimates:
     ##        rho 
-    ## 0.07349777
+    ## 0.07359449
 
 ![Proportion of household paying in which block by
 quantile](redistribution_files/figure-gfm/blprop1-1.png) ![Proportion of
@@ -318,53 +343,16 @@ utilities](redistribution_files/figure-gfm/blprop2-1.png)
 ![](redistribution_files/figure-gfm/mgprinc2-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/mgrprchhsinc-1.png)<!-- -->
 
-``` r
-summary(df$mgnprc)
-```
+    ## Warning: Removed 9 rows containing non-finite values (stat_boxplot).
 
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##   1.080   4.193   4.193   3.679   4.193   4.382
+    ## Warning: Removed 9 rows containing non-finite values (stat_summary).
 
-``` r
-summary(df$mgnprc[df$poorest == 1])
-```
-
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##   1.080   1.224   4.193   3.104   4.193   4.382
-
-``` r
-### average price vs income ---------
-```
-
-    ## Warning: Removed 18 rows containing non-finite values (stat_boxplot).
-
-    ## Warning: Removed 18 rows containing non-finite values (stat_summary).
-
-    ## Warning: Removed 18 rows containing non-finite values (stat_summary).
+    ## Warning: Removed 9 rows containing non-finite values (stat_summary).
 
 ![](redistribution_files/figure-gfm/avprinc1-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/avprinc2-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/avprinc3-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/avrprchhsinc-1.png)<!-- -->
-
-``` r
-summary(df$avrprc)
-```
-
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##   3.955   4.325   4.421   5.218   4.578 102.534
-
-``` r
-summary(df$avrprc[df$poorest == 1])
-```
-
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##   4.076   4.416   4.554   7.072   5.873 102.534
-
-``` r
-### subsidy vs income ----------------
-```
-
 ![](redistribution_files/figure-gfm/subsinc1-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/subsinc2-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/csdens1-1.png)<!-- -->
@@ -376,11 +364,11 @@ summary(df$avrprc[df$poorest == 1])
 ![](redistribution_files/figure-gfm/billdens-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/TEHdens-1.png)<!-- -->
 
-    ## Warning: Removed 18 rows containing non-finite values (stat_boxplot).
+    ## Warning: Removed 9 rows containing non-finite values (stat_boxplot).
 
-    ## Warning: Removed 18 rows containing non-finite values (stat_summary).
+    ## Warning: Removed 9 rows containing non-finite values (stat_summary).
 
-    ## Warning: Removed 18 rows containing non-finite values (stat_summary).
+    ## Warning: Removed 9 rows containing non-finite values (stat_summary).
 
 ![](redistribution_files/figure-gfm/avprdens1-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/avprdens2-1.png)<!-- -->
@@ -388,6 +376,62 @@ summary(df$avrprc[df$poorest == 1])
 ![](redistribution_files/figure-gfm/avrprchhsdens-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/subsdens1-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/subsdens2-1.png)<!-- -->
+
+``` r
+summary(df$avrprc)
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   3.955   4.324   4.419   4.910   4.576  20.055
+
+``` r
+summary(df$avrprc[df$poorest == 1])
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   4.076   4.416   4.551   5.606   5.499  16.277
+
+``` r
+summary(df$avrprc[df$inccat == "precarious"])
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+    ##   3.971   4.332   4.457   5.098   4.665  16.277       1
+
+``` r
+summary(df$subs[df$inccat == "precarious"])
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+    ## -79.564  -4.286   1.840  -3.918  10.142  30.484       1
+
+``` r
+summary(df$mgnprc)
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   1.080   4.193   4.193   3.693   4.193   4.382
+
+``` r
+summary(df$mgnprc[df$poorest == 1])
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   1.080   1.224   4.193   3.155   4.193   4.382
+
+``` r
+summary(df$mgnprc[df$inccat == "precarious"])
+```
+
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+    ##   1.080   3.905   4.193   3.478   4.193   4.382       1
+
+``` r
+## 3.5. changing fixed  -----
+
+### new cvd ------
+```
+
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -452,7 +496,7 @@ IECBW
 As in 2014
 </td>
 <td style="text-align:right;">
-101.4885
+101.4797
 </td>
 <td style="text-align:right;">
 2.4480
@@ -475,10 +519,10 @@ As in 2014
 0.0000
 </td>
 <td style="text-align:right;">
-4.3438
+4.3356
 </td>
 <td style="text-align:right;">
-4.5928
+4.5642
 </td>
 <td style="text-align:right;">
 3.7129
@@ -495,10 +539,10 @@ As in 2014
 50.0000
 </td>
 <td style="text-align:right;">
-3.4081
+3.4040
 </td>
 <td style="text-align:right;">
-3.6620
+3.6470
 </td>
 <td style="text-align:right;">
 2.9003
@@ -515,10 +559,10 @@ As in 2014
 100.0000
 </td>
 <td style="text-align:right;">
-2.4725
+2.4724
 </td>
 <td style="text-align:right;">
-2.7312
+2.7298
 </td>
 <td style="text-align:right;">
 2.0877
@@ -535,10 +579,10 @@ As in 2014
 150.0000
 </td>
 <td style="text-align:right;">
-1.5369
+1.5408
 </td>
 <td style="text-align:right;">
-1.8004
+1.8126
 </td>
 <td style="text-align:right;">
 1.2751
@@ -555,10 +599,10 @@ As in 2014
 200.0000
 </td>
 <td style="text-align:right;">
-0.6013
+0.6092
 </td>
 <td style="text-align:right;">
-0.8696
+0.8954
 </td>
 <td style="text-align:right;">
 0.4625
@@ -570,6 +614,199 @@ As in 2014
 </tbody>
 </table>
 
-![](redistribution_files/figure-gfm/fixedpc-1.png)<!-- -->
-![](redistribution_files/figure-gfm/fixedpcinc-1.png)<!-- -->
-![](redistribution_files/figure-gfm/fixedTEH-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixpcinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixpcincinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixTEHinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixsubsinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixavprinc1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixavprinc2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixpcdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixpcincdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixTEHdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixsubsdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixavprdens1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixavprdens2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixdpcpreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixtehpreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixsubspreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/fixavprpreca-1.png)<!-- -->
+
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1">
+
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+
+Rainwater tank tax
+
+</div>
+
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1">
+
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+
+Averaged Fixed
+
+</div>
+
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3">
+
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+
+CVD
+
+</div>
+
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1">
+
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+
+CVA
+
+</div>
+
+</th>
+</tr>
+<tr>
+<th style="text-align:right;">
+</th>
+<th style="text-align:right;">
+</th>
+<th style="text-align:right;">
+SWDE
+</th>
+<th style="text-align:right;">
+CILE
+</th>
+<th style="text-align:right;">
+IECBW
+</th>
+<th style="text-align:right;">
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+101.1914
+</td>
+<td style="text-align:right;">
+2.4480
+</td>
+<td style="text-align:right;">
+2.6366
+</td>
+<td style="text-align:right;">
+2.1600
+</td>
+<td style="text-align:right;">
+1.745
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+95.4887
+</td>
+<td style="text-align:right;">
+2.1349
+</td>
+<td style="text-align:right;">
+2.4669
+</td>
+<td style="text-align:right;">
+1.8680
+</td>
+<td style="text-align:right;">
+1.745
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+100
+</td>
+<td style="text-align:right;">
+89.7860
+</td>
+<td style="text-align:right;">
+1.8218
+</td>
+<td style="text-align:right;">
+2.2972
+</td>
+<td style="text-align:right;">
+1.5759
+</td>
+<td style="text-align:right;">
+1.745
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+150
+</td>
+<td style="text-align:right;">
+84.0834
+</td>
+<td style="text-align:right;">
+1.5087
+</td>
+<td style="text-align:right;">
+2.1276
+</td>
+<td style="text-align:right;">
+1.2839
+</td>
+<td style="text-align:right;">
+1.745
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+200
+</td>
+<td style="text-align:right;">
+78.3807
+</td>
+<td style="text-align:right;">
+1.1956
+</td>
+<td style="text-align:right;">
+1.9579
+</td>
+<td style="text-align:right;">
+0.9919
+</td>
+<td style="text-align:right;">
+1.745
+</td>
+</tr>
+</tbody>
+</table>
+
+![](redistribution_files/figure-gfm/rwttpcinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttpcincinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttTEHinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttsubsinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttavprinc1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttavprinc2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttpcdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttpcincdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttTEHdens1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttTEHdens2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttsubsdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttavprdens1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttavprdens2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttdpcpreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwtttehpreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttsubspreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/rwttavprpreca-1.png)<!-- -->
