@@ -1,7 +1,7 @@
 Redistribution effects of water tariffs
 ================
 Nguyen Bich Ngoc, Jacques Teller
-08 December 2021
+09 December 2021
 
 ![Household income
 histogram](redistribution_files/figure-gfm/inchist-1.png)
@@ -57,6 +57,9 @@ Block 1 price
 <th style="text-align:right;">
 Block 2 price
 </th>
+<th style="text-align:right;">
+Block2/Block1
+</th>
 </tr>
 </thead>
 <tbody>
@@ -82,6 +85,9 @@ SWDE
 <td style="text-align:right;">
 4.1930
 </td>
+<td style="text-align:right;">
+3.4257
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -105,6 +111,9 @@ CILE
 <td style="text-align:right;">
 4.3816
 </td>
+<td style="text-align:right;">
+3.3237
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -127,6 +136,9 @@ IECBW
 </td>
 <td style="text-align:right;">
 3.9050
+</td>
+<td style="text-align:right;">
+3.6157
 </td>
 </tr>
 </tbody>
@@ -333,7 +345,9 @@ household paying in which block by income quintile and
 utilities](redistribution_files/figure-gfm/blprop2-1.png)
 ![](redistribution_files/figure-gfm/csinc1-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/csinc2-1.png)<!-- -->
-![](redistribution_files/figure-gfm/hhsinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/hhsinc1-1.png)<!-- -->
+![](redistribution_files/figure-gfm/hhsinc2-1.png)<!-- -->
+![](redistribution_files/figure-gfm/hhsieq-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/rwtinc-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/densinc-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/billinc1-1.png)<!-- -->
@@ -810,3 +824,11 @@ IECBW
 ![](redistribution_files/figure-gfm/rwtttehpreca-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/rwttsubspreca-1.png)<!-- -->
 ![](redistribution_files/figure-gfm/rwttavprpreca-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccpcinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upcctehinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccsubsinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccavprinc-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccpcdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upcctehdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccsubsdens-1.png)<!-- -->
+![](redistribution_files/figure-gfm/upccavprdens-1.png)<!-- -->

@@ -56,8 +56,10 @@ vary_fixed_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 200, 40)) {
     tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
     tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
     colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "fixed", fixed, sep = "_")
-    
   }
+  
+  tmpdf <- tmpdf[, c("id", grep("_fixed_", colnames(tmpdf), value = T))]
+  
   list(tmpdf, cvd_v)
 }
 
@@ -86,8 +88,97 @@ vary_rwtt_f <- function(dtbtorname = "SWDE", rwtts = seq (0, 200, 40)) {
     colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "rwtt", rwtt, sep = "_")   
     
   }
+  
+  tmpdf <- tmpdf[, c("id", grep("_rwtt_", colnames(tmpdf), value = T))]
   list(tmpdf, cvd_v)
 }
+
+up_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 100, 50)) {
+  tmpdf <- df[df$dtbtor %in% dtbtorname,]
+  
+  bill_tot <- sum(tmpdf$bill_cur)
+  cons_tot <- sum(tmpdf$csmptv)
+  avrprc <- bill_tot/cons_tot
+  up_v <- numeric()
+  
+  for (fixed in fixeds) {
+    
+    fixed_tot <- fixed*nrow(tmpdf)
+    
+    up <- (bill_tot - fixed_tot)/cons_tot
+    up_v <- c(up_v, up)
+    tmpdf$bill_new <- fixed + tmpdf$csmptv*up
+    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
+    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
+    tmpdf$difpcinc <- tmpdf$diff*100/(tmpdf$income*12)
+    tmpdf$TEH_new <- tmpdf$bill_new*100/(tmpdf$income*12)
+    tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
+    tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
+    colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "up", fixed, sep = "_")   
+    
+  }
+  tmpdf <- tmpdf[, c("id", grep("_up_", colnames(tmpdf), value = T))]
+  list(tmpdf, up_v)
+}
+
+ibtcon_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 100, 50), bl1size = 30, blratio = 3.5) {
+  tmpdf <- df[df$dtbtor %in% dtbtorname,]
+  tmpdf$bl2 <- as.numeric(tmpdf$csmptv > bl1size)
+  
+  bill_tot <- sum(tmpdf$bill_cur)
+  cons_tot <- sum(tmpdf$csmptv)
+  avrprc <- bill_tot/cons_tot
+  bl1_v <- numeric()
+  
+  for (fixed in fixeds) {
+    
+    fixed_tot <- fixed*nrow(tmpdf)
+    
+    bl1 <- (bill_tot - fixed_tot)/sum(tmpdf$csmptv + (tmpdf$csmptv - bl1size)*(blratio - 1)*tmpdf$bl2)
+    bl1_v <- c(bl1_v, bl1)
+    tmpdf$bill_new <- fixed + tmpdf$csmptv*bl1 + (tmpdf$csmptv - bl1size)*(blratio - 1)*bl1*tmpdf$bl2
+    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
+    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
+    tmpdf$difpcinc <- tmpdf$diff*100/(tmpdf$income*12)
+    tmpdf$TEH_new <- tmpdf$bill_new*100/(tmpdf$income*12)
+    tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
+    tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
+    colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "ibtcon", fixed, sep = "_")   
+    
+  }
+  tmpdf <- tmpdf[, c("id", grep("_ibtcon_", colnames(tmpdf), value = T))]
+  list(tmpdf, bl1_v)
+}
+
+ibtcap_f <- function(dtbtorname = "SWDE", fixeds = seq (0, 100, 50), bl1size = 12.5, blratio = 3.5) {
+  tmpdf <- df[df$dtbtor %in% dtbtorname,]
+  tmpdf$bl2 <- as.numeric(tmpdf$cspc > bl1size)
+  
+  bill_tot <- sum(tmpdf$bill_cur)
+  cons_tot <- sum(tmpdf$csmptv)
+  avrprc <- bill_tot/cons_tot
+  bl1_v <- numeric()
+  
+  for (fixed in fixeds) {
+    
+    fixed_tot <- fixed*nrow(tmpdf)
+    
+    bl1 <- (bill_tot - fixed_tot)/sum(tmpdf$cspc*tmpdf$hhs + (tmpdf$cspc - bl1size)*tmpdf$hhs*(blratio - 1)*tmpdf$bl2)
+    bl1_v <- c(bl1_v, bl1)
+    tmpdf$bill_new <- fixed + tmpdf$cspc*tmpdf$hhs*bl1 + (tmpdf$cspc - bl1size)*tmpdf$hhs*(blratio - 1)*bl1*tmpdf$bl2
+    tmpdf$diff <- tmpdf$bill_new - tmpdf$bill_cur
+    tmpdf$difpct <- tmpdf$diff*100/tmpdf$bill_cur
+    tmpdf$difpcinc <- tmpdf$diff*100/(tmpdf$income*12)
+    tmpdf$TEH_new <- tmpdf$bill_new*100/(tmpdf$income*12)
+    tmpdf$subs_new <- tmpdf$csmptv*avrprc - tmpdf$bill_new
+    tmpdf$avrprc_new <- tmpdf$bill_new/tmpdf$csmptv
+    colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <- paste(c("bill", "difab", "difpc", "difpcinc", "TEH", "subs", "avrprc"), "ibtcap", fixed, sep = "_")   
+    
+  }
+  tmpdf <- tmpdf[, c("id", grep("_ibtcap_", colnames(tmpdf), value = T))]
+  list(tmpdf, bl1_v)
+}
+
 
 ## 1.2 load data --------
 
@@ -140,6 +231,7 @@ df <- df[df$dtbtor %in% c("CILE", "SWDE", "IECBW"),]
 df$cspc <- df$csmptv/df$hhs
 
 df$ab30 <- as.numeric(df$csmptv > 30)
+df$cspc_ab125 <- as.numeric(df$cspc > 12.5)
 
 df$bill_cur <- (20*df$CVD + 30*df$CVA)  + 0.5*df$csmptv*df$CVD + (df$csmptv - 30)*(0.5*df$CVD + df$CVA)*df$ab30
 
@@ -149,6 +241,9 @@ summary(df$bill_cur*0.06)
 
 df <- df %>% mutate(incqnt = ntile(income, 5))
 df$incqnt <- as.factor(df$incqnt)
+
+df <- df %>% mutate(ieaqnt = ntile(inceqa, 5))
+df$ieaqnt <- as.factor(df$ieaqnt)
 
 df <- df %>% mutate(poorest = ntile(income, 10))
 df$poorest[df$poorest > 1] <- 0
@@ -180,6 +275,8 @@ avr_price <- df %>%
             bl1 = mean(CVD)*0.5,
             bl2 = mean(CVD) + mean(CVA))
 
+avr_price$blratio <- avr_price$bl2/avr_price$bl1
+
 
 df <- left_join(df, avr_price[,c("dtbtor", "utlt_avrprc")])
 
@@ -196,7 +293,7 @@ df$rwt_num <- as.numeric(df$rwtank %in% "yes")
 ## 2.3. varying fixed --------
 fixeds <- seq(0,200,50)
 
-vary_fixed_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_fixed_f, fixeds = fixeds)
+vary_fixed_ls <- lapply(c("SWDE", "CILE", "IECBW"),vary_fixed_f, fixeds = seq(0,200,50))
 
 tariff_fixed <- as.data.frame(sapply(vary_fixed_ls, function(x) x[[2]]))
 
@@ -246,6 +343,66 @@ tariff_rwtt <- tariff_rwtt[,c(5, 1:4, 6)]
 vary_rwtt_df <- Reduce(rbind, lapply(vary_rwtt_ls, function(x) x[[1]]))
 
 df <- left_join(df, vary_rwtt_df)
+
+## 2.5 UP vs IBTcap vs IBTcon ---------
+# fixeds = seq(0, 100, 50)
+# IBTcon 2 block 0-30 & 30+ price bl2 = 3.5*bl1
+# IBTcap 2 block 0-12.5 & 12.5+ price bl2 = 3.5*bl1
+# sumbill the same for each utilities
+
+### UP --------- 
+
+fixeds <- seq(0,100,50)
+
+up_ls <- lapply(c("SWDE", "CILE", "IECBW"), up_f, fixeds = fixeds)
+
+tariff_up <- as.data.frame(sapply(up_ls, function(x) x[[2]]))
+
+colnames(tariff_up) <- c("SWDE", "CILE", "IECBW")
+
+tariff_up$fixed <- fixeds
+
+
+up_df <- Reduce(rbind, lapply(up_ls, function(x) x[[1]]))
+
+df <- left_join(df, up_df)
+
+
+
+### ibtcon --------
+
+fixeds <- seq(0,100,50)
+
+ibtcon_ls <- lapply(c("SWDE", "CILE", "IECBW"), ibtcon_f, fixeds = fixeds)
+
+tariff_ibtcon <- as.data.frame(sapply(ibtcon_ls, function(x) x[[2]]))
+
+colnames(tariff_ibtcon) <- c("SWDE", "CILE", "IECBW")
+
+tariff_ibtcon$fixed <- fixeds
+
+
+ibtcon_df <- Reduce(rbind, lapply(ibtcon_ls, function(x) x[[1]]))
+
+df <- left_join(df, ibtcon_df)
+
+
+### ibtcap --------
+
+fixeds <- seq(0,100,50)
+
+ibtcap_ls <- lapply(c("SWDE", "CILE", "IECBW"), ibtcap_f, fixeds = fixeds)
+
+tariff_ibtcap <- as.data.frame(sapply(ibtcap_ls, function(x) x[[2]]))
+
+colnames(tariff_ibtcap) <- c("SWDE", "CILE", "IECBW")
+
+tariff_ibtcap$fixed <- fixeds
+
+
+ibtcap_df <- Reduce(rbind, lapply(ibtcap_ls, function(x) x[[1]]))
+
+df <- left_join(df, ibtcap_df)
 
 # 3. Outputs -------
 
@@ -297,7 +454,9 @@ ggplot(df, aes(x = csmptv)) +
 
 
 
-knitr::kable(avr_price, digits = 4, col.names = c("Utilities", "Number of households", "CVD", "CVA", "Average price", "Block 1 price", "Block 2 price"))
+knitr::kable(avr_price, digits = 4, col.names = c("Utilities", "Number of households", "CVD", "CVA", "Average price", "Block 1 price", "Block 2 price", "Block2/Block1"))
+
+
 
 #+ avprcsm, echo = F, message = F
 
@@ -332,6 +491,8 @@ ggplot(plotdf, aes(x = csmptv, y = mgnprc, col = dtbtor)) +
   xlim(0,150)  + 
   theme_bw() +
   theme(legend.position = "bottom") 
+
+
 
 ## 3.2 by income quantiles -------
 
@@ -451,12 +612,32 @@ ggplot(df, aes(x = incqnt, y = csmptv)) +
 
 ### hhs vs income --------
 
-#+ hhsinc, echo = F, message = F
+#+ hhsinc1, echo = F, message = F
 
 ggplot(df, aes(x = incqnt, fill = hhscat)) +
   geom_bar(position = position_fill(reverse = F))+
   scale_fill_scico_d(palette = "batlow", begin = 0.1, end =0.9, direction = -1) +
   labs(x = "Household income quintiles", y = "Proportion of households" , fill = "Household size") + 
+  theme_bw() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(nrow = 1))
+
+#+ hhsinc2, echo = F, message = F
+
+ggplot(df, aes(x = incqnt, fill = as.factor(hhs_20_95))) +
+  geom_bar(position = position_fill(reverse = F))+
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end =0.9, direction = -1) +
+  labs(x = "Household income quintiles", y = "Proportion of households" , fill = "Number of adults") + 
+  theme_bw() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(nrow = 1))
+
+#+ hhsieq, echo = F, message = F
+
+ggplot(df, aes(x = ieaqnt, fill = hhscat)) +
+  geom_bar(position = position_fill(reverse = F))+
+  scale_fill_scico_d(palette = "batlow", begin = 0.1, end =0.9, direction = -1) +
+  labs(x = "Income per equivalent adult quintiles", y = "Proportion of households" , fill = "Household size") + 
   theme_bw() +
   theme(legend.position = "bottom") +
   guides(fill = guide_legend(nrow = 1))
@@ -1354,18 +1535,193 @@ ggplot(plotdf, aes(x = variable, y = value)) +
 
 
 
-### by urban -----------
+## 3.7. UP vs IBTcap vs IBT con ----------
 
-### poorest --------------
 
+### new price ---------
+
+### by income ------------
+
+#+ upccpcinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("difpc_up|difpc_ibtcon|difpc_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = incqnt)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red" , linetype = "longdash") +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")  +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP"))+
+  labs(x = "Tariff types", y = "Changes in water bill (%)", fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+#+ upcctehinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("TEH_up|TEH_ibtcon|TEH_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = incqnt)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  labs(x = "Tariff types", y = "Ratio of water bill to income (%)", fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+
+#+ upccsubsinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("subs_up|subs_ibtcon|subs_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = incqnt)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+#+ upccavprinc, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("incqnt" , grep("avrprc_up|avrprc_ibtcon|avrprc_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "incqnt")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = incqnt)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types", y =  expression(Average~price~(EUR/m^3)), fill = "Income quintiles") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+### by urban ------------
+
+#+ upccpcdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("difpc_up|difpc_ibtcon|difpc_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = urban)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  geom_hline(yintercept = 0, col = "red" , linetype = "longdash") +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")  +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP"))+
+  labs(x = "Tariff types", y = "Changes in water bill (%)", fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+#+ upcctehdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("TEH_up|TEH_ibtcon|TEH_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = urban)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  labs(x = "Tariff types", y = "Ratio of water bill to income (%)", fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+
+#+ upccsubsdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("subs_up|subs_ibtcon|subs_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = urban)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+#+ upccavprdens, echo = F, message = F , fig.width = 10, fig.height = 5
+
+plotdf <- df[,c("urban" , grep("avrprc_up|avrprc_ibtcon|avrprc_ibtcap", colnames(df), value = T))]
+
+plotdf <- melt(plotdf, id.vars = "urban")
+plotdf$variable <- gsub("^[^_]+_", "", plotdf$variable)
+plotdf$tariff <- gsub("_.*", "", plotdf$variable)
+plotdf$fixed <- gsub(".*_", "", plotdf$variable)
+plotdf$fixed <- factor(plotdf$fixed, levels = lvls(plotdf$fixed)[c(1,3,2)])
+
+ggplot(plotdf)  +
+  geom_boxplot(aes(x = tariff, y = value, fill = urban)) + 
+  facet_grid(.~fixed, labeller = label_both) +
+  scale_fill_scico_d(begin = 0.3, end = 0.7, palette = "batlow")+
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types", y =  expression(Average~price~(EUR/m^3)), fill = "Built-up density") + 
+  theme_bw() +
+  theme(legend.position = "bottom")
 
 knitr::knit_exit()
 
 #+ notchecked
 
+
+ggplot(df, aes(x = hhs, y = inceqa)) + 
+  geom_point()
+
+
+ggplot(df, aes(x = as.factor(hhs), y = inceqa)) + 
+  geom_violin()
+
+
+
+ggplot(df, aes(x = as.factor(hhs), y = inceqa)) + 
+  stat_summary(fun = mean, geom = "col")
+
 test <- surv14[surv14$inccat %in% "precarious" & surv14$rwtank %in% "yes" ,]
 
 table(df$inccat, df$rwtank)
+
+
 
 # ## 3.3. linear with and without fixed -----
 # 
