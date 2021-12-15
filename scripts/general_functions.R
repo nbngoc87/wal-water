@@ -1,9 +1,16 @@
-cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
-loadpackage <- function(x) {
-  if (!suppressWarnings(require(x,character.only = TRUE))) list(install.packages(x, dep=TRUE), library(x, character.only = TRUE))
-}
 
+cbPalette <-
+  c(
+    "#999999",
+    "#E69F00",
+    "#56B4E9",
+    "#009E73",
+    "#F0E442",
+    "#0072B2",
+    "#D55E00",
+    "#CC79A7"
+  )
 
 
 
@@ -15,28 +22,19 @@ nlvls <- function(x) {
   nlevels(droplevels(as.factor(x)))
 }
 
-# need to change to theme_kat and make my modification
+summaryf <- function(x) {
+  summary(droplevels(as.factor(x)))
+}
 
-theme_ben <- function(base_size = 14) {
+theme_kat <- function(base_size = 8) {
   theme_bw(base_size = base_size) %+replace%
     theme(
-      # L'ensemble de la figure
-      plot.title = element_text(size = rel(1), face = "bold", margin = margin(0,0,5,0), hjust = 0),
-      # Zone où se situe le graphique
-      panel.grid.minor = element_blank(),
-      panel.border = element_blank(),
-      # Les axes
-      axis.title = element_text(size = rel(0.85), face = "bold"),
-      axis.text = element_text(size = rel(0.70), face = "bold"),
-      axis.line = element_line(color = "black", arrow = arrow(length = unit(0.3, "lines"), type = "closed")),
-      # La légende
-      legend.title = element_text(size = rel(0.85), face = "bold"),
-      legend.text = element_text(size = rel(0.70), face = "bold"),
-      legend.key = element_rect(fill = "transparent", colour = NA),
-      legend.key.size = unit(1.5, "lines"),
-      legend.background = element_rect(fill = "transparent", colour = NA),
-      # Les étiquettes dans le cas d'un facetting
-      strip.background = element_rect(fill = "#17252D", color = "#17252D"),
-      strip.text = element_text(size = rel(0.85), face = "bold", color = "white", margin = margin(5,0,5,0))
+      axis.text.x = element_text(color = 'black'),
+      axis.text.y = element_text(color = 'black'),
+      legend.position = "bottom",
+      legend.box = "vertical",
+      legend.box.spacing = unit(1, "lines"),
+      legend.margin = margin(-2, 0,-2, 0, unit = "mm"),
+      legend.text = element_text(size = rel(1))
     )
 }

@@ -9,6 +9,27 @@ loadpackage('sf')
 # loadpackage("dplyr")
 # loadpackage('reshape2')
 
+# # check to see if it's possible to use POIDS_Geo_Stat_AgeP1_AgeL
+
+# weight <- org[,55:62] # select columns has weight info
+# 
+# df <- org[, c(75, 77, 80, 78, 174)]
+# 
+# pc.table <- function(x) {
+#   v <- tapply(org$POIDS_Geo_Stat_AgeP1_AgeL,x,sum) # to make frequencies table with weights not using library(questionr)
+# # v <- wtd.table(x, weights = org$POIDS_Geo_Stat_AgeP1_AgeL) # to make frequencies table with weights using library(questionr)
+#   vprc <- v*100/sum(v)
+# }
+# l1 <- apply(df, 2, pc.table)
+# l2 <- apply(df, 2, function(x) table(x)*100/sum(table(x)) )
+# 
+# write.table(cbind.data.frame(l1[5],l2[5]), 'clipboard', sep = '\t')
+
+# # summary stats of weights 
+
+# hist(general$weight, breaks = 100)
+# write.table(org[general$weight >4, c(1, 75, 77, 80, 78, 174, 61)], 'clipboard', sep = '\t', row.names = F)
+
 
 ### coordinates --------
 
