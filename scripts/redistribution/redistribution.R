@@ -200,7 +200,7 @@ load(file= here(pdir, 'UtiSurv_2014_AWalCEHD_Wal/Addresses/surv14_coord_PICC.Rda
 
 ### urbanization -------------
 
-urban_10 <- raster(here(pdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
+urban_10 <- raster(here(rdir, "Urban_5cat_Ahmed_Wal/LU2010_5cls_x25.flt"))
 
 crs(urban_10) <- st_crs(surv14_coords)
 
