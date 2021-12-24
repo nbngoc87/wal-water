@@ -1,0 +1,14 @@
+---
+title: "README"
+author: "NBN"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r dpi = 1000}
+knitr::include_graphics("Data analyses workflow.png")
+```
