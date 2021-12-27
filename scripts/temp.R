@@ -1,3 +1,21 @@
+geom_jitter
+
+
+library(ggplot2)
+library(ggsignif)
+ggplot(df, aes(Classifier, Accuracy))+
+  geom_boxplot(aes(fill = Classifier)) + scale_fill_manual(values=c("orange", "pink", "purple")) + # using `ggsignif` to display comparison of interest
+  geom_signif(
+    comparisons = list(c("GA_SVM", "GA_XGB")),
+    y_position = 0.925, tip_length = 0.01, vjust = 0.2, map_signif_level = TRUE)+
+  geom_signif(
+    comparisons = list(c("GA_RF", "GA_XGB")),
+    y_position = 0.95,tip_length = 0.01, vjust = 0.2, map_signif_level = TRUE)+
+  geom_signif(
+    comparisons = list(c("GA_RF", "GA_SVM")),
+    y_position = 0.935,tip_length = 0.01, vjust = 0.2, map_signif_level = TRUE)
+ggsave("comparison_plot.png")
+
 
 
 loadpackage("stringi")
