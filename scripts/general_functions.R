@@ -29,6 +29,7 @@ summaryf <- function(x) {
 theme_kat <- function(base_size = 8) {
   theme_bw(base_size = base_size) %+replace%
     theme(
+      line = element_line(size = 0.8),
       axis.text.x = element_text(color = 'black'),
       axis.text.y = element_text(color = 'black'),
       legend.position = "bottom",
