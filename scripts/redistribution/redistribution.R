@@ -12,7 +12,7 @@
 #+ r setup, include = F, message = F
 # notes from last run----------------------
 
-# rmarkdown::render("scripts/redistribution/redistribution.R",output_file=paste0("redistribution ", format(Sys.time(), "%y%m%d_%H%M"),".md"))
+# rmarkdown::render("scripts/redistribution/redistribution.R",output_file=paste0("redistribution_", format(Sys.time(), "%y%m%d_%H%M"),".md"))
 
 # 1. setup ---------
 
@@ -310,13 +310,16 @@ source(here("scripts", "general_functions.R"))
 
 ### plot params -----------
 
-col1_dark <- scico(1, palette = "lapaz", begin = 0.2)
+# col1_dark <- scico(1, palette = "lapaz", begin = 0.2)
+col1_dark <- scico(1, palette = "lajolla", begin = 0.7)
 
-col1_light <- scico(1, palette = "lapaz", begin = 0.4)
+# col1_light <- scico(1, palette = "lapaz", begin = 0.4)
+col1_light <- scico(1, palette = "lajolla", begin = 0.4)
 
 pal_div <- "roma"
 pal_con <- "oslo"
-pal_disc <- "lapaz"
+# pal_disc <- "lapaz"
+pal_disc <- "lajolla"
 
 pal_bg <- 0.2
 pal_end <- 0.8
@@ -1382,6 +1385,7 @@ p2 <- ggplot(df, aes(x = incqnt, y = subs)) +
                geom = "col",
                fill = col1_dark) +
   labs(x = "Household income quintiles", y = "Subsidy for water bill (EUR)", color = "") +
+  ylim(-16800, 16800) +
   theme_kat()
 
 ### combine plot 2 --------
@@ -1839,7 +1843,8 @@ p2 <-
     linetype = "longdash"
   ) +
   labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)") +
-  theme_kat()
+  ylim(-16800, 16800) +
+  theme_kat() 
 
 # #+ fixavprinc1, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
@@ -2371,6 +2376,7 @@ p2 <- ggplot(plotdf) +
   ) +
   facet_grid(. ~ rwtt, labeller = label_both) +
   labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)", color = "") +
+  ylim(-16800, 16800) +
   theme_kat()
 
 # #+ rwttavprinc1, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
@@ -2916,6 +2922,7 @@ cat("\n")
 
 
 #+ upccsubsinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
+
 plotdf_ls <-
   lapply(list(up_df, ibtcon_df, ibtcap_df), function(x)
     x[, c("id", grep("subs_", colnames(x), value = T))])
@@ -2954,6 +2961,29 @@ p2 <-
                      palette = pal_disc) +
   scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
   labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") +
+  ylim(-16800, 16800) +
+  theme_kat()
+
+
+p2b <-
+  plotdf %>%
+  filter(revincr == 0 & fixed == 100) %>%
+  ggplot(aes(x = tariff, y = value, fill = incqnt)) +
+  stat_summary(geom = "col",
+               fun = sum,
+               position = "dodge")  +
+  geom_hline(
+    yintercept = 0,
+    col = "red" ,
+    size = 0.3,
+    linetype = "longdash"
+  ) +
+  scale_fill_scico_d(begin = pal_bg,
+                     end = pal_end,
+                     palette = pal_disc) +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") +
+  ylim(-16800, 16800) +
   theme_kat()
 
 #+ upccavprinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
@@ -2991,6 +3021,21 @@ p1 <- plotdf %>%
        fill = "Income quintiles") +
   theme_kat()
 
+
+p1b <- plotdf %>%
+  filter(revincr == 0 & fixed == 100) %>%
+  ggplot(aes(x = tariff, y = value, fill = incqnt)) +
+  geom_boxplot(outlier.size = 0.7, lwd = 0.3) +
+  scale_fill_scico_d(begin = pal_bg,
+                     end = pal_end,
+                     palette = pal_disc) +
+  scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  labs(x = "Tariff types",
+       y =  expression(Average ~ price ~ (EUR / m ^ 3)),
+       fill = "Income quintiles") +
+  theme_kat()
+
+
 #### combine plot ----------
 
 #+ upcccb, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d2
@@ -3007,6 +3052,24 @@ pg <-
   )
 
 plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
+
+
+#+ upcc100, echo = F, message = F , fig.width = fig_d1, fig.height = fig_d2
+
+legend <- get_legend(p1b +  guides(color = guide_legend(nrow = 1)))
+
+pg <-
+  plot_grid(
+    p1b + theme(legend.position = "none"),
+    p2b + theme(legend.position = "none"),
+    nrow = 2,
+    align = "v",
+    labels = "AUTO"
+  )
+
+plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
+
+
 
 ### by urban ------------
 
@@ -3251,6 +3314,7 @@ ggplot(plotdf, aes(x = tariff, y = value, fill = ieaqnt))  +
                      end = pal_end,
                      palette = pal_disc) +
   scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
+  ylim(-16800, 16800) +
   labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") +
   theme_kat()
 
