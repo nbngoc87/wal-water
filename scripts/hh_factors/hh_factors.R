@@ -68,3 +68,21 @@ us <-
     pdir,
     "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_AquaWal_prd.csv"
   ))
+
+# 2. reprocess some data -------------
+
+
+
+us$livasc <- scale(us$livara)
+
+
+# 3. descriptive statistics ------------
+
+#+ sumstat
+
+
+weighted.mean(us$csmptv, w = us$weight, na.rm = T)
+us$weight
+
+
+

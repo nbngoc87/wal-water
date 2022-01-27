@@ -66,7 +66,7 @@ nb_room <- function(char) {
     factor(maxpos,
            levels = lvls(maxpos)[4:1],
            labels = c("0", "1", "2", "3 or more"))
-  res[sumdf1 < 1] <- NA
+  res[sumtrue < 1] <- NA
   res
 }
 
@@ -162,12 +162,14 @@ price <-
 ### built-up density -------------
 
 builtup <-
-  read.csv(file = here(
+  load(file = here(
     pdir,
-    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_builtup.csv"
+    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_builtup.Rdata"
   ))
 
-builtup <- builtup[, c("id", "LU2010_5cls_x25")]
+bltup10 <- builtup_ls[names(builtup_ls) == "LU2010_5cls_x25"][[1]]
+
+bltup10$id <- as.integer(bltup10$id)
 
 
 # 2. general --------------------
@@ -460,10 +462,9 @@ processed$dtbtor <- as.factor(processed$dtbtor)
 ## 4.3. built-up density ------------
 # 5 categories (actually 6 with 0 built-up), from Ahmed, for 2010
 
-processed <- left_join(processed, builtup)
-colnames(processed)[ncol(processed)] <- "bltu5c10"
+processed <- left_join(processed, bltup10)
 
-processed$bltu5c10[processed$bltu5c10 < 0] <- NA
+# summary(processed[,77:81])
 
 
 # 5. socio-demographic ------------------
@@ -502,7 +503,7 @@ hhs14 <-
   hhsize(
     year = 2014,
     data = processed,
-    age_brks = c(0, 20),
+    age_brks = c(0, 18, 66),
     ocp = F
   )
 
@@ -510,20 +511,25 @@ hhspo14 <-
   hhsize(
     year = 2014,
     data = processed,
-    age_brks = c(0, 20),
+    age_brks = c(0, 18, 66),
     ocp = T
   )
 
 processed <- cbind.data.frame(processed, hhs14, hhspo14)
 
+processed$hhs_18_95 <- processed$hhs_18_65 + processed$hhs_66_95
+
+processed$hhspo_18_95 <- processed$hhspo_18_65 + processed$hhspo_66_95
+
+
 processed$eqadlt <-
-  1 + (processed$hhs_20_95 - 1) * 0.5 + processed$hhs_0_19 * 0.3
+  1 + (processed$hhs_18_95 - 1) * 0.5 + processed$hhs_0_17 * 0.3
 
 processed$eqadpo <-
   ifelse(
-    processed$hhspo_20_95 > 1 ,
-    1 + (processed$hhspo_20_95 - 1) * 0.5 + processed$hhspo_0_19 * 0.3,
-    processed$hhspo_20_95 + 0.3 * processed$hhspo_0_19
+    processed$hhspo_18_95 > 1 ,
+    1 + (processed$hhspo_18_95 - 1) * 0.5 + processed$hhspo_0_17 * 0.3,
+    processed$hhspo_18_95 + 0.3 * processed$hhspo_0_17
   )
 
 
@@ -701,9 +707,9 @@ processed$iceqac2 <-
 
 # # income cat base on single household or multi member households and number of children below 20 years old
 
-inc_woc <- processed$income * 12 - 2400 * processed$hhs_0_19
+inc_woc <- processed$income * 12 - 2400 * processed$hhs_0_17
 
-single <- processed$hhs_20_95 < 2
+single <- processed$hhs_18_95 < 2
 
 
 inc_sin <- single * inc_woc
@@ -1240,3 +1246,4 @@ write.csv(
   ),
   row.names = F
 )
+
