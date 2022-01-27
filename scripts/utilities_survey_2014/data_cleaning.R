@@ -13,15 +13,15 @@ loadpackage <- function(x) {
 
 hhsize <-
   function(year = 2014,
-           data = processed,
+           birth_year = by_df,
+           occupancy = ocp_df,
            age_brks = c(0, 20, 65),
            ocp = T) {
-    birth_year <- data[, grep("by_", colnames(data))]
-    occupancy <- data[, grep("ocp_", colnames(data))]
+
     age <- year - birth_year
     age[age < 0] <- NA
     
-    data$year <- rep(year, nrow(data))
+    data <- data.frame(year = rep(year, nrow(age)))
     age_brks <- c(age_brks, max(age, na.rm = T) + 1)
     n <- length(age_brks)
     
@@ -37,7 +37,7 @@ hhsize <-
         apply(data[, grep("hhspo_", colnames(data))], 1, sum, na.rm = T)
       data[data$hhspo_tot %in% 0, grep("hhspo_", colnames(data))] <-
         NA
-      res <- data[, grep("hhspo_", colnames(data))]
+      
     } else {
       for (i in seq_len(n - 1)) {
         agr_mat <- age >= age_brks[i] & age < age_brks[i + 1]
@@ -49,9 +49,9 @@ hhsize <-
       data$hhs_tot <-
         apply(data[, grep("hhs_", colnames(data))], 1, sum, na.rm = T)
       data[data$hhs_tot %in% 0, grep("hhs_", colnames(data))] <- NA
-      res <- data[, grep("hhs_", colnames(data))]
+      
     }
-    res
+    data
   }
 
 
@@ -149,7 +149,7 @@ parcel <-
 
 ### statistical sectors -----------
 
-load(file = here(pdir, "admin_border_Wal/admin_ss_Wal.Rdata"))
+load(file = here(pdir, "admin_border_Be/admin_Be.Rdata"))
 
 ### water price -----------
 
@@ -431,7 +431,7 @@ processed$otsrod <- factor(otsrod, labels = c("no", "yes"))
 
 processed <- left_join(processed, surv14_coord)
 
-processed <- left_join(processed, st_drop_geometry(wal_stst)[, -1])
+processed <- left_join(processed, st_drop_geometry(stst)[, -1])
 
 
 # summary(processed)
@@ -502,7 +502,8 @@ processed <- cbind.data.frame(processed, occupancy)
 hhs14 <-
   hhsize(
     year = 2014,
-    data = processed,
+    birth_year = birth_year,
+    occupancy = occupancy,
     age_brks = c(0, 18, 66),
     ocp = F
   )
@@ -510,12 +511,13 @@ hhs14 <-
 hhspo14 <-
   hhsize(
     year = 2014,
-    data = processed,
+    birth_year = birth_year,
+    occupancy = occupancy,
     age_brks = c(0, 18, 66),
     ocp = T
   )
 
-processed <- cbind.data.frame(processed, hhs14, hhspo14)
+processed <- cbind.data.frame(processed, hhs14[, -1], hhspo14[, -1])
 
 processed$hhs_18_95 <- processed$hhs_18_65 + processed$hhs_66_95
 
@@ -1236,10 +1238,10 @@ processed$cspeqo <- (processed$csptdo * 1000 / processed$eqadpo) / 365
 
 # 11. save data ---------------
 
-processed <- processed[order(processed$id), ]
+us <- processed[order(processed$id), ]
 
 write.csv(
-  processed,
+  us,
   file = here(
     pdir,
     "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_AquaWal_prd.csv"
@@ -1247,3 +1249,12 @@ write.csv(
   row.names = F
 )
 
+
+
+save(
+  us,
+  file = here(
+    pdir,
+    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_AquaWal_prd.Rdata"
+  )
+)

@@ -22,11 +22,13 @@ builtup_f <- function(a) {
   buf <- st_buffer(surv14_coord, dist = 1000)
   buf1k_mean <- exact_extract(raster, buf, fun = "mean", weights = "area")
   buf1k_mode <- exact_extract(raster, buf, fun = "mode", weights = "area")
+  buf1k_max <- exact_extract(raster, buf, fun = "max")
   
   buf <- st_buffer(surv14_coord, dist = 300)
   buf300_mean <- exact_extract(raster, buf, fun = "mean", weights = "area")
   buf300_mode <- exact_extract(raster, buf, fun = "mode", weights = "area")
-  res <- data.frame(id = surv14_coord$id, pointsp, buf1k_mean, buf1k_mode, buf300_mean, buf300_mode)
+  buf300_max <- exact_extract(raster, buf, fun = "max")
+  res <- data.frame(id = surv14_coord$id, pointsp, buf1k_mean, buf1k_mode, buf1k_max, buf300_mean, buf300_mode, buf300_max)
 
 }
 
