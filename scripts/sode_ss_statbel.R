@@ -53,12 +53,21 @@ for (a in ls.file) {
       "ststnm",
       "muninm"
     )
-  temp$ststcd <- as.factor(temp$ststcd)
+
   temp <- temp[!is.na(temp$ststcd), ]
+  
+  if (max(nchar(temp$ststcd)) < 8) {
+    temp$ststcd <- paste0(temp$municd, temp$ststcd)
+  }
+  
   temp$year <-
     as.numeric(gsub(".csv", "", unlist(strsplit(a, split = "_"))[3]))
   age_ss <- rbind.data.frame(age_ss, temp)
 }
+
+
+
+
 
 age_ss <- age_ss[order(age_ss$ststcd, age_ss$year), ]
 
@@ -99,11 +108,17 @@ for (a in ls.file) {
       "hhs_5+",
       "hhs_NA"
     )
-  temp$ststcd <- as.factor(temp$ststcd)
+
+  
   temp <- temp[!is.na(temp$ststcd), ]
-  temp$ststcd <- paste0(temp$municd, temp$ststcd)
+  
+  if (max(nchar(temp$ststcd)) < 8) {
+    temp$ststcd <- paste0(temp$municd, temp$ststcd)
+  }
+  
   temp$year <-
     as.numeric(gsub(".csv", "", unlist(strsplit(a, split = "_"))[3]))
+  
   hhs_ss <- rbind.data.frame(hhs_ss, temp)
 }
 
@@ -130,19 +145,19 @@ income_ss <- income_ss[order(income_ss$ststcd, income_ss$year), ]
 
 ### statistical sectors info -------
 
-load(file = here(pdir, "admin_border_Wal/admin_ss_Wal.Rdata"))
+load(file = here(pdir, "admin_border_Be/admin_Be.Rdata"))
 
 
 # 2. select for wallonia ----------------
 
-age_ss_wal <-
-  dplyr::left_join(st_drop_geometry(wal_stst), age_ss[, !colnames(age_ss) %in% c("ststnm", "municd", "muninm")])
+age_ss <-
+  dplyr::inner_join(st_drop_geometry(stst), age_ss[, !colnames(age_ss) %in% c("ststnm", "municd", "muninm")])
 
-hhs_ss_wal <-
-  dplyr::left_join(st_drop_geometry(wal_stst), hhs_ss[, !colnames(hhs_ss) %in% c("ststnm", "municd", "muninm")])
+hhs_ss <-
+  dplyr::inner_join(st_drop_geometry(stst), hhs_ss[, !colnames(hhs_ss) %in% c("ststnm", "municd", "muninm")])
 
-income_ss_wal <-
-  dplyr::left_join(st_drop_geometry(wal_stst), income_ss[, !colnames(income_ss) %in% c("ststnm", "municd", "muninm")])
+income_ss <-
+  dplyr::inner_join(st_drop_geometry(stst), income_ss[, !colnames(income_ss) %in% c("ststnm", "municd", "muninm")])
 
 
 
@@ -150,8 +165,3 @@ income_ss_wal <-
 
 
 save(age_ss, hhs_ss, income_ss, file = here(path, "sode_ss_Be.Rdata"))
-
-save(age_ss_wal,
-     hhs_ss_wal,
-     income_ss_wal,
-     file = here(path, "sode_ss_Wal.Rdata"))

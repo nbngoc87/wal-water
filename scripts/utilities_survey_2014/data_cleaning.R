@@ -13,15 +13,15 @@ loadpackage <- function(x) {
 
 hhsize <-
   function(year = 2014,
-           data = processed,
+           birth_year = by_df,
+           occupancy = ocp_df,
            age_brks = c(0, 20, 65),
            ocp = T) {
-    birth_year <- data[, grep("by_", colnames(data))]
-    occupancy <- data[, grep("ocp_", colnames(data))]
+
     age <- year - birth_year
     age[age < 0] <- NA
     
-    data$year <- rep(year, nrow(data))
+    data <- data.frame(year = rep(year, nrow(age)))
     age_brks <- c(age_brks, max(age, na.rm = T) + 1)
     n <- length(age_brks)
     
@@ -37,7 +37,7 @@ hhsize <-
         apply(data[, grep("hhspo_", colnames(data))], 1, sum, na.rm = T)
       data[data$hhspo_tot %in% 0, grep("hhspo_", colnames(data))] <-
         NA
-      res <- data[, grep("hhspo_", colnames(data))]
+      
     } else {
       for (i in seq_len(n - 1)) {
         agr_mat <- age >= age_brks[i] & age < age_brks[i + 1]
@@ -49,9 +49,9 @@ hhsize <-
       data$hhs_tot <-
         apply(data[, grep("hhs_", colnames(data))], 1, sum, na.rm = T)
       data[data$hhs_tot %in% 0, grep("hhs_", colnames(data))] <- NA
-      res <- data[, grep("hhs_", colnames(data))]
+      
     }
-    res
+    data
   }
 
 
@@ -66,7 +66,7 @@ nb_room <- function(char) {
     factor(maxpos,
            levels = lvls(maxpos)[4:1],
            labels = c("0", "1", "2", "3 or more"))
-  res[sumdf1 < 1] <- NA
+  res[sumtrue < 1] <- NA
   res
 }
 
@@ -149,7 +149,7 @@ parcel <-
 
 ### statistical sectors -----------
 
-load(file = here(pdir, "admin_border_Wal/admin_ss_Wal.Rdata"))
+load(file = here(pdir, "admin_border_Be/admin_Be.Rdata"))
 
 ### water price -----------
 
@@ -162,12 +162,14 @@ price <-
 ### built-up density -------------
 
 builtup <-
-  read.csv(file = here(
+  load(file = here(
     pdir,
-    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_builtup.csv"
+    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_builtup.Rdata"
   ))
 
-builtup <- builtup[, c("id", "LU2010_5cls_x25")]
+bltup10 <- builtup_ls[names(builtup_ls) == "LU2010_5cls_x25"][[1]]
+
+bltup10$id <- as.integer(bltup10$id)
 
 
 # 2. general --------------------
@@ -429,7 +431,7 @@ processed$otsrod <- factor(otsrod, labels = c("no", "yes"))
 
 processed <- left_join(processed, surv14_coord)
 
-processed <- left_join(processed, st_drop_geometry(wal_stst)[, -1])
+processed <- left_join(processed, st_drop_geometry(stst)[, -1])
 
 
 # summary(processed)
@@ -460,10 +462,9 @@ processed$dtbtor <- as.factor(processed$dtbtor)
 ## 4.3. built-up density ------------
 # 5 categories (actually 6 with 0 built-up), from Ahmed, for 2010
 
-processed <- left_join(processed, builtup)
-colnames(processed)[ncol(processed)] <- "bltu5c10"
+processed <- left_join(processed, bltup10)
 
-processed$bltu5c10[processed$bltu5c10 < 0] <- NA
+# summary(processed[,77:81])
 
 
 # 5. socio-demographic ------------------
@@ -501,29 +502,36 @@ processed <- cbind.data.frame(processed, occupancy)
 hhs14 <-
   hhsize(
     year = 2014,
-    data = processed,
-    age_brks = c(0, 20),
+    birth_year = birth_year,
+    occupancy = occupancy,
+    age_brks = c(0, 18, 66),
     ocp = F
   )
 
 hhspo14 <-
   hhsize(
     year = 2014,
-    data = processed,
-    age_brks = c(0, 20),
+    birth_year = birth_year,
+    occupancy = occupancy,
+    age_brks = c(0, 18, 66),
     ocp = T
   )
 
-processed <- cbind.data.frame(processed, hhs14, hhspo14)
+processed <- cbind.data.frame(processed, hhs14[, -1], hhspo14[, -1])
+
+processed$hhs_18_95 <- processed$hhs_18_65 + processed$hhs_66_95
+
+processed$hhspo_18_95 <- processed$hhspo_18_65 + processed$hhspo_66_95
+
 
 processed$eqadlt <-
-  1 + (processed$hhs_20_95 - 1) * 0.5 + processed$hhs_0_19 * 0.3
+  1 + (processed$hhs_18_95 - 1) * 0.5 + processed$hhs_0_17 * 0.3
 
 processed$eqadpo <-
   ifelse(
-    processed$hhspo_20_95 > 1 ,
-    1 + (processed$hhspo_20_95 - 1) * 0.5 + processed$hhspo_0_19 * 0.3,
-    processed$hhspo_20_95 + 0.3 * processed$hhspo_0_19
+    processed$hhspo_18_95 > 1 ,
+    1 + (processed$hhspo_18_95 - 1) * 0.5 + processed$hhspo_0_17 * 0.3,
+    processed$hhspo_18_95 + 0.3 * processed$hhspo_0_17
   )
 
 
@@ -701,9 +709,9 @@ processed$iceqac2 <-
 
 # # income cat base on single household or multi member households and number of children below 20 years old
 
-inc_woc <- processed$income * 12 - 2400 * processed$hhs_0_19
+inc_woc <- processed$income * 12 - 2400 * processed$hhs_0_17
 
-single <- processed$hhs_20_95 < 2
+single <- processed$hhs_18_95 < 2
 
 
 inc_sin <- single * inc_woc
@@ -1230,13 +1238,23 @@ processed$cspeqo <- (processed$csptdo * 1000 / processed$eqadpo) / 365
 
 # 11. save data ---------------
 
-processed <- processed[order(processed$id), ]
+us <- processed[order(processed$id), ]
 
 write.csv(
-  processed,
+  us,
   file = here(
     pdir,
     "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_AquaWal_prd.csv"
   ),
   row.names = F
+)
+
+
+
+save(
+  us,
+  file = here(
+    pdir,
+    "utilities_survey_Aquawal_CEHD_Wal/surv14_obs_AquaWal_prd.Rdata"
+  )
 )
