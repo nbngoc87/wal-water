@@ -14,9 +14,6 @@
 
 # 1. setup ---------
 
-knitr::opts_chunk$set(fig.width = 3.543,
-                      fig.height = 3.543,
-                      dpi = 300)
 
 ## 1.1. load functions -----------------
 
@@ -31,7 +28,6 @@ loadpackage <- function(x) {
 
 loadpackage("here")
 loadpackage("xlsx")
-loadpackage("dplyr")
 loadpackage("reshape2")
 loadpackage("stringi")
 loadpackage("ggplot2")
@@ -40,7 +36,28 @@ loadpackage("scico")
 
 source(here("scripts", "general_functions.R"))
 
+### plot params -----------
 
+col1_dark <- scico(1, palette = "lapaz", begin = 0.2)
+
+col1_light <- scico(1, palette = "lapaz", begin = 0.4)
+
+pal_div <- "roma"
+pal_con <- "oslo"
+pal_disc <- "batlow"
+
+pal_bg <- 0.1
+pal_end <- 0.9
+
+fig_d1 <- 3.54331
+fig_d2 <- 5.51181
+fig_d3 <- 7.48031
+
+mfn <- 2512
+
+knitr::opts_chunk$set(fig.width = fig_d1,
+                      fig.height = fig_d1,
+                      dpi = 1000)
 
 ## 1.2 load data --------
 
@@ -182,7 +199,7 @@ plotdf$dtbtor <-
   factor(plotdf$dtbtor, lvls(plotdf$dtbtor)[c(4, 1, 3, 2)])
 
 ## price without adjustment for inflation
-#+ prwoinf, echo = F, message = F, fig.width =7.48, fig.height = 3.543
+#+ prwoinf, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d1
 
 p1 <-
   ggplot(plotdf) +
@@ -233,7 +250,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.135))
 
 
 ## price with adjustment for inflation
-#+ prwinf, echo = F, message = F, fig.width = 7.48, fig.height = 3.543
+#+ prwinf, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d1
 
 p1 <-
   ggplot(plotdf) +
@@ -300,9 +317,9 @@ ggplot(plotdf) +
   ), size = 0.8) +
   geom_line(aes(x = year, y = CVA, linetype = "CVA"), size = 0.8) +
   geom_line(aes(x = year, y = CVA18, linetype = "CVA18"), size = 0.8)  +
-  scale_color_scico_d(palette = "batlow",
-                      begin = 0.1,
-                      end = 0.9) +
+  scale_color_scico_d(palette = pal_disc,
+                      begin = pal_bg,
+                      end = pal_end) +
   theme_kat() +
   labs(
     x = "Year",
@@ -317,12 +334,13 @@ ggplot(plotdf, aes(x = year, col = dtbtor)) +
   geom_line(aes(y = bill70, linetype = "No"), size = 0.8) +
   geom_line(aes(y = bill7018, linetype = "Yes"), size = 0.8) +
   theme_kat() +
-  scale_color_scico_d(palette = "batlow",
-                      begin = 0.1,
-                      end = 0.9) +
+  scale_color_scico_d(palette = pal_disc,
+                      begin = pal_bg,
+                      end = pal_end) +
   labs(
     x = "Year",
     y = "Water bill for an example family (€)",
     color = "Utilities",
     linetype = "Inflation adjustment"
   )
+
