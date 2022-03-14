@@ -959,6 +959,15 @@ cat("\n")
 fwd_1 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + pointsp, data = us, na.action = na.exclude, weights = weight)
 summary(fwd_1)
 anova(fwd_1)
+loadpackage("lme4")
+loadpackage("lmerTest")
+
+
+test <-  lmer(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + pointsp + (1|municd), data = us, na.action = na.exclude, weights = weight)
+summary(test)
+anova(test)
+ranova(test)
+
 rmsed_1 <- cvlm_f(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + pointsp, data = us, fold = 100, seed = mfn )
 
 mean(rmsed_1)
@@ -975,11 +984,11 @@ crPlot(fwd_2, "buf300_mean")
 fwd_3 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + buf300_max, data = us, na.action = na.exclude, weights = weight)
 
 summary(fwd_3)
-
+anova(fwd_3)
 fwd_4 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + buf300_mode, data = us, na.action = na.exclude, weights = weight)
 
 summary(fwd_4)
-
+anova(fwd_4)
 
 fwd_5 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + buf1k_mean, data = us, na.action = na.exclude, weights = weight)
 
@@ -989,7 +998,7 @@ summary(fwd_5)
 fwd_6 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + buf1k_mode, data = us, na.action = na.exclude, weights = weight)
 
 summary(fwd_6)
-
+anova(fwd_6)
 crPlot(fwd_6, "buf1k_mode")
 table(us$buf1k_mode)
 

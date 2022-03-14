@@ -310,16 +310,16 @@ source(here("scripts", "general_functions.R"))
 
 ### plot params -----------
 
-# col1_dark <- scico(1, palette = "lapaz", begin = 0.2)
-col1_dark <- scico(1, palette = "lajolla", begin = 0.7)
+col1_dark <- scico(1, palette = "oslo", begin = 0.2)
+# col1_dark <- scico(1, palette = "lajolla", begin = 0.7)
 
-# col1_light <- scico(1, palette = "lapaz", begin = 0.4)
-col1_light <- scico(1, palette = "lajolla", begin = 0.4)
+col1_light <- scico(1, palette = "oslo", begin = 0.4)
+# col1_light <- scico(1, palette = "lajolla", begin = 0.4)
 
 pal_div <- "roma"
 pal_con <- "oslo"
-# pal_disc <- "lapaz"
-pal_disc <- "lajolla"
+pal_disc <- "batlow"
+# pal_disc <- "lajolla"
 
 pal_bg <- 0.2
 pal_end <- 0.8
@@ -368,7 +368,7 @@ df <- df[complete.cases(df[, c("income", "csmptv", "hhs_tot")]),]
 # CVD, CVA, bill70, bill, avrprc, mgnprc: current tariff and bill
 # income, inccat, inceqa: household income (EUR/month), categorized income (precarious, modest, average, higher), income per equivalent adults (OECD-scale, EUR/person/year)
 # dtbtor: water distributors (consider only 3 big companies SWDE, CILE, inBW)
-# bltu5c10: built-up density (0-6) calculated by Ahmed for 2010 landuse
+# pointsp: built-up density (0-6) calculated by Ahmed for 2010 landuse
 
 ### consumption per person (m3/year)
 
@@ -421,12 +421,12 @@ df$avprpp <- df$avrprc / df$hhs_tot
 
 
 
-df$bltu5c10 <-
-  car::recode(df$bltu5c10,
+df$pointsp <-
+  car::recode(df$pointsp,
               "c('0', '1') = 'low'; c('2','3') = 'medium'; c('4','5') = 'high' ")
 
 
-df$bltu5c10 <- factor(df$bltu5c10, lvls(df$bltu5c10)[c(2, 3, 1)])
+df$pointsp <- factor(df$pointsp, lvls(df$pointsp)[c(2, 3, 1)])
 
 
 ### average distributor prices ----------
@@ -1007,7 +1007,7 @@ p1 <- ggplot(df, aes(x = incqnt, y = csmptv)) +
     size = 1,
     linetype = "solid"
   ) +
-  scale_color_manual(values = c(col1_dark, "black"))  +
+  scale_color_manual(values = c(col1_light, "black"))  +
   labs(x = "Household income quintiles",
        y = expression(Average ~ consumption ~ (m ^ 3)),
        color = "") +
@@ -1089,8 +1089,8 @@ p3 <- ggplot(df, aes(x = incqnt, fill = rwtank)) +
 ### built-up density vs income -----------
 #+ densinc, echo = F, message = F
 p4 <- df %>%
-  drop_na(bltu5c10) %>%
-  ggplot(aes(x = incqnt, fill = as.factor(bltu5c10))) +
+  drop_na(pointsp) %>%
+  ggplot(aes(x = incqnt, fill = as.factor(pointsp))) +
   geom_bar(position = position_fill(reverse = T)) +
   scale_fill_scico_d(
     palette = pal_disc,
@@ -1406,8 +1406,8 @@ plot_grid(p1,
 
 # #+ csdens1, echo = F, message = F
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = csmptv)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = csmptv)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1433,8 +1433,8 @@ plot_grid(p1,
 
 # #+ csdens2, echo = F, message = F
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = csmptv)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = csmptv)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
@@ -1449,8 +1449,8 @@ plot_grid(p1,
 
 # #+ incdens1, echo = F, message = F
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = income)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = income)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1474,8 +1474,8 @@ plot_grid(p1,
 
 # #+ incdens2, echo = F, message = F
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = income)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = income)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
@@ -1489,8 +1489,8 @@ plot_grid(p1,
 # #+ hhsdens, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, fill = hhscat)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, fill = hhscat)) +
 #   geom_bar(position = position_fill(reverse = F)) +
 #   scale_fill_scico_d(
 #     palette = pal_disc,
@@ -1506,8 +1506,8 @@ plot_grid(p1,
 # #+ rwtdens, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, fill = rwtank)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, fill = rwtank)) +
 #   geom_bar(position = position_fill(reverse = F)) +
 #   scale_fill_scico_d(
 #     palette = pal_disc,
@@ -1524,8 +1524,8 @@ plot_grid(p1,
 # #+ billdens, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = bill)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = bill)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1553,8 +1553,8 @@ plot_grid(p1,
 # #+ TEHdens, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = TEH)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = TEH)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1582,8 +1582,8 @@ plot_grid(p1,
 # #+ avprdens1, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = avrprc)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = avrprc)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1611,8 +1611,8 @@ plot_grid(p1,
 # #+ avprdens2, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = avrprc)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = avrprc)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
@@ -1626,8 +1626,8 @@ plot_grid(p1,
 # #+ avprdens3, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = avprpp)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = avprpp)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
@@ -1641,8 +1641,8 @@ plot_grid(p1,
 # #+ avrprchhsdens, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = avrprc, fill = hhscat)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = avrprc, fill = hhscat)) +
 #   stat_summary(fun = mean,
 #                geom = "col",
 #                position = "dodge") +
@@ -1665,8 +1665,8 @@ plot_grid(p1,
 #
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = subs)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = subs)) +
 #   geom_boxplot()  +
 #   stat_summary(
 #     fun = median,
@@ -1691,8 +1691,8 @@ plot_grid(p1,
 # #+ subsdens2, echo = F, message = F
 #
 # df %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = bltu5c10, y = subs)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = pointsp, y = subs)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
@@ -1916,13 +1916,13 @@ plot_grid(p1,
 #
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], fixed_df[, c("id", grep("difpc_", colnames(fixed_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], fixed_df[, c("id", grep("difpc_", colnames(fixed_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$fixed == 100,][1,],
@@ -1933,7 +1933,7 @@ plot_grid(p1,
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
 #   geom_hline(yintercept = 0,
 #              col = "red",
@@ -1945,13 +1945,13 @@ plot_grid(p1,
 #
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], fixed_df[, c("id", grep("difpcinc_", colnames(fixed_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], fixed_df[, c("id", grep("difpcinc_", colnames(fixed_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$fixed == 100,][1,],
@@ -1962,7 +1962,7 @@ plot_grid(p1,
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
 #   geom_hline(yintercept = 0,
 #              col = "red",
@@ -1977,14 +1977,14 @@ plot_grid(p1,
 #
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], fixed_df[, c("id", grep("TEH_", colnames(fixed_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], fixed_df[, c("id", grep("TEH_", colnames(fixed_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$fixed == 100,][1,],
@@ -1995,7 +1995,7 @@ plot_grid(p1,
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
 #   labs(x = "Built-up density", y = "Ratio of water bill to income (%)") +
 #   theme_kat()
@@ -2004,14 +2004,14 @@ plot_grid(p1,
 # #+ fixsubsdens, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], fixed_df[, c("id", grep("subs_", colnames(fixed_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], fixed_df[, c("id", grep("subs_", colnames(fixed_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$fixed == 100,][1,],
@@ -2022,7 +2022,7 @@ plot_grid(p1,
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
 #   labs(x = "Built-up density", y = "Subsidy for water bill (EUR)") +
 #   theme_kat()
@@ -2031,13 +2031,13 @@ plot_grid(p1,
 #
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], fixed_df[, c("id", grep("avrprc_", colnames(fixed_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], fixed_df[, c("id", grep("avrprc_", colnames(fixed_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$fixed == 100,][1,],
@@ -2048,7 +2048,7 @@ plot_grid(p1,
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
 #   labs(x = "Built-up density", y = expression(Average ~ price ~ (EUR / m ^
 #                                                                    3))) +
@@ -2057,8 +2057,8 @@ plot_grid(p1,
 # #+ fixavprdens2, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = fixed, y = value, fill = bltu5c10))  +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = fixed, y = value, fill = pointsp))  +
 #   annotate(
 #     geom = "rect",
 #     xmin = 75,
@@ -2454,13 +2454,13 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], rwtt_df[, c("id", grep("difpc_", colnames(rwtt_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("difpc_", colnames(rwtt_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$rwtt %in% 0,][1,],
@@ -2471,12 +2471,12 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
 #     fun = median,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2490,7 +2490,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     fun = mean,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2511,13 +2511,13 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 # #+ rwttpcincdens, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], rwtt_df[, c("id", grep("difpcinc_", colnames(rwtt_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("difpcinc_", colnames(rwtt_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$rwtt %in% 0,][1,],
@@ -2528,12 +2528,12 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
 #     fun = median,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2547,7 +2547,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     fun = mean,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2569,13 +2569,13 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 # #+ rwttTEHdens1, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], rwtt_df[, c("id", grep("TEH_", colnames(rwtt_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("TEH_", colnames(rwtt_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$rwtt %in% 0,][1,],
@@ -2586,12 +2586,12 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
 #     fun = median,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2605,7 +2605,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     fun = mean,
 #     geom = "errorbar",
 #     aes(
-#       x = bltu5c10,
+#       x = pointsp,
 #       y = value,
 #       ymax = ..y..,
 #       ymin = ..y..,
@@ -2623,12 +2623,12 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 # #+ rwttTEHdens2, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot(aes(x = rwtt, y = value)) +
 #   stat_summary(
 #     fun = mean,
 #     geom = "col",
-#     aes(fill = bltu5c10),
+#     aes(fill = pointsp),
 #     position = "dodge"
 #   )  +
 #   scale_fill_scico_d(
@@ -2645,13 +2645,13 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 # #+ rwttsubsdens, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 #
 # plotdf <-
-#   left_join(df[, c("id", "bltu5c10")], rwtt_df[, c("id", grep("subs_", colnames(rwtt_df), value = T))])
+#   left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("subs_", colnames(rwtt_df), value = T))])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 # plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
 #   geom_rect(
 #     data = plotdf[plotdf$rwtt %in% 0,][1,],
@@ -2662,7 +2662,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     ymax = Inf,
 #     alpha = 0.5
 #   ) +
-#   geom_boxplot(aes(x = bltu5c10, y = value)) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ rwtt, labeller = label_both) +
 #   labs(x = "Built-up density", y = "Subsidy for water bill (EUR)") +
 #   theme_kat()
@@ -2670,13 +2670,13 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #+ rwttavprdens1, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
 plotdf <-
-  left_join(df[, c("id", "bltu5c10")], rwtt_df[, c("id", grep("avrprc_", colnames(rwtt_df), value = T))])
+  left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("avrprc_", colnames(rwtt_df), value = T))])
 
-plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
 
 plotdf %>%
-  drop_na(bltu5c10) %>%
+  drop_na(pointsp) %>%
   ggplot() +
   geom_rect(
     data = plotdf[plotdf$rwtt %in% 0,][1,],
@@ -2687,7 +2687,7 @@ plotdf %>%
     ymax = Inf,
     alpha = 0.5
   ) +
-  geom_boxplot(aes(x = bltu5c10, y = value)) +
+  geom_boxplot(aes(x = pointsp, y = value)) +
   facet_grid(. ~ rwtt, labeller = label_both) +
   labs(x = "Built-up density", y = expression(Average ~ price ~ (EUR / m ^
                                                                    3))) +
@@ -2697,8 +2697,8 @@ plotdf %>%
 
 
 plotdf %>%
-  drop_na(bltu5c10) %>%
-  ggplot(aes(x = rwtt, y = value, fill = bltu5c10))  +
+  drop_na(pointsp) %>%
+  ggplot(aes(x = rwtt, y = value, fill = pointsp))  +
   annotate(
     geom = "rect",
     xmin = -25,
@@ -3081,9 +3081,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf <- Reduce(left_join, plotdf_ls)
-# plotdf <- left_join(plotdf, df[, c("id", "bltu5c10")])
+# plotdf <- left_join(plotdf, df[, c("id", "pointsp")])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$tariff <-
 #   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
@@ -3095,9 +3095,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
-#   geom_boxplot(aes(x = tariff, y = value, fill = bltu5c10)) +
+#   geom_boxplot(aes(x = tariff, y = value, fill = pointsp)) +
 #   facet_grid(revincr ~ fixed, labeller = label_both) +
 #   geom_hline(yintercept = 0,
 #              col = "red" , size = 0.3,
@@ -3118,9 +3118,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf <- Reduce(left_join, plotdf_ls)
-# plotdf <- left_join(plotdf, df[, c("id", "bltu5c10")])
+# plotdf <- left_join(plotdf, df[, c("id", "pointsp")])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$tariff <-
 #   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
@@ -3132,9 +3132,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot() +
-#   geom_boxplot(aes(x = tariff, y = value, fill = bltu5c10)) +
+#   geom_boxplot(aes(x = tariff, y = value, fill = pointsp)) +
 #   facet_grid(revincr ~ fixed, labeller = label_both) +
 #   scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
 #   scale_fill_scico_d(begin = pal_bg,
@@ -3152,9 +3152,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf <- Reduce(left_join, plotdf_ls)
-# plotdf <- left_join(plotdf, df[, c("id", "bltu5c10")])
+# plotdf <- left_join(plotdf, df[, c("id", "pointsp")])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$tariff <-
 #   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
@@ -3166,8 +3166,8 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = tariff, y = value, fill = bltu5c10))  +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = tariff, y = value, fill = pointsp))  +
 #   stat_summary(fun = mean,
 #                geom = "col",
 #                position = "dodge") +
@@ -3187,9 +3187,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf <- Reduce(left_join, plotdf_ls)
-# plotdf <- left_join(plotdf, df[, c("id", "bltu5c10")])
+# plotdf <- left_join(plotdf, df[, c("id", "pointsp")])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$tariff <-
 #   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
@@ -3201,8 +3201,8 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
-#   ggplot(aes(x = tariff, y = value, fill = bltu5c10)) +
+#   drop_na(pointsp) %>%
+#   ggplot(aes(x = tariff, y = value, fill = pointsp)) +
 #   stat_summary(geom = "col", fun = sum, position = "dodge") +
 #   facet_grid(revincr ~ fixed, labeller = label_both) +
 #   scale_fill_scico_d(begin = pal_bg,
@@ -3220,9 +3220,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf <- Reduce(left_join, plotdf_ls)
-# plotdf <- left_join(plotdf, df[, c("id", "bltu5c10")])
+# plotdf <- left_join(plotdf, df[, c("id", "pointsp")])
 #
-# plotdf <- melt(plotdf, id.vars = c("id", "bltu5c10"))
+# plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
 #
 # plotdf$tariff <-
 #   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
@@ -3234,9 +3234,9 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.1))
 #
 #
 # plotdf %>%
-#   drop_na(bltu5c10) %>%
+#   drop_na(pointsp) %>%
 #   ggplot()  +
-#   geom_boxplot(aes(x = tariff, y = value, fill = bltu5c10)) +
+#   geom_boxplot(aes(x = tariff, y = value, fill = pointsp)) +
 #   facet_grid(revincr ~ fixed, labeller = label_both) +
 #   scale_fill_scico_d(begin = pal_bg,
 #                      end = pal_end,
