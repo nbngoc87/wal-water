@@ -166,6 +166,15 @@ price <- read.csv(
   here(pdir, "water_price_Aquawal_Wal/water_price_Wal_12_17.csv"))
 
 
+
+### builtup density at ss -----------
+
+load(file = here(
+  pdir,
+  "urban_5cat_Ahmed_Wal/urban_5cat_ss_Wal.Rdata"
+))
+
+
 # 2. STM using only family living during 2014 -----------------
 
 ## 2.1. pre-process data ----------
@@ -189,6 +198,8 @@ inbw2_df <- inbw2_df[, c("qnb", "year", "csmpt", "ndays", "cspd", "dtbtor")]
 histcons <- Reduce(rbind.data.frame, list(swde2_df, cile2_df, inbw2_df))
 histcons <- histcons[order(histcons$qnb, histcons$year),]
 
+
+
 ### survey data ---------
 
 
@@ -199,7 +210,7 @@ histcons <- histcons[order(histcons$qnb, histcons$year),]
 
 
 
-us_subs <- us[, c("qnb", grep("by_", colnames(us), value = T), "inccat", "rwtank", "rwtuse", "bath",  "pmnpol", "garden", "nbbdrm", "nbbtrm", "dwcsy5", "livara", "bldarea", "parcarea", "pointsp", grep("buf", colnames(us), value = T), "municd")]
+us_subs <- us[, c("qnb", grep("by_", colnames(us), value = T), "inccat", "rwtank", "rwtuse", "bath",  "pmnpol", "garden", "nbbdrm", "nbbtrm", "dwcsy5", "livara", "bldarea", "parcarea", "pointsp", grep("buf", colnames(us), value = T), "ststcd", "municd")]
 
 
 
@@ -211,11 +222,17 @@ fitdf <- left_join(fitdf, weather)
 
 fitdf <- left_join(fitdf, price)
 
+fitdf <- left_join(fitdf, bltupss[, c("ststcd", "LU2010_5cls_x25")])
+
+colnames(fitdf)[ncol(fitdf)] <- "bltupss"
+
+
+
 ### household size --------------
 
 by_df <- fitdf[, grep("by_", colnames(fitdf))]
 
-age_brks = c(0, 18, 66)
+age_brks = c(0, 20)
 age <- fitdf$year - by_df
 age[age < 0] <- NA
     
@@ -242,13 +259,14 @@ fitdf <- cbind.data.frame(fitdf, hhsize[,-1])
 ### other vars --------
 
 fitdf$t <- fitdf$year - min(fitdf$year)
-fitdf$hhs_18_100 <- fitdf$hhs_18_65 + fitdf$hhs_66_100
+# fitdf$hhs_20_100 <- fitdf$hhs_18_65 + fitdf$hhs_66_100
 fitdf$pointsp <- as.factor(fitdf$pointsp)
 
 fitdf$buf1k_max <- as.factor(fitdf$buf1k_max)
 fitdf$buf1k_mode <- as.factor(fitdf$buf1k_mode)
 fitdf$buf300_max <- as.factor(fitdf$buf300_max)
 fitdf$buf300_mode <- as.factor(fitdf$buf300_mode)
+fitdf$bltupss <- as.factor(fitdf$bltupss)
 
 ### remove extreme data ------------
 
@@ -257,6 +275,8 @@ fitdf$buf300_mode <- as.factor(fitdf$buf300_mode)
 fitdf <- fitdf[!is.na(fitdf$cspd),]
 
 fitdf <- fitdf[fitdf$ndays > 365/2 & fitdf$cspd < 822,]
+
+save(fitdf, file = here(pdir, "water_histcons_Wal", "water_histcons.Rdata"))
 
 fitdf_narm <- fitdf[complete.cases(fitdf[, c("hhs_tot", "municd", "t", "pointsp", "mnt_max_sm", "bill7018")]),]
 
@@ -347,7 +367,7 @@ anova(m3, m4)
 
 #### m5
 
-m5 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m5 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m5)
 
@@ -361,27 +381,27 @@ anova(m3, m5)
 
 #### m6
 
-m6 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_65 + hhs_66_100  + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
-
-summary(m6)
-
-ranova(m6)
-
-mdstat6 <- mdeval1(m6, re.form =  ~ (1 + t|municd))
-
-crvld6 <- mdeval2(formula(m6), fitdf_narm, k = 100)
-
-anova(m3, m6)
+# m6 <-  lmer(cspd ~ t + hhs_0_19 + hhs_18_65 + hhs_66_100  + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+# 
+# summary(m6)
+# 
+# ranova(m6)
+# 
+# mdstat6 <- mdeval1(m6, re.form =  ~ (1 + t|municd))
+# 
+# crvld6 <- mdeval2(formula(m6), fitdf_narm, k = 100)
+# 
+# anova(m3, m6)
 
 #### m7
 
-m7 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + (1 + t  + hhs_0_17 + hhs_18_100|municd), data = train, REML = T, na.action = na.exclude)
+m7 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + (1 + t  + hhs_0_19 + hhs_20_100|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m7)
 
 ranova(m7)
 
-mdstat7 <- mdeval1(m7, re.form =  ~ (1 + t + hhs_0_17 + hhs_18_100|municd))
+mdstat7 <- mdeval1(m7, re.form =  ~ (1 + t + hhs_0_19 + hhs_20_100|municd))
 
 crvld7 <- mdeval2(formula(m7), fitdf_narm, k = 100)
 
@@ -389,13 +409,13 @@ anova(m7, m5)
 
 #### m8
 
-m8 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + (1 + t   + hhs_18_100|municd), data = train, REML = T, na.action = na.exclude)
+m8 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + (1 + t   + hhs_20_100|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m8)
 
 ranova(m8)
 
-mdstat8 <- mdeval1(m8, re.form =  ~ (1 + t + hhs_18_100|municd))
+mdstat8 <- mdeval1(m8, re.form =  ~ (1 + t + hhs_20_100|municd))
 
 crvld8 <- mdeval2(formula(m8), fitdf_narm, k = 100)
 
@@ -407,7 +427,7 @@ anova(m8, m7)
 
 #### m9
 
-m9 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m9 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m9)
 
@@ -420,7 +440,7 @@ crvld9 <- mdeval2(formula(m9), fitdf_narm, k = 100)
 anova(m9, m5)
 
 #### m10
-m10 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtuse + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m10 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtuse + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m10)
 
@@ -436,7 +456,7 @@ anova(m10, m5)
 
 ### plus urban -----------
 #### m11
-m11 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m11 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + pointsp + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m11)
 
@@ -448,9 +468,22 @@ crvld11 <- mdeval2(formula(m11), fitdf_narm, k = 100)
 
 anova(m9, m11)
 
+#### m111
+m111 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+
+summary(m111)
+
+ranova(m111)
+
+mdstat111 <- mdeval1(m111, re.form =  ~ (1 + t|municd))
+
+crvld111 <- mdeval2(formula(m111), fitdf_narm, k = 100)
+
+anova(m9, m111)
+
 #### m12
 
-m12 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf300_max + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m12 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf300_max + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m12)
 
@@ -466,7 +499,7 @@ anova(m9, m12)
 
 #### m13
 
-m13 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf300_mean + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m13 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf300_mean + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m13)
 
@@ -482,7 +515,7 @@ crvld13 <- mdeval2(formula(m13), fitdf_narm, k = 100)
 
 #### m14
 
-m14 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf300_mode + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m14 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf300_mode + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m14)
 
@@ -497,7 +530,7 @@ crvld14 <- mdeval2(formula(m14), fitdf_narm, k = 100)
 
 #### m15
 
-m15 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf1k_max + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m15 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf1k_max + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m15)
 
@@ -513,7 +546,7 @@ crvld15 <- mdeval2(formula(m15), fitdf_narm, k = 100)
 
 #### m16
 
-m16 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf1k_mean + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m16 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf1k_mean + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m16)
 
@@ -528,7 +561,7 @@ anova(m9, m16)
 
 #### m17
 
-m17 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + buf1k_mode + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m17 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + buf1k_mode + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m17)
 
@@ -567,7 +600,7 @@ test <- sapply(colnames(fitdf_narm)[36:76], function(a) {
 test[test < 0.05]
 
 #### m18
-m18 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + mnt_max_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m18 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + mnt_max_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m18)
 
@@ -581,7 +614,7 @@ crvld18 <- mdeval2(formula(m18), fitdf_narm, k = 100)
 
 #### m19
 
-m19 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + mnt_min_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m19 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + mnt_min_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m19)
 
@@ -596,7 +629,7 @@ crvld19 <- mdeval2(formula(m19), fitdf_narm, k = 100)
 
 #### m20
 
-m20 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + mnt_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m20 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + mnt_sm + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m20)
 
@@ -609,7 +642,7 @@ anova(m20, m11)
 crvld20 <- mdeval2(formula(m20), fitdf_narm, k = 100)
 
 #### m21
-m21 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + mnrh + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m21 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + mnrh + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m21)
 
@@ -625,7 +658,7 @@ crvld21 <- mdeval2(formula(m21), fitdf_narm, k = 100)
 ### plus price -----------
 
 #### m21
-m22 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + bill7018 + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m22 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + bill7018 + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m22)
 
@@ -641,7 +674,7 @@ crvld22 <- mdeval2(formula(m22), fitdf_narm, k = 100)
 
 #### m23
 
-m23 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1|municd), data = train, REML = T, na.action = na.exclude)
+m23 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m23)
 
@@ -655,26 +688,26 @@ crvld23 <- mdeval2(formula(m23), fitdf_narm, k = 100)
 
 #### m24
 
-m24 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1 + t  + hhs_18_100|municd), data = train, REML = T, na.action = na.exclude)
+m24 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1 + t  + hhs_20_100|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m24)
 
 ranova(m24)
 anova(m11, m24)
-mdstat24 <- mdeval1(m24, re.form =  ~ (1 + t + hhs_18_100|municd))
+mdstat24 <- mdeval1(m24, re.form =  ~ (1 + t + hhs_20_100|municd))
 
 crvld24 <- mdeval2(formula(m24), fitdf_narm, k = 100)
 
 
 #### m25
 
-m25 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1 + t  + hhs_18_100 + hhs_0_17|municd), data = train, REML = T, na.action = na.exclude)
+m25 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1 + t  + hhs_20_100 + hhs_0_19|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m25)
 
 ranova(m25)
 anova(m11, m25)
-mdstat25 <- mdeval1(m25, re.form =  ~ (1 + t + hhs_18_100 + hhs_0_17|municd))
+mdstat25 <- mdeval1(m25, re.form =  ~ (1 + t + hhs_20_100 + hhs_0_19|municd))
 
 crvld25 <- mdeval2(formula(m25), fitdf_narm, k = 100)
 
@@ -683,7 +716,7 @@ fitdf_narm$rwtank_num <- as.numeric(fitdf_narm$rwtank)
 train$rwtank_num <- as.numeric(train$rwtank)
 vald$rwtank_num <- as.numeric(vald$rwtank)
 
-m26 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank_num + pointsp + (1 + t  + rwtank_num|municd), data = train, REML = T, na.action = na.exclude)
+m26 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank_num + bltupss + (1 + t  + rwtank_num|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m26)
 
@@ -695,25 +728,25 @@ mdstat26 <- mdeval1(m26, re.form =  ~ (1 + t + rwtank_num|municd))
 crvld26 <- mdeval2(formula(m26), fitdf_narm, k = 100)
 
 #### m27
-fitdf_narm$pointsp_num <- as.numeric(fitdf_narm$pointsp)
-train$pointsp_num <- as.numeric(train$pointsp)
-vald$pointsp_num <- as.numeric(vald$pointsp)
+fitdf_narm$bltupss_num <- as.numeric(fitdf_narm$bltupss)
+train$bltupss_num <- as.numeric(train$bltupss)
+vald$bltupss_num <- as.numeric(vald$bltupss)
 
-m27 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp_num + (1 + t  + pointsp_num|municd), data = train, REML = T, na.action = na.exclude)
+m27 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss_num + (1 + t  + bltupss_num|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m27)
 
 ranova(m27)
 anova(m11, m27)
 
-mdstat27 <- mdeval1(m27, re.form =  ~ (1 + t + pointsp_num|municd))
+mdstat27 <- mdeval1(m27, re.form =  ~ (1 + t + bltupss_num|municd))
 
 
 crvld27 <- mdeval2(formula(m27), fitdf_narm, k = 100)
 
 #### m28 
 
-m28 <- lm(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp, data = train, na.action = na.exclude)
+m28 <- lm(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss, data = train, na.action = na.exclude)
 
 summary(m28)
 
@@ -743,7 +776,7 @@ crvld28 <- rmse
 
 #### m29
 
-m29 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1|municd:qnb) + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
+m29 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1|municd:qnb) + (1 + t|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m29)
 
@@ -755,7 +788,7 @@ crvld29 <- mdeval2(formula(m29), fitdf_narm, k = 100)
 
 #### m30
 
-m30 <-  lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1|municd:qnb) + (1|municd), data = train, REML = T, na.action = na.exclude)
+m30 <-  lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1|municd:qnb) + (1|municd), data = train, REML = T, na.action = na.exclude)
 
 summary(m30)
 
@@ -778,14 +811,14 @@ eval2 <- cbind.data.frame(mget(grep("crvld", ls(), value = T)))
 eval2 <- melt(eval2, id.vars = NULL)
 eval2$model <- as.numeric(gsub("crvld", "", eval2$variable))
 
-ggplot(eval2, aes(x = as.factor(model), y = value)) + geom_boxplot(color = c(rep("black", 10), "red", rep("black", 19))) + geom_hline(yintercept = 94.17, color = "blue", linetype = "dashed")
+ggplot(eval2, aes(x = as.factor(model), y = value)) + geom_boxplot() + geom_hline(yintercept = 94.70144, color = "blue", linetype = "dashed")
 
 agg_eval2 <- eval2 %>%
   group_by(model) %>%
   summarise(mean = mean(value),
             sd = sd(value))
 
-median(eval2[eval2$model == 11, "value"])
+median(eval2[eval2$model == 111, "value"])
 
 
 ## model with price has lower RMSE but maybe because it remove data before 2012, to compare fairly => need to remove missing value and refit previous models
@@ -796,17 +829,17 @@ median(eval2[eval2$model == 11, "value"])
 # only care about variables which can be used to project, which means all variables which I don't have future projected values should not be considered
 # including: income, all dwelling ones??
 
-fn1 <- lm(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp, data = fitdf, na.action = na.exclude)
+fn1 <- lm(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss, data = fitdf, na.action = na.exclude)
 
 summary(fn1)
 
-fn2 <- lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1|municd), data = fitdf, na.action = na.exclude)
+fn2 <- lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1|municd), data = fitdf, na.action = na.exclude)
 
 summary(fn2)
 
 r.squaredGLMM(fn2)
 
-fn3 <- lmer(cspd ~ t + hhs_0_17 + hhs_18_100  + rwtank + pointsp + (1|municd) + (1|municd:qnb), data = fitdf, na.action = na.exclude)
+fn3 <- lmer(cspd ~ t + hhs_0_19 + hhs_20_100  + rwtank + bltupss + (1|municd) + (1|municd:qnb), data = fitdf, na.action = na.exclude)
 
 summary(fn3)
 

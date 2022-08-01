@@ -29,54 +29,54 @@ loadpackage <- function(x) {
 }
 
 
-fixed_f <-
-  function(dtbtorname = "SWDE",
-           fixeds = seq (0, 200, 50)) {
-    tmpdf <- df[df$dtbtor %in% dtbtorname,]
-    
-    bilwot_tot <- sum(tmpdf$bill) / 1.06
-    avrprc <- sum(tmpdf$bill) / sum(tmpdf$csmptv)
-    fsa <- sum(0.0125 * tmpdf$csmptv)
-    cvd_v <- numeric()
-    
-    for (fixed in fixeds) {
-      cvd <-
-        (bilwot_tot  - fixed * nrow(tmpdf) - fsa - sum((tmpdf$csmptv - 30) * tmpdf$CVA *
-                                                         tmpdf$ab30)) / sum(tmpdf$csmptv * 0.5 + (tmpdf$csmptv - 30) * 0.5 * tmpdf$ab30)
-      cvd_v <- c(cvd_v, cvd)
-      tmpdf$bill_new <-
-        1.06 * (
-          fixed  + tmpdf$csmptv * (0.0125 + 0.5 * cvd) + (tmpdf$csmptv - 30) * (0.5 *
-                                                                                  cvd + tmpdf$CVA) * tmpdf$ab30
-        )
-      tmpdf$difab <- tmpdf$bill_new - tmpdf$bill
-      tmpdf$difpc <- tmpdf$difab * 100 / tmpdf$bill
-      tmpdf$difpcinc <- tmpdf$difab * 100 / (tmpdf$income * 12)
-      tmpdf$TEH_new <- tmpdf$bill_new * 100 / (tmpdf$income * 12)
-      tmpdf$subs_new <- tmpdf$csmptv * avrprc - tmpdf$bill_new
-      tmpdf$avrprc_new <- tmpdf$bill_new / tmpdf$csmptv
-      colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <-
-        paste(
-          c(
-            "bill",
-            "difab",
-            "difpc",
-            "difpcinc",
-            "TEH",
-            "subs",
-            "avrprc"
-          ),
-          "fixed",
-          fixed,
-          sep = "_"
-        )
-    }
-    
-    tmpdf <-
-      tmpdf[, c("id", grep("_fixed_", colnames(tmpdf), value = T))]
-    
-    list(tmpdf, cvd_v)
-  }
+# fixed_f <-
+#   function(dtbtorname = "SWDE",
+#            fixeds = seq (0, 200, 50)) {
+#     tmpdf <- df[df$dtbtor %in% dtbtorname,]
+#     
+#     bilwot_tot <- sum(tmpdf$bill) / 1.06
+#     avrprc <- sum(tmpdf$bill) / sum(tmpdf$csmptv)
+#     fsa <- sum(0.0125 * tmpdf$csmptv)
+#     cvd_v <- numeric()
+#     
+#     for (fixed in fixeds) {
+#       cvd <-
+#         (bilwot_tot  - fixed * nrow(tmpdf) - fsa - sum((tmpdf$csmptv - 30) * tmpdf$CVA *
+#                                                          tmpdf$ab30)) / sum(tmpdf$csmptv * 0.5 + (tmpdf$csmptv - 30) * 0.5 * tmpdf$ab30)
+#       cvd_v <- c(cvd_v, cvd)
+#       tmpdf$bill_new <-
+#         1.06 * (
+#           fixed  + tmpdf$csmptv * (0.0125 + 0.5 * cvd) + (tmpdf$csmptv - 30) * (0.5 *
+#                                                                                   cvd + tmpdf$CVA) * tmpdf$ab30
+#         )
+#       tmpdf$difab <- tmpdf$bill_new - tmpdf$bill
+#       tmpdf$difpc <- tmpdf$difab * 100 / tmpdf$bill
+#       tmpdf$difpcinc <- tmpdf$difab * 100 / (tmpdf$income * 12)
+#       tmpdf$TEH_new <- tmpdf$bill_new * 100 / (tmpdf$income * 12)
+#       tmpdf$subs_new <- tmpdf$csmptv * avrprc - tmpdf$bill_new
+#       tmpdf$avrprc_new <- tmpdf$bill_new / tmpdf$csmptv
+#       colnames(tmpdf)[(ncol(tmpdf) - 6):ncol(tmpdf)] <-
+#         paste(
+#           c(
+#             "bill",
+#             "difab",
+#             "difpc",
+#             "difpcinc",
+#             "TEH",
+#             "subs",
+#             "avrprc"
+#           ),
+#           "fixed",
+#           fixed,
+#           sep = "_"
+#         )
+#     }
+#     
+#     tmpdf <-
+#       tmpdf[, c("id", grep("_fixed_", colnames(tmpdf), value = T))]
+#     
+#     list(tmpdf, cvd_v)
+#   }
 
 
 
@@ -301,9 +301,9 @@ loadpackage("reshape2")
 loadpackage("raster")
 loadpackage("sf")
 loadpackage("scico")
-loadpackage("kableExtra")
 loadpackage("tidyverse")
 loadpackage("cowplot")
+loadpackage("knitr")
 
 source(here("scripts", "general_functions.R"))
 
@@ -380,12 +380,13 @@ df$billpp <- df$bill / df$hhs_tot
 ### bill components ---------
 
 df$fixedpc <- 1.06 * (20 * df$CVD + 30 * df$CVA) * 100 / df$bill
-
+df$fixed <- 1.06 * (20 * df$CVD + 30 * df$CVA)
 
 df$fsapc <- 1.06 * 0.0125 * df$csmptv * 100 / df$bill
-
+df$fsa <- 1.06 * 0.0125 * df$csmptv 
 df$volpc <- 100 - df$fixedpc  - df$fsapc
 
+df$vol <- df$bill - df$fixed - df$fsa
 
 ### income per person ------
 
@@ -466,37 +467,37 @@ df$rwt_num <- as.numeric(df$rwtank %in% "yes")
 
 dtbts <- c("SWDE", "CILE", "inBW")
 
-## 2.3. varying fixed --------
-
-fixeds <- seq(0, 200, 50)
-
-fixed_ls <- lapply(dtbts, fixed_f, fixeds = fixeds)
-
-fixed_tariff <- as.data.frame(sapply(fixed_ls, "[[", 2))
-
-fixed_tariff <- rbind(t(dtbt_df$CVD), fixed_tariff)
-
-colnames(fixed_tariff) <-
-  paste("CVD", dtbts, sep = "_")
-
-fixed_tariff$CVA <- unique(df$CVA)
-
-fixed_tariff$scenario <- c("As in 2014", 1:(nrow(fixed_tariff) - 1))
-
-fixed_tariff$fixed <-
-  c(20 * mean(df$CVD) + 30 * mean(df$CVA), fixeds)
-
-fixed_tariff$rwtt <- 0
-
-avr_cvd <-
-  apply(fixed_tariff[, grep("CVD", colnames(fixed_tariff))], 1, weighted.mean, w = dtbt_df$nfam)
-
-fixed_tariff$mgpr_bl1 <- avr_cvd * 0.5
-fixed_tariff$mgpr_bl2 <- avr_cvd + unique(fixed_tariff$CVA)
-
-
-
-fixed_df <- Reduce(rbind, lapply(fixed_ls, "[[", 1))
+# ## 2.3. varying fixed --------
+# 
+# fixeds <- seq(0, 200, 50)
+# 
+# fixed_ls <- lapply(dtbts, fixed_f, fixeds = fixeds)
+# 
+# fixed_tariff <- as.data.frame(sapply(fixed_ls, "[[", 2))
+# 
+# fixed_tariff <- rbind(t(dtbt_df$CVD), fixed_tariff)
+# 
+# colnames(fixed_tariff) <-
+#   paste("CVD", dtbts, sep = "_")
+# 
+# fixed_tariff$CVA <- unique(df$CVA)
+# 
+# fixed_tariff$scenario <- c("As in 2014", 1:(nrow(fixed_tariff) - 1))
+# 
+# fixed_tariff$fixed <-
+#   c(20 * mean(df$CVD) + 30 * mean(df$CVA), fixeds)
+# 
+# fixed_tariff$rwtt <- 0
+# 
+# avr_cvd <-
+#   apply(fixed_tariff[, grep("CVD", colnames(fixed_tariff))], 1, weighted.mean, w = dtbt_df$nfam)
+# 
+# fixed_tariff$mgpr_bl1 <- avr_cvd * 0.5
+# fixed_tariff$mgpr_bl2 <- avr_cvd + unique(fixed_tariff$CVA)
+# 
+# 
+# 
+# fixed_df <- Reduce(rbind, lapply(fixed_ls, "[[", 1))
 
 
 
@@ -514,7 +515,7 @@ colnames(rwtt_tariff) <-
 rwtt_tariff$CVA <- unique(df$CVA)
 
 rwtt_tariff$scenario <-
-  (nrow(fixed_tariff)):(nrow(fixed_tariff) + nrow(rwtt_tariff) - 1)
+  1:nrow(rwtt_tariff)
 
 avr_cvd <-
   apply(rwtt_tariff[, grep("CVD", colnames(rwtt_tariff))], 1, weighted.mean, w = dtbt_df$nfam)
@@ -537,7 +538,7 @@ rwtt_df <- Reduce(rbind, lapply(rwtt_ls, "[[", 1))
 # IBTcap 2 block 0-12.5 & 12.5+ price bl2 = 3.5*bl1
 # sumbill the same for each utilities
 
-fixeds <- seq(0, 100, 50)
+fixeds <- seq(0, 200, 50)
 revincrs <- c(0, 0.1, 0.2)
 
 
@@ -632,6 +633,56 @@ ibtcap_tariff$mgpr_bl2 <- avr_bl1 * 3.5
 # 3. Outputs -------
 
 ## 3.1. univariate -----------
+
+#+ mgnprcupcc, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d2
+
+plotdf <- data.frame(cons = seq(0, 100, 2.5)) 
+plotdf$up <- 4.43
+plotdf$ibtcon <- 1.79
+plotdf$ibtcon[plotdf$cons > 30] <- 6.25
+plotdf$ibtcap1 <- plotdf$ibtcap2 <- plotdf$ibtcap3 <- 1.81
+plotdf$ibtcap1[plotdf$cons > 12.5] <- 6.33
+plotdf$ibtcap2[plotdf$cons > 25] <- 6.33
+plotdf$ibtcap3[plotdf$cons > 37.5] <- 6.33
+
+ibtcap <- plotdf[,c(1,4:6)]
+ibtcap <- reshape2::melt(ibtcap, id.var = "cons")
+
+
+
+p2 <- ggplot(plotdf, aes(x = cons, y = up)) +
+  geom_line(size = 0.8) +
+  ylim(0,8) +
+  theme_kat() +
+  ggtitle("Uniform tariff") +
+  labs(y = expression(Marginal ~ price ~ (EUR / m ^ 3)), x = "Consumption volume") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+p1 <- ggplot(plotdf, aes(x = cons, y = ibtcon)) +
+  geom_line(size = 0.8) +
+  ylim(0,8) +
+  theme_kat() +
+  ggtitle("IBT-con") +
+  labs(y = expression(Marginal ~ price ~ (EUR / m ^ 3)), x = "Consumption volume") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+p3 <- ggplot(ibtcap, aes(x = cons, y = value, color = variable)) +
+  geom_line(size = 0.8) +
+  ylim(0,8) +
+  theme_kat() +
+  ggtitle("IBT-cap") +
+  labs(y = expression(Marginal ~ price ~ (EUR / m ^ 3)), x = "Consumption volume", color = "Household size") +
+  scale_color_scico_d(end = 0.8, label = c(3,2,1)) +
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "right")
+
+legend <- get_legend(p3)
+
+toprow <- plot_grid(p1, p2, align = "hv", nrow = 1)
+btrow <- plot_grid(NULL, p3 + theme(legend.position = "none"), legend, NULL, nrow = 1, rel_widths = c(0.15, 0.5, 0.2, 0.15))
+plot_grid(toprow, btrow, nrow = 2)
+
 
 
 #+ price, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d1
@@ -941,7 +992,7 @@ cor.test(df$csmptv, df$income, method = "spearman")
 cor.test(df$csmptv, df$inceqa, method = "pearson")
 cor.test(df$csmptv, df$inceqa, method = "spearman")
 
-
+cor.test(df$hhs_0_17, df$income, method = "spearman")
 #+ blprop1, fig.cap = "Proportion of household paying in which block by quantile", echo = F, message = F
 #
 # plotdf <- df %>%
@@ -1084,6 +1135,10 @@ p3 <- ggplot(df, aes(x = incqnt, fill = rwtank)) +
   labs(x = "Household income quintiles", y = "Proportion of households" , fill = "Rainwater tank") +
   theme_kat() +
   guides(fill = guide_legend(nrow = 1))
+
+test <- df %>%
+  group_by(incqnt) %>%
+  summarise(prprwt = sum(rwtank == "yes")*100/n())
 
 
 ### built-up density vs income -----------
@@ -1384,8 +1439,7 @@ p2 <- ggplot(df, aes(x = incqnt, y = subs)) +
   stat_summary(fun = sum,
                geom = "col",
                fill = col1_dark) +
-  labs(x = "Household income quintiles", y = "Subsidy for water bill (EUR)", color = "") +
-  ylim(-16800, 16800) +
+  labs(x = "Household income quintiles", y = "Subsidy for water bill (EUR)", color = "")  +
   theme_kat()
 
 ### combine plot 2 --------
@@ -1397,7 +1451,6 @@ p2 <- ggplot(df, aes(x = incqnt, y = subs)) +
 plot_grid(p1,
           p2,
           nrow = 1,
-          align = "hv",
           labels = "AUTO")
 
 ## 3.3. by built-up density ------
@@ -1719,7 +1772,7 @@ summary(df$mgnprc[df$inccat == "precarious"])
 #+ fixedtab, echo = F, message = F, results = "asis"
 
 cat("\n")
-knitr::kable(fixed_tariff, digits = 4)
+knitr::kable(ibtcon_tariff, digits = 4)
 cat("\n")
 
 ### by income ------
@@ -1727,23 +1780,34 @@ cat("\n")
 #+ fixpcinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
 plotdf <-
-  left_join(df[, c("id", "incqnt")], fixed_df[, c("id", grep("difpc_", colnames(fixed_df), value = T))])
+  left_join(df[, c("id", "incqnt")], ibtcon_df[, c("id", grep("difpc_", colnames(ibtcon_df), value = T))])
 
 plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 
-p1 <- ggplot(plotdf) +
+plotdf$tariff <-
+  gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
+
+plotdf$FSF <-
+  as.numeric(gsub(".*_", "", gsub("_[^_]+$", "", plotdf$variable)))
+
+plotdf$revincr <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+plotdf <- plotdf[plotdf$revincr == 0,]
+
+
+p1 <- 
+  ggplot(plotdf) +
   geom_rect(
-    data = plotdf[plotdf$fixed == 100,][1,],
+    data = plotdf[plotdf$FSF == 100,][1,],
     fill = col1_dark,
     xmin = -Inf,
     xmax = Inf,
     ymin = -Inf,
     ymax = Inf,
-    alpha = 0.5
+    alpha = 0.3
   ) +
   geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_grid(. ~ fixed, labeller = label_both) +
+  facet_grid(. ~ FSF, labeller = label_both) +
   geom_hline(
     yintercept = 0,
     col = "red" ,
@@ -1772,7 +1836,7 @@ p1 <- ggplot(plotdf) +
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = incqnt, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -1787,23 +1851,33 @@ p1 <- ggplot(plotdf) +
 
 
 plotdf <-
-  left_join(df[, c("id", "incqnt")], fixed_df[, c("id", grep("TEH_", colnames(fixed_df), value = T))])
+  left_join(df[, c("id", "incqnt")], ibtcon_df[, c("id", grep("TEH_", colnames(ibtcon_df), value = T))])
 
 plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
 
-p3 <- ggplot(plotdf) +
+plotdf$tariff <-
+  gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
+
+plotdf$FSF <-
+  as.numeric(gsub(".*_", "", gsub("_[^_]+$", "", plotdf$variable)))
+
+plotdf$revincr <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+plotdf <- plotdf[plotdf$revincr == 0,]
+
+p3 <- 
+  ggplot(plotdf) +
   geom_rect(
-    data = plotdf[plotdf$fixed == 100,][1,],
+    data = plotdf[plotdf$FSF == 100,][1,],
     fill = col1_dark,
     xmin = -Inf,
     xmax = Inf,
     ymin = -Inf,
     ymax = Inf,
-    alpha = 0.5
+    alpha = 0.3
   ) +
   geom_boxplot(aes(x = incqnt, y = value)) +
-  facet_grid(. ~ fixed, labeller = label_both) +
+  facet_grid(. ~ FSF, labeller = label_both) +
   labs(x = "Income quintiles", y = "Ratio of water bill to income (%)") +
   theme_kat()
 
@@ -1812,21 +1886,30 @@ p3 <- ggplot(plotdf) +
 
 
 plotdf <-
-  left_join(df[, c("id", "incqnt")], fixed_df[, c("id", grep("subs_", colnames(fixed_df), value = T))])
+  left_join(df[, c("id", "incqnt")], ibtcon_df[, c("id", grep("subs_", colnames(ibtcon_df), value = T))])
 
 plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$fixed <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+plotdf$tariff <-
+  gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
+
+plotdf$FSF <-
+  as.numeric(gsub(".*_", "", gsub("_[^_]+$", "", plotdf$variable)))
+
+plotdf$revincr <- as.numeric(gsub(".*_", "", plotdf$variable))
+
+plotdf <- plotdf[plotdf$revincr == 0,]
 
 p2 <-
   ggplot(plotdf) +
   geom_rect(
-    data = plotdf[plotdf$fixed == 100,][1,],
+    data = plotdf[plotdf$FSF == 100,][1,],
     fill = col1_dark,
     xmin = -Inf,
     xmax = Inf,
     ymin = -Inf,
     ymax = Inf,
-    alpha = 0.5
+    alpha = 0.3
   ) +
   stat_summary(
     aes(x = incqnt, y = value),
@@ -1835,7 +1918,7 @@ p2 <-
     position = "dodge",
     fill = col1_dark
   ) +
-  facet_grid(. ~ fixed, labeller = label_both) +
+  facet_grid(. ~ FSF, labeller = label_both) +
   geom_hline(
     yintercept = 0,
     col = "red" ,
@@ -1843,7 +1926,7 @@ p2 <-
     linetype = "longdash"
   ) +
   labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)") +
-  ylim(-16800, 16800) +
+  ylim(-18000,18000) +
   theme_kat() 
 
 # #+ fixavprinc1, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
@@ -1863,7 +1946,7 @@ p2 <-
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = incqnt, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -1931,7 +2014,7 @@ plot_grid(p1,
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -1960,7 +2043,7 @@ plot_grid(p1,
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -1993,7 +2076,7 @@ plot_grid(p1,
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -2020,7 +2103,7 @@ plot_grid(p1,
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -2046,7 +2129,7 @@ plot_grid(p1,
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ fixed, labeller = label_both) +
@@ -2178,61 +2261,61 @@ cat("\n")
 #+ rwttpcinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
 
-plotdf <-
-  left_join(df[, c("id", "incqnt")], rwtt_df[, c("id", grep("difpc_", colnames(rwtt_df), value = T))])
-
-plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
-
-p1 <- ggplot(plotdf) +
-  geom_rect(
-    data = plotdf[plotdf$rwtt == 0,][1,],
-    fill = col1_dark,
-    xmin = -Inf,
-    xmax = Inf,
-    ymin = -Inf,
-    ymax = Inf,
-    alpha = 0.5
-  ) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  stat_summary(
-    fun = median,
-    geom = "errorbar",
-    aes(
-      x = incqnt,
-      y = value,
-      ymax = ..y..,
-      ymin = ..y..,
-      col = "median"
-    ),
-    width = 0.75,
-    size = 1,
-    linetype = "solid"
-  ) +
-  stat_summary(
-    fun = mean,
-    geom = "errorbar",
-    aes(
-      x = incqnt,
-      y = value,
-      ymax = ..y..,
-      ymin = ..y..,
-      col = "mean"
-    ),
-    width = 0.75,
-    size = 1,
-    linetype = "solid"
-  ) +
-  scale_color_manual(values = c(col1_dark, "black")) +
-  facet_grid(. ~ rwtt, labeller = label_both) +
-  geom_hline(
-    yintercept = 0,
-    col = "red" ,
-    size = 0.3,
-    linetype = "longdash"
-  ) +
-  labs(x = "Income quintiles", y = "Changes in water bill (%)", color = "") +
-  theme_kat()
+# plotdf <-
+#   left_join(df[, c("id", "incqnt")], rwtt_df[, c("id", grep("difpc_", colnames(rwtt_df), value = T))])
+# 
+# plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
+# plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+# 
+# p1 <- ggplot(plotdf) +
+#   geom_rect(
+#     data = plotdf[plotdf$rwtt == 0,][1,],
+#     fill = col1_dark,
+#     xmin = -Inf,
+#     xmax = Inf,
+#     ymin = -Inf,
+#     ymax = Inf,
+#     alpha = 0.3
+#   ) +
+#   geom_boxplot(aes(x = incqnt, y = value)) +
+#   stat_summary(
+#     fun = median,
+#     geom = "errorbar",
+#     aes(
+#       x = incqnt,
+#       y = value,
+#       ymax = ..y..,
+#       ymin = ..y..,
+#       col = "median"
+#     ),
+#     width = 0.75,
+#     size = 1,
+#     linetype = "solid"
+#   ) +
+#   stat_summary(
+#     fun = mean,
+#     geom = "errorbar",
+#     aes(
+#       x = incqnt,
+#       y = value,
+#       ymax = ..y..,
+#       ymin = ..y..,
+#       col = "mean"
+#     ),
+#     width = 0.75,
+#     size = 1,
+#     linetype = "solid"
+#   ) +
+#   scale_color_manual(values = c(col1_dark, "black")) +
+#   facet_grid(. ~ rwtt, labeller = label_both) +
+#   geom_hline(
+#     yintercept = 0,
+#     col = "red" ,
+#     size = 0.3,
+#     linetype = "longdash"
+#   ) +
+#   labs(x = "Income quintiles", y = "Changes in water bill (%)", color = "") +
+#   theme_kat()
 
 # #+ rwttpcincinc, echo = F, message = F, fig.width = fig_d3, fig.height = fig_d1
 #
@@ -2250,7 +2333,7 @@ p1 <- ggplot(plotdf) +
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = incqnt, y = value)) +
 #   stat_summary(
@@ -2293,55 +2376,55 @@ p1 <- ggplot(plotdf) +
 
 #+ rwttTEHinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
-plotdf <-
-  left_join(df[, c("id", "incqnt")], rwtt_df[, c("id", grep("TEH_", colnames(rwtt_df), value = T))])
-
-plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
-
-p3 <- ggplot(plotdf) +
-  geom_rect(
-    data = plotdf[plotdf$rwtt %in% 0,][1,],
-    fill = col1_dark,
-    xmin = -Inf,
-    xmax = Inf,
-    ymin = -Inf,
-    ymax = Inf,
-    alpha = 0.5
-  ) +
-  geom_boxplot(aes(x = incqnt, y = value)) +
-  stat_summary(
-    fun = median,
-    geom = "errorbar",
-    aes(
-      x = incqnt,
-      y = value,
-      ymax = ..y..,
-      ymin = ..y..,
-      col = "median"
-    ),
-    width = 0.75,
-    size = 1,
-    linetype = "solid"
-  ) +
-  stat_summary(
-    fun = mean,
-    geom = "errorbar",
-    aes(
-      x = incqnt,
-      y = value,
-      ymax = ..y..,
-      ymin = ..y..,
-      col = "mean"
-    ),
-    width = 0.75,
-    size = 1,
-    linetype = "solid"
-  ) +
-  scale_color_manual(values = c(col1_dark, "black")) +
-  facet_grid(. ~ rwtt, labeller = label_both) +
-  labs(x = "Income quintiles", y = "Ratio of water bill to income (%)", color = "") +
-  theme_kat()
+# plotdf <-
+#   left_join(df[, c("id", "incqnt")], rwtt_df[, c("id", grep("TEH_", colnames(rwtt_df), value = T))])
+# 
+# plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
+# plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+# 
+# p3 <- ggplot(plotdf) +
+#   geom_rect(
+#     data = plotdf[plotdf$rwtt %in% 0,][1,],
+#     fill = col1_dark,
+#     xmin = -Inf,
+#     xmax = Inf,
+#     ymin = -Inf,
+#     ymax = Inf,
+#     alpha = 0.3
+#   ) +
+#   geom_boxplot(aes(x = incqnt, y = value)) +
+#   stat_summary(
+#     fun = median,
+#     geom = "errorbar",
+#     aes(
+#       x = incqnt,
+#       y = value,
+#       ymax = ..y..,
+#       ymin = ..y..,
+#       col = "median"
+#     ),
+#     width = 0.75,
+#     size = 1,
+#     linetype = "solid"
+#   ) +
+#   stat_summary(
+#     fun = mean,
+#     geom = "errorbar",
+#     aes(
+#       x = incqnt,
+#       y = value,
+#       ymax = ..y..,
+#       ymin = ..y..,
+#       col = "mean"
+#     ),
+#     width = 0.75,
+#     size = 1,
+#     linetype = "solid"
+#   ) +
+#   scale_color_manual(values = c(col1_dark, "black")) +
+#   facet_grid(. ~ rwtt, labeller = label_both) +
+#   labs(x = "Income quintiles", y = "Ratio of water bill to income (%)", color = "") +
+#   theme_kat()
 
 #+ rwttsubsinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
@@ -2349,17 +2432,17 @@ plotdf <-
   left_join(df[, c("id", "incqnt")], rwtt_df[, c("id", grep("subs_", colnames(rwtt_df), value = T))])
 
 plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
-plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+plotdf$RWSF <- as.numeric(gsub(".*_", "", plotdf$variable))
 
 p2 <- ggplot(plotdf) +
   geom_rect(
-    data = plotdf[plotdf$rwtt %in% 0,][1,],
+    data = plotdf[plotdf$RWSF %in% 0,][1,],
     fill = col1_dark,
     xmin = -Inf,
     xmax = Inf,
     ymin = -Inf,
     ymax = Inf,
-    alpha = 0.5
+    alpha = 0.3
   ) +
   stat_summary(
     aes(x = incqnt, y = value),
@@ -2374,7 +2457,7 @@ p2 <- ggplot(plotdf) +
     size = 0.3,
     linetype = "longdash"
   ) +
-  facet_grid(. ~ rwtt, labeller = label_both) +
+  facet_grid(. ~ RWSF, labeller = label_both) +
   labs(x = "Income quintiles", y = "Subsidy for water bill (EUR)", color = "") +
   ylim(-16800, 16800) +
   theme_kat()
@@ -2395,7 +2478,7 @@ p2 <- ggplot(plotdf) +
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = incqnt, y = value)) +
 #   facet_grid(. ~ rwtt, labeller = label_both) +
@@ -2434,19 +2517,19 @@ p2 <- ggplot(plotdf) +
 
 #+ rwttcb, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d3
 
-legend <- get_legend(p1 +  guides(color = guide_legend(nrow = 1)))
-
-pg <-
-  plot_grid(
-    p1 + theme(legend.position = "none"),
-    p2 + theme(legend.position = "none"),
-    p3 + theme(legend.position = "none"),
-    nrow = 3,
-    align = "v",
-    labels = "AUTO"
-  )
-
-plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
+# legend <- get_legend(p1 +  guides(color = guide_legend(nrow = 1)))
+# 
+# pg <-
+#   plot_grid(
+#     p1 + theme(legend.position = "none"),
+#     p2 + theme(legend.position = "none"),
+#     p3 + theme(legend.position = "none"),
+#     nrow = 3,
+#     align = "v",
+#     labels = "AUTO"
+#   )
+# 
+# plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 
 ### by urban -----------
 
@@ -2469,7 +2552,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
@@ -2526,7 +2609,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
@@ -2584,7 +2667,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   stat_summary(
@@ -2660,7 +2743,7 @@ plot_grid(pg, legend, ncol = 1, rel_heights = c(1, 0.08))
 #     xmax = Inf,
 #     ymin = -Inf,
 #     ymax = Inf,
-#     alpha = 0.5
+#     alpha = 0.3
 #   ) +
 #   geom_boxplot(aes(x = pointsp, y = value)) +
 #   facet_grid(. ~ rwtt, labeller = label_both) +
@@ -2673,32 +2756,32 @@ plotdf <-
   left_join(df[, c("id", "pointsp")], rwtt_df[, c("id", grep("avrprc_", colnames(rwtt_df), value = T))])
 
 plotdf <- melt(plotdf, id.vars = c("id", "pointsp"))
-plotdf$rwtt <- as.numeric(gsub(".*_", "", plotdf$variable))
+plotdf$RWSF <- as.numeric(gsub(".*_", "", plotdf$variable))
 
-plotdf %>%
+# plotdf %>%
+#   drop_na(pointsp) %>%
+#   ggplot() +
+#   geom_rect(
+#     data = plotdf[plotdf$rwtt %in% 0,][1,],
+#     fill = col1_dark,
+#     xmin = -Inf,
+#     xmax = Inf,
+#     ymin = -Inf,
+#     ymax = Inf,
+#     alpha = 0.3
+#   ) +
+#   geom_boxplot(aes(x = pointsp, y = value)) +
+#   facet_grid(. ~ rwtt, labeller = label_both) +
+#   labs(x = "Built-up density", y = expression(Average ~ price ~ (EUR / m ^
+#                                                                    3))) +
+#   theme_kat()
+
+#+ rwttavprdens2, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d2
+
+
+p1 <- plotdf %>%
   drop_na(pointsp) %>%
-  ggplot() +
-  geom_rect(
-    data = plotdf[plotdf$rwtt %in% 0,][1,],
-    fill = col1_dark,
-    xmin = -Inf,
-    xmax = Inf,
-    ymin = -Inf,
-    ymax = Inf,
-    alpha = 0.5
-  ) +
-  geom_boxplot(aes(x = pointsp, y = value)) +
-  facet_grid(. ~ rwtt, labeller = label_both) +
-  labs(x = "Built-up density", y = expression(Average ~ price ~ (EUR / m ^
-                                                                   3))) +
-  theme_kat()
-
-#+ rwttavprdens2, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
-
-
-plotdf %>%
-  drop_na(pointsp) %>%
-  ggplot(aes(x = rwtt, y = value, fill = pointsp))  +
+  ggplot(aes(x = RWSF, y = value, fill = pointsp))  +
   annotate(
     geom = "rect",
     xmin = -25,
@@ -2717,10 +2800,17 @@ plotdf %>%
     end = pal_end,
     direction = -1
   ) +
-  labs(x = "Rainwater tank tax (EUR)",
+  labs(x = "Sanitation fee for having rainwater tank (EUR)",
        y =  expression(Average ~ price ~ (EUR / m ^ 3)),
        fill = "Built-up density") +
   theme_kat()
+
+
+plot_grid(p1,p2,
+      nrow = 2,
+      labels = "AUTO",
+      rel_heights = c(1.2,1)
+    )
 
 
 ### precarious --------------
@@ -2936,20 +3026,21 @@ plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
 plotdf$tariff <-
   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
 
-plotdf$fixed <-
+plotdf$FSF <-
   as.numeric(gsub(".*_", "", gsub("_[^_]+$", "", plotdf$variable)))
+
 
 plotdf$revincr <- as.numeric(gsub(".*_", "", plotdf$variable))
 
 
 p2 <-
   plotdf %>%
-  filter(revincr == 0) %>%
+  filter(revincr == 0 & FSF < 110) %>%
   ggplot(aes(x = tariff, y = value, fill = incqnt)) +
   stat_summary(geom = "col",
                fun = sum,
                position = "dodge") +
-  facet_grid(. ~ fixed, labeller = label_both) +
+  facet_grid(. ~ FSF, labeller = label_both) +
   geom_hline(
     yintercept = 0,
     col = "red" ,
@@ -2960,14 +3051,25 @@ p2 <-
                      end = pal_end,
                      palette = pal_disc) +
   scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
-  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") +
-  ylim(-16800, 16800) +
-  theme_kat()
+  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles")  +
+  theme_kat() +
+  geom_rect(
+    data = plotdf[plotdf$FSF == 100 & plotdf$tariff == "ibtcon",][1,],
+    fill = col1_dark,
+    xmin = 2 - 0.5,
+    xmax = 2 + 0.5,
+    ymin = -Inf,
+    ymax = Inf,
+    alpha = 0.3,
+    inherit.aes = FALSE
+  )
+
+
 
 
 p2b <-
   plotdf %>%
-  filter(revincr == 0 & fixed == 100) %>%
+  filter(revincr == 0 & FSF == 100) %>%
   ggplot(aes(x = tariff, y = value, fill = incqnt)) +
   stat_summary(geom = "col",
                fun = sum,
@@ -2982,9 +3084,18 @@ p2b <-
                      end = pal_end,
                      palette = pal_disc) +
   scale_x_discrete(labels = c("IBT-cap", "IBT-con", "UP")) +
-  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles") +
-  ylim(-16800, 16800) +
-  theme_kat()
+  labs(x = "Tariff types", y = "Subsidy for water bill (EUR)", fill = "Income quintiles")  +
+  theme_kat() +
+  geom_rect(
+    data = plotdf[plotdf$FSF == 100 & plotdf$tariff == "ibtcon",][1,],
+    fill = col1_dark,
+    xmin = 2 - 0.5,
+    xmax = 2 + 0.5,
+    ymin = -Inf,
+    ymax = Inf,
+    alpha = 0.3,
+    inherit.aes = FALSE
+  )
 
 #+ upccavprinc, echo = F, message = F , fig.width = fig_d3, fig.height = fig_d1
 
@@ -3001,17 +3112,18 @@ plotdf <- melt(plotdf, id.vars = c("id", "incqnt"))
 plotdf$tariff <-
   gsub("_.*", "", gsub("^[^_]+_", "", plotdf$variable))
 
-plotdf$fixed <-
+plotdf$FSF <-
   as.numeric(gsub(".*_", "", gsub("_[^_]+$", "", plotdf$variable)))
 
 plotdf$revincr <- as.numeric(gsub(".*_", "", plotdf$variable))
 
 
-p1 <- plotdf %>%
-  filter(revincr == 0) %>%
+p1 <-
+  plotdf %>%
+  filter(revincr == 0 & FSF < 110) %>%
   ggplot(aes(x = tariff, y = value, fill = incqnt)) +
   geom_boxplot(outlier.size = 0.7, lwd = 0.3) +
-  facet_grid(. ~ fixed, labeller = label_both) +
+  facet_grid(. ~ FSF, labeller = label_both) +
   scale_fill_scico_d(begin = pal_bg,
                      end = pal_end,
                      palette = pal_disc) +
@@ -3019,11 +3131,22 @@ p1 <- plotdf %>%
   labs(x = "Tariff types",
        y =  expression(Average ~ price ~ (EUR / m ^ 3)),
        fill = "Income quintiles") +
-  theme_kat()
+  theme_kat() +
+  geom_rect(
+    data = plotdf[plotdf$FSF == 100 & plotdf$tariff == "ibtcon", ][1, ],
+    fill = col1_dark,
+    xmin = 2 - 0.5,
+    xmax = 2 + 0.5,
+    ymin = -Inf,
+    ymax = Inf,
+    alpha = 0.3,
+    inherit.aes = FALSE
+  )
 
 
-p1b <- plotdf %>%
-  filter(revincr == 0 & fixed == 100) %>%
+p1b <-
+  plotdf %>%
+  filter(revincr == 0 & FSF == 100) %>%
   ggplot(aes(x = tariff, y = value, fill = incqnt)) +
   geom_boxplot(outlier.size = 0.7, lwd = 0.3) +
   scale_fill_scico_d(begin = pal_bg,
@@ -3033,7 +3156,17 @@ p1b <- plotdf %>%
   labs(x = "Tariff types",
        y =  expression(Average ~ price ~ (EUR / m ^ 3)),
        fill = "Income quintiles") +
-  theme_kat()
+  theme_kat() +
+  geom_rect(
+    data = plotdf[plotdf$FSF == 100 & plotdf$tariff == "ibtcon",][1,],
+    fill = col1_dark,
+    xmin = 2 - 0.5,
+    xmax = 2 + 0.5,
+    ymin = -Inf,
+    ymax = Inf,
+    alpha = 0.3,
+    inherit.aes = FALSE
+  )
 
 
 #### combine plot ----------

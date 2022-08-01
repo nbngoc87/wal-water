@@ -181,6 +181,14 @@ bltup2k5[bltup2k5 == -9999] <- NA
 crs(bltup2k5) <- st_crs(muni)$proj4string
 
 
+### builtup density at ss -----------
+
+load(file = here(
+  pdir,
+  "urban_5cat_Ahmed_Wal/urban_5cat_ss_Wal.Rdata"
+))
+
+
 # 2. data processing --------------------
 
 ## 2.1. survey data -----------
@@ -956,9 +964,15 @@ cat("\n")
 
 # 5. built-up density ---------------------
 
-fwd_1 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + pointsp, data = us, na.action = na.exclude, weights = weight)
+colnames(bltupss)
+us <- left_join(us, bltupss[, c("ststcd", "LU2010_5cls_x25")])
+fwd_1 <- lm(csmptv ~ nadtrc + hhs_0_17 +  inccat + rwtuse + dwowsh + livasc + bath + garden + pmnpol + LU2010_5cls_x25, data = us, na.action = na.exclude, weights = weight)
 summary(fwd_1)
 anova(fwd_1)
+
+
+
+
 loadpackage("lme4")
 loadpackage("lmerTest")
 
